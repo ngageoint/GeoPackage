@@ -24,3 +24,5 @@ Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPacka
 - [GeoPackage MapCache](http://ngageoint.github.io/geopackage-mapcache-android) - an app for Android that utilizes and demonstrates the functionality in the GeoPackage Android Libraries.
  - [GitHub](https://github.com/ngageoint/geopackage-mapcache-android)
  - [APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.0/mapcache-1.0.apk)
+
+- [NGA GeoPackage Extensions](http://ngageoint.github.io/GeoPackage/docs/extensions/) - NGA extensions to the GeoPackage spec as defined by the OGC GeoPackage [extension mechanism](http://www.geopackage.org/spec/#_extension_mechanism) and defined using the [extension template](http://www.geopackage.org/spec/#extension_template).
