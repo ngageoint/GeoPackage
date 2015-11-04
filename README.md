@@ -27,9 +27,13 @@ Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPacka
 
 - [GeoPackage iOS](http://ngageoint.github.io/geopackage-ios/) - an Objective-C SDK implementation of the Open Geospatial Consortium GeoPackage spec.
  - [GitHub](https://github.com/ngageoint/geopackage-ios)
+ - [CocoaDocs](http://cocoadocs.org/docsets/geopackage-ios)
+ - [CocoaPods](https://cocoapods.org/pods/geopackage-ios)
 
 - [WKB iOS](http://ngageoint.github.io/geopackage-wkb-ios/) - an Objective-C library for writing and reading Well-Known Binary Geometries to and from bytes. (Not GeoPackage Specific)
  - [GitHub](https://github.com/ngageoint/geopackage-wkb-ios)
+ - [CocoaDocs](http://cocoadocs.org/docsets/wkb-ios)
+ - [CocoaPods](https://cocoapods.org/pods/wkb-ios)
 
 - [GeoPackage MapCache iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - an app for iOS that utilizes and demonstrates the functionality in the GeoPackage iOS Libraries.
  - [GitHub](https://github.com/ngageoint/geopackage-mapcache-ios)
