@@ -4,17 +4,17 @@ Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPacka
 - [GeoPackage Java](http://ngageoint.github.io/geopackage-java/) – a Java implementation of the Open Geospatial Consortium GeoPackage spec. 
  - [GitHub](https://github.com/ngageoint/geopackage-java)
  - [Javadoc](http://ngageoint.github.io/geopackage-java/docs/api/)
- - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|1.1.2|jar)
+ - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|1.1.3|jar)
 
 - [GeoPackage Core Java](http://ngageoint.github.io/geopackage-core-java/) - provides core functionality for GeoPackage Java and Android implementations of the Open Geospatial Consortium GeoPackage spec.
  - [GitHub](https://github.com/ngageoint/geopackage-core-java)
  - [Javadoc](http://ngageoint.github.io/geopackage-core-java/docs/api/)
- - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|1.1.2|jar)
+ - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|1.1.3|jar)
  
 - [GeoPackage Android](http://ngageoint.github.io/geopackage-android/) - an Android SDK implementation of the Open Geospatial Consortium GeoPackage spec.
  - [GitHub](https://github.com/ngageoint/geopackage-android)
  - [Javadoc](http://ngageoint.github.io/geopackage-android/docs/api/)
- - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|1.2.1|aar)
+ - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|1.2.2|aar)
 
 - [WKB Java](http://ngageoint.github.io/geopackage-wkb-java/) - a Java library for writing and reading Well-Known Binary Geometries to and from bytes. (Not GeoPackage Specific)
  - [GitHub](https://github.com/ngageoint/geopackage-wkb-java)
