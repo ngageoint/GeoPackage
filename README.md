@@ -4,7 +4,7 @@ Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPacka
 - [GeoPackage Java](http://ngageoint.github.io/geopackage-java/) – a Java implementation of the Open Geospatial Consortium GeoPackage spec. 
  - [GitHub](https://github.com/ngageoint/geopackage-java)
  - [Javadoc](http://ngageoint.github.io/geopackage-java/docs/api/)
- - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|1.1.4|jar)
+ - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|1.1.5|jar)
 
 - [GeoPackage Core Java](http://ngageoint.github.io/geopackage-core-java/) - provides core functionality for GeoPackage Java and Android implementations of the Open Geospatial Consortium GeoPackage spec.
  - [GitHub](https://github.com/ngageoint/geopackage-core-java)
