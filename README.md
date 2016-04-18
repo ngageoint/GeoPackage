@@ -37,5 +37,8 @@ Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPacka
 
 - [GeoPackage MapCache iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - an app for iOS that utilizes and demonstrates the functionality in the GeoPackage iOS Libraries.
  - [GitHub](https://github.com/ngageoint/geopackage-mapcache-ios)
+ 
+- [GeoPackage JS](http://ngageoint.github.io/geopackage-js/) - a JavaScript implementation of the Open Geospatial Consortium GeoPackage spec. Under current development to support NodeJS and Web Browsers.
+ - [GitHub](https://github.com/ngageoint/geopackage-js)
 
 - [NGA GeoPackage Extensions](http://ngageoint.github.io/GeoPackage/docs/extensions/) - NGA extensions to the GeoPackage spec as defined by the OGC GeoPackage [extension mechanism](http://www.geopackage.org/spec/#_extension_mechanism) and defined using the [extension template](http://www.geopackage.org/spec/#extension_template).
