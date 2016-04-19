@@ -14,7 +14,7 @@ Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPacka
 - [GeoPackage Android](http://ngageoint.github.io/geopackage-android/) - an Android SDK implementation of the Open Geospatial Consortium GeoPackage spec.
  - [GitHub](https://github.com/ngageoint/geopackage-android)
  - [Javadoc](http://ngageoint.github.io/geopackage-android/docs/api/)
- - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|1.2.7|aar)
+ - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|1.2.8|aar)
 
 - [WKB Java](http://ngageoint.github.io/geopackage-wkb-java/) - a Java library for writing and reading Well-Known Binary Geometries to and from bytes. (Not GeoPackage Specific)
  - [GitHub](https://github.com/ngageoint/geopackage-wkb-java)
@@ -23,7 +23,7 @@ Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPacka
 
 - [GeoPackage MapCache Android](http://ngageoint.github.io/geopackage-mapcache-android) - an app for Android that utilizes and demonstrates the functionality in the GeoPackage Android Libraries.
  - [GitHub](https://github.com/ngageoint/geopackage-mapcache-android)
- - [APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.9/mapcache-1.9.apk)
+ - [APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.10/mapcache-1.10.apk)
 
 - [GeoPackage iOS](http://ngageoint.github.io/geopackage-ios/) - an Objective-C SDK implementation of the Open Geospatial Consortium GeoPackage spec.
  - [GitHub](https://github.com/ngageoint/geopackage-ios)
