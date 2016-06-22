@@ -21,7 +21,7 @@ A SDK that provides the ability to manage GeoPackage files providing read, write
 - [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries. 
  - [GitHub](https://github.com/ngageoint/geopackage-core-java)
  - [Javadoc](http://ngageoint.github.io/geopackage-core-java/docs/api/)
- - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|1.1.8|jar)
+ - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|1.2.0|jar)
 
 - [JS](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
  - [GitHub](https://github.com/ngageoint/geopackage-js)
