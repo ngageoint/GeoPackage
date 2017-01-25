@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Geometry Index</title>
+</head>
+<body>
+
+	<h3>Extension Title</h3>
+	<p>Geometry Index</p>
+
+	<h3>Introduction</h3>
+	<p>This extension defines a SQLite version agnostic way to index user feature table geometries by their bounding envelopes for fast ranged searches.
+		Mobile implementations, including Android and iOS, use earlier versions of SQLite and can not rely on the R*Tree Module implementation.
+		Each geometry in a feature table is indexed by it's geometry id and x, y, z, and m value ranges.
+		The geometry index can be queried for fast retrieval of only geometries overlapping a desired envelope bounds.</p>
+
+		<h3>Extension Author</h3>
+		<p>National Geospatial-Intelligence Agency, author_name <code>nga</code></p>
+
+		<h3>Extension Name or Template</h3>
+		<p><code>nga_geometry_index</code></p>
+
+		<h3>Extension Type</h3>
+		<p>New Requirement</p>
+
+		<h3>Applicability</h3>
+		<p>This extension applies to the <code>id</code> column and geometry column (as specified in <code>column_name</code> in the <code>gpkg_geometry_columns</code> table) of feature user data tables (<a href="http://www.geopackage.org/spec/#feature_user_tables">2.1.6</a>). The envelope (range of x, y, z, and m values) of the geometry column is indexed by the <code>id</code> column in the new extensions tables.</p>
+
+		<h3>Scope</h3>
+		<p>Read-write</p>
+
+		<h3>Requirements</h3>
+
+		<h4>GeoPackage</h4>
+
+		<h5>Extension Table Entry</h5>
+
+		<p>The Geometry Index extension is registered into the <code>gpkg_extensions</code> table as follows:</p>
+
+		<table border="1">
+			<caption><code>gpkg_extensions</code></caption>
+			<thead>
+				<tr>
+					<th>table_name</th>
+					<th>column_name</th>
+					<th>extension_name</th>
+					<th>definition</th>
+					<th>scope</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><p>user feature table name</p></td>
+					<td><p>user feature table geometry column name</p></td>
+					<td><p><code>nga_geometry_index</code></p></td>
+					<td><p>URL to this extension description</p></td>
+					<td><p>read-write</p></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h5>Table Index Table</h5>
+
+		<p>The Table Index Table contains indexed feature table names and the timestamp of when they were last indexed.
+			The <code>last_indexed</code> value can be compared against the the <code>gpkg_contents</code> table <code>last_change</code> value to check if the index is up to date.</p>
+
+			<table border="1">
+				<caption><code>nga_table_index</code></caption>
+				<thead>
+					<tr>
+						<th>Column Name</th>
+						<th>Type</th>
+						<th>Description</th>
+						<th>Null</th>
+						<th>Default</th>
+						<th>Key</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><p><code>table_name</code></p></td>
+						<td><p>TEXT</p></td>
+						<td><p>Feature Table name, foreign key to <code>gpkg_extensions</code></p></td>
+						<td><p>no</p></td>
+						<td></td>
+						<td><p>PK, FK</p></td>
+					</tr>
+					<tr>
+						<td><p><code>last_indexed</code></p></td>
+						<td><p>DATETIME</p></td>
+						<td><p>Timestamp value of the last time the table was indexed in ISO 8601 format as defined by the strftime function %Y-%m-%dT%H:%M:%fZ format</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<pre><code>
+CREATE TABLE nga_table_index (
+  table_name TEXT NOT NULL PRIMARY KEY,
+  last_indexed DATETIME
+);</code></pre>
+
+
+			<h5>Geometry Index Table</h5>
+
+			<p>The Geometry Index Table contains the min and max range of x, y, z, and m values for geometries in a feature user data table.
+				The <code>table_name</code> column is a foreign key to the <code>nga_table_index</code> table.
+				The <code>geom_id</code> column contains the <code>id</code> column value of the feature user data table.
+				The z and m values are optional.</p>
+
+				<table border="1">
+					<caption><code>nga_geometry_index</code></caption>
+					<thead>
+						<tr>
+							<th>Column Name</th>
+							<th>Type</th>
+							<th>Description</th>
+							<th>Null</th>
+							<th>Default</th>
+							<th>Key</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><p><code>table_name</code></p></td>
+							<td><p>TEXT</p></td>
+							<td><p>Feature Table name, foreign key to <code>nga_table_index</code></p></td>
+							<td><p>no</p></td>
+							<td></td>
+							<td><p>PK, FK</p></td>
+						</tr>
+						<tr>
+							<td><p><code>geom_id</code></p></td>
+							<td><p>INTEGER</p></td>
+							<td><p>Geometry Id, <code>id</code> column value in the feature user data table as specified in <code>column_name</code> in the <code>gpkg_geometry_columns</code> table</p></td>
+							<td><p>no</p></td>
+							<td></td>
+							<td><p>PK</p></td>
+						</tr>
+						<tr>
+							<td><p><code>min_x</code></p></td>
+							<td><p>DOUBLE</p></td>
+							<td><p>Min x value</p></td>
+							<td><p>no</p></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p><code>max_x</code></p></td>
+							<td><p>DOUBLE</p></td>
+							<td><p>Max x value</p></td>
+							<td><p>no</p></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p><code>min_y</code></p></td>
+							<td><p>DOUBLE</p></td>
+							<td><p>Min y value</p></td>
+							<td><p>no</p></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p><code>max_y</code></p></td>
+							<td><p>DOUBLE</p></td>
+							<td><p>Max y value</p></td>
+							<td><p>no</p></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p><code>min_z</code></p></td>
+							<td><p>DOUBLE</p></td>
+							<td><p>Min z value</p></td>
+							<td><p>yes</p></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p><code>max_z</code></p></td>
+							<td><p>DOUBLE</p></td>
+							<td><p>Max z value</p></td>
+							<td><p>yes</p></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p><code>min_m</code></p></td>
+							<td><p>DOUBLE</p></td>
+							<td><p>Min m value</p></td>
+							<td><p>yes</p></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p><code>max_m</code></p></td>
+							<td><p>DOUBLE</p></td>
+							<td><p>Max m value</p></td>
+							<td><p>yes</p></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<pre><code>
+CREATE TABLE nga_geometry_index (
+  table_name TEXT NOT NULL,
+  geom_id INTEGER NOT NULL,
+  min_x DOUBLE NOT NULL,
+  max_x DOUBLE NOT NULL,
+  min_y DOUBLE NOT NULL,
+  max_y DOUBLE NOT NULL,
+  min_z DOUBLE,
+  max_z DOUBLE,
+  min_m DOUBLE,
+  max_m DOUBLE,
+  CONSTRAINT pk_ngi PRIMARY KEY (table_name, geom_id),
+  CONSTRAINT fk_ngi_nti_tn FOREIGN KEY (table_name) REFERENCES nga_table_index(table_name)
+);</code></pre>
+
+				<h4>GeoPackage SQLite Configuration</h4>
+				<p>None</p>
+
+				<h4>GeoPackage SQLite Extension</h4>
+				<p>None</p>
+
+				<h4>Examples</h4>
+				<p>The <a href="../../examples/rivers.gpkg">rivers</a> GeoPackage has a <code>rivers</code> feature table that is indexed.</p>
+
+			</body>
+			</html>
