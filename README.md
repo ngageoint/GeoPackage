@@ -3,15 +3,20 @@ Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPacka
 
 A SDK that provides the ability to manage GeoPackage files providing read, write, import, export, share, and open support. Open GeoPackage files provide read and write access to features and tiles. 
 
-- [Java](http://ngageoint.github.io/geopackage-java/) – A Java library providing GeoPackage functionality and command line tools. Relies on Core Java (see below).
+- [Java](http://ngageoint.github.io/geopackage-java/) – A Java library providing GeoPackage functionality and command line tools. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
  - [GitHub](https://github.com/ngageoint/geopackage-java)
  - [Javadoc](http://ngageoint.github.io/geopackage-java/docs/api/)
  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|1.2.1|jar)
  
-- [Android](http://ngageoint.github.io/geopackage-android/) - An Android SDK providing GeoPackage functionality and utilities to Android apps. Relies on Core Java (see below).
+- [Android](http://ngageoint.github.io/geopackage-android/) - An Android SDK providing GeoPackage functionality and utilities to Android apps. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
  - [GitHub](https://github.com/ngageoint/geopackage-android)
  - [Javadoc](http://ngageoint.github.io/geopackage-android/docs/api/)
  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|1.3.1|aar)
+
+- [Android Map](http://ngageoint.github.io/geopackage-android-map/) - An Android Map SDK providing Google Map library implementations in addition to the inherited base [GeoPackage Android](https://github.com/ngageoint/geopackage-android/) functionality.
+ - [GitHub](https://github.com/ngageoint/geopackage-android-map)
+ - [Javadoc](http://ngageoint.github.io/geopackage-android-map/docs/api/)
+ - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage.map|geopackage-android-map|1.3.1|aar)
 
 - [iOS](http://ngageoint.github.io/geopackage-ios/) - An iOS SDK providing GeoPackage functionality and utilities to iOS apps.
  - [GitHub](https://github.com/ngageoint/geopackage-ios)
