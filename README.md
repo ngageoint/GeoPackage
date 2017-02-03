@@ -30,6 +30,7 @@ A SDK that provides the ability to manage GeoPackage files providing read, write
 
 - [JS](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
  - [GitHub](https://github.com/ngageoint/geopackage-js)
+ - [GeoPackage Viewer](http://ngageoint.github.io/geopackage-js/)
 
 - [NGA Extensions](http://ngageoint.github.io/GeoPackage/docs/extensions/) - NGA extensions to the GeoPackage spec as defined by the OGC GeoPackage [extension mechanism](http://www.geopackage.org/spec/#_extension_mechanism) and defined using the [extension template](http://www.geopackage.org/spec/#extension_template).
 
