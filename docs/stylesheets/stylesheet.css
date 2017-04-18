@@ -243,3 +243,26 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.projects>li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul.locations {
+  padding-left: 40px;
+}
+
+ul.locations li {
+  display: inline;
+  padding-right: 30px;
+}
+
+.heading-description {
+  margin-bottom: 1rem;
+}
