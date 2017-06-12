@@ -54,7 +54,7 @@ A non GeoPackage specific library for writing and reading Well-Known Binary Geom
 - [Java](http://ngageoint.github.io/geopackage-wkb-java/) - A Java library providing Well-Known Binary geometry definitions and functionality.
   - [GitHub](https://github.com/ngageoint/geopackage-wkb-java)
   - [Javadoc](http://ngageoint.github.io/geopackage-wkb-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|wkb|1.0.2|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|wkb|1.0.3|jar)
 
 - [iOS](http://ngageoint.github.io/geopackage-wkb-ios/) - An iOS library providing Well-Known Binary geometry definitions and functionality. 
   - [GitHub](https://github.com/ngageoint/geopackage-wkb-ios)
