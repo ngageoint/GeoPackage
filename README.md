@@ -6,17 +6,17 @@ A SDK that provides the ability to manage GeoPackage files providing read, write
 - [Java](http://ngageoint.github.io/geopackage-java/) – A Java library providing GeoPackage functionality and command line tools. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
   - [GitHub](https://github.com/ngageoint/geopackage-java)
   - [Javadoc](http://ngageoint.github.io/geopackage-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|1.2.2|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|1.3.0|jar)
  
 - [Android](http://ngageoint.github.io/geopackage-android/) - An Android SDK providing GeoPackage functionality and utilities to Android apps. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
   - [GitHub](https://github.com/ngageoint/geopackage-android)
   - [Javadoc](http://ngageoint.github.io/geopackage-android/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|1.3.2|aar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|1.4.0|aar)
 
 - [Android Map](http://ngageoint.github.io/geopackage-android-map/) - An Android Map SDK providing Google Map library implementations in addition to the inherited base [GeoPackage Android](https://github.com/ngageoint/geopackage-android/) functionality.
   - [GitHub](https://github.com/ngageoint/geopackage-android-map)
   - [Javadoc](http://ngageoint.github.io/geopackage-android-map/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage.map|geopackage-android-map|1.3.2|aar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage.map|geopackage-android-map|1.4.0|aar)
 
 - [iOS](http://ngageoint.github.io/geopackage-ios/) - An iOS SDK providing GeoPackage functionality and utilities to iOS apps.
   - [GitHub](https://github.com/ngageoint/geopackage-ios)
@@ -26,7 +26,7 @@ A SDK that provides the ability to manage GeoPackage files providing read, write
 - [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries. 
   - [GitHub](https://github.com/ngageoint/geopackage-core-java)
   - [Javadoc](http://ngageoint.github.io/geopackage-core-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|1.2.2|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|1.3.0|jar)
 
 - [JS](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
   - [GitHub](https://github.com/ngageoint/geopackage-js)
@@ -41,7 +41,7 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
 
 - [Android](http://ngageoint.github.io/geopackage-mapcache-android) - An Android app that can be built and installed from Android Studio or directly from the APK.
   - [GitHub](https://github.com/ngageoint/geopackage-mapcache-android)
-  - [APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.14/mapcache-1.14.apk)
+  - [APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.15/mapcache-1.15.apk)
 
 - [iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - An iOS app that can be built and installed from Xcode.
   - [GitHub](https://github.com/ngageoint/geopackage-mapcache-ios)
@@ -68,7 +68,7 @@ A non GeoPackage specific library for reading and writing Tagged Image File Form
 - [Java](http://ngageoint.github.io/geopackage-tiff-java/) - A Java library providing Tagged Image File Format functionality.
   - [GitHub](https://github.com/ngageoint/geopackage-tiff-java)
   - [Javadoc](http://ngageoint.github.io/geopackage-tiff-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|tiff|1.0.2|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|tiff|1.0.3|jar)
 
 - [iOS](http://ngageoint.github.io/geopackage-tiff-ios/) - An iOS library providing Tagged Image File Format functionality. 
   - [GitHub](https://github.com/ngageoint/geopackage-tiff-ios)
