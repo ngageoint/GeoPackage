@@ -65,9 +65,9 @@ A non GeoPackage specific library for writing and reading Well-Known Binary Geom
 
 A non GeoPackage specific library for reading and writing Tagged Image File Format files.
 
-- [Java](http://ngageoint.github.io/geopackage-tiff-java/) - A Java library providing Tagged Image File Format functionality.
-  - [GitHub](https://github.com/ngageoint/geopackage-tiff-java)
-  - [Javadoc](http://ngageoint.github.io/geopackage-tiff-java/docs/api/)
+- [Java](http://ngageoint.github.io/tiff-java/) - A Java library providing Tagged Image File Format functionality.
+  - [GitHub](https://github.com/ngageoint/tiff-java)
+  - [Javadoc](http://ngageoint.github.io/tiff-java/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|tiff|2.0.0|jar)
 
 - [iOS](http://ngageoint.github.io/geopackage-tiff-ios/) - An iOS library providing Tagged Image File Format functionality. 
