@@ -70,7 +70,7 @@ A non GeoPackage specific library for reading and writing Tagged Image File Form
   - [Javadoc](http://ngageoint.github.io/tiff-java/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|tiff|2.0.0|jar)
 
-- [iOS](http://ngageoint.github.io/geopackage-tiff-ios/) - An iOS library providing Tagged Image File Format functionality. 
-  - [GitHub](https://github.com/ngageoint/geopackage-tiff-ios)
+- [iOS](http://ngageoint.github.io/tiff-ios/) - An iOS library providing Tagged Image File Format functionality. 
+  - [GitHub](https://github.com/ngageoint/tiff-ios)
   - [CocoaDocs](http://cocoadocs.org/docsets/tiff-ios)
   - [CocoaPods](https://cocoapods.org/pods/tiff-ios)
