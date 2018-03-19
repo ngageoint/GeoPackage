@@ -121,6 +121,45 @@ CREATE TABLE nga_tile_scaling (
   CHECK (scaling_type in ('in','out','in_out','out_in','closest_in_out','closest_out_in'))
 );</code></pre>
 
+		<h5>Tile Scaling Type</h5>
+
+		<p>The Tile Scaling Type defines the zoom search directions and order from a requested tile.</p>
+
+			<table border="1">
+				<caption><code>scaling_type</code></caption>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><p>in</p></td>
+						<td><p>Search for tiles by zooming in</p></td>
+					</tr>
+					<tr>
+						<td><p>out</p></td>
+						<td><p>Search for tiles by zooming out</p></td>
+					</tr>
+					<tr>
+						<td><p>in_out</p></td>
+						<td><p>Search for tiles by zooming in first, and then zooming out</p></td>
+					</tr>
+					<tr>
+						<td><p>out_in</p></td>
+						<td><p>Search for tiles by zooming out first, and then zooming in</p></td>
+					</tr>
+					<tr>
+						<td><p>closest_in_out</p></td>
+						<td><p>Search for tiles in closest zoom level order, equal zoom level distance prefers zoom in before zoom out</p></td>
+					</tr>
+					<tr>
+						<td><p>closest_out_in</p></td>
+						<td><p>Search for tiles in closest zoom level order, equal zoom level distance prefers zoom out before zoom in</p></td>
+					</tr>
+				</tbody>
+			</table>
 
 				<h4>GeoPackage SQLite Configuration</h4>
 				<p>None</p>
