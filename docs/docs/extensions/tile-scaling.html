@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Tile Scaling</title>
+</head>
+<body>
+
+	<h3>Extension Title</h3>
+	<p>Tile Scaling</p>
+
+	<h3>Introduction</h3>
+	<p>This extension defines tile scaling behaviors for tile tables.
+		 When tiles at a requested zoom level are not present, alternate zoom level tiles may be scaled in place.
+	   The extension configures the allowable zoom directions and distance from the requested tile.</p>
+
+		<h3>Extension Author</h3>
+		<p>National Geospatial-Intelligence Agency, author_name <code>nga</code></p>
+
+		<h3>Extension Name or Template</h3>
+		<p><code>nga_tile_scaling</code></p>
+
+		<h3>Extension Type</h3>
+		<p>New Requirement</p>
+
+		<h3>Applicability</h3>
+		<p>This extension applies to the table names of tile user tables (<a href="http://www.geopackage.org/spec/#tiles_user_tables">2.2.8</a>).</p>
+
+		<h3>Scope</h3>
+		<p>Read-write</p>
+
+		<h3>Requirements</h3>
+
+		<h4>GeoPackage</h4>
+
+		<h5>Extension Table Entry</h5>
+
+		<p>The Tile Scaling extension is registered into the <code>gpkg_extensions</code> table as follows:</p>
+
+		<table border="1">
+			<caption><code>gpkg_extensions</code></caption>
+			<thead>
+				<tr>
+					<th>table_name</th>
+					<th>column_name</th>
+					<th>extension_name</th>
+					<th>definition</th>
+					<th>scope</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><p>user tile table name</p></td>
+					<td><p>null</p></td>
+					<td><p><code>nga_tile_scaling</code></p></td>
+					<td><p>URL to this extension description</p></td>
+					<td><p>read-write</p></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h5>Tile Scaling Table</h5>
+
+		<p>The Tile Scaling Table contains tile table names and the desired scaling behavior configurations.</p>
+
+			<table border="1">
+				<caption><code>nga_table_index</code></caption>
+				<thead>
+					<tr>
+						<th>Column Name</th>
+						<th>Type</th>
+						<th>Description</th>
+						<th>Null</th>
+						<th>Default</th>
+						<th>Key</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><p><code>table_name</code></p></td>
+						<td><p>TEXT</p></td>
+						<td><p>Tile Table name, foreign key to <code>gpkg_tile_matrix_set</code></p></td>
+						<td><p>no</p></td>
+						<td></td>
+						<td><p>PK, FK</p></td>
+					</tr>
+					<tr>
+						<td><p><code>scaling_type</code></p></td>
+						<td><p>TEXT</p></td>
+						<td><p>The scaling behavior type: ('in','out','in_out','out_in','closest_in_out','closest_out_in')</p></td>
+						<td><p>no</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>zoom_in</code></p></td>
+						<td><p>INTEGER</p></td>
+						<td><p>Max zoom levels in (higher zoom level) to search from a requested zoom level, null for no limit</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>zoom_out</code></p></td>
+						<td><p>INTEGER</p></td>
+						<td><p>Max zoom levels out (lower zoom level) to search from a requested zoom level, null for no limit</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<pre><code>
+CREATE TABLE nga_tile_scaling (
+  table_name TEXT PRIMARY KEY NOT NULL,
+  scaling_type TEXT NOT NULL,
+  zoom_in INTEGER,
+  zoom_out INTEGER,
+  CONSTRAINT fk_nts_gtms_tn FOREIGN KEY('table_name') REFERENCES gpkg_tile_matrix_set('table_name')
+  CHECK (scaling_type in ('in','out','in_out','out_in','closest_in_out','closest_out_in'))
+);</code></pre>
+
+
+				<h4>GeoPackage SQLite Configuration</h4>
+				<p>None</p>
+
+				<h4>GeoPackage SQLite Extension</h4>
+				<p>None</p>
+
+				<h4>Examples</h4>
+				<p>The <a href="../../examples/rivers.gpkg">rivers</a> GeoPackage has a <code>rivers</code> feature table that is indexed.</p>
+
+			</body>
+			</html>
