@@ -256,6 +256,8 @@ ul.projects>li {
 
 ul.locations {
   padding-left: 40px;
+  display: flex;
+  align-items: center;
 }
 
 ul.locations li {
