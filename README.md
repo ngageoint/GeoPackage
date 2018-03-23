@@ -7,11 +7,13 @@ A SDK that provides the ability to manage GeoPackage files providing read, write
   - [GitHub](https://github.com/ngageoint/geopackage-java)
   - [Javadoc](http://ngageoint.github.io/geopackage-java/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|2.0.2|jar)
+  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1487)
 
 - [Android](http://ngageoint.github.io/geopackage-android/) - An Android SDK providing GeoPackage functionality and utilities to Android apps. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
   - [GitHub](https://github.com/ngageoint/geopackage-android)
   - [Javadoc](http://ngageoint.github.io/geopackage-android/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|2.0.2|aar)
+  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1488)
 
 - [Android Map](http://ngageoint.github.io/geopackage-android-map/) - An Android Map SDK providing Google Map library implementations in addition to the inherited base [GeoPackage Android](https://github.com/ngageoint/geopackage-android/) functionality.
   - [GitHub](https://github.com/ngageoint/geopackage-android-map)
@@ -22,6 +24,7 @@ A SDK that provides the ability to manage GeoPackage files providing read, write
   - [GitHub](https://github.com/ngageoint/geopackage-ios)
   - [CocoaDocs](http://cocoadocs.org/docsets/geopackage-ios)
   - [CocoaPods](https://cocoapods.org/pods/geopackage-ios)
+  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1489)
 
 - [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries.
   - [GitHub](https://github.com/ngageoint/geopackage-core-java)
