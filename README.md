@@ -28,16 +28,17 @@ A SDK that provides the ability to manage GeoPackage files providing read, write
   - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1489)
   - [Examples](https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples)
 
-- [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries.
-  - [GitHub](https://github.com/ngageoint/geopackage-core-java)
-  - [Javadoc](http://ngageoint.github.io/geopackage-core-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|3.0.0|jar)
-
 - [JS](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
   - [GitHub](https://github.com/ngageoint/geopackage-js)
   - [GeoPackage Viewer](http://ngageoint.github.io/geopackage-js/)
   - [NPM](https://www.npmjs.com/package/@ngageoint/geopackage)
   - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1492)
+  - [Examples](https://github.com/ngageoint/geopackage-js/tree/master/docs/examples)
+
+- [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries.
+  - [GitHub](https://github.com/ngageoint/geopackage-core-java)
+  - [Javadoc](http://ngageoint.github.io/geopackage-core-java/docs/api/)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|3.0.0|jar)
 
 - [NGA Extensions](http://ngageoint.github.io/GeoPackage/docs/extensions/) - NGA extensions to the GeoPackage spec as defined by the OGC GeoPackage [extension mechanism](http://www.geopackage.org/spec/#_extension_mechanism) and defined using the [extension template](http://www.geopackage.org/spec/#extension_template).
 
@@ -47,7 +48,7 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
 
 - [Android](http://ngageoint.github.io/geopackage-mapcache-android) - An Android app that can be built and installed from Android Studio or directly from the APK.
   - [GitHub](https://github.com/ngageoint/geopackage-mapcache-android)
-  - [APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.19/mapcache-1.19.apk)
+  - [APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.20/mapcache-1.20.apk)
 
 - [iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - An iOS app that can be built and installed from Xcode.
   - [GitHub](https://github.com/ngageoint/geopackage-mapcache-ios)
