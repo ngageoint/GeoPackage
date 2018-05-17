@@ -51,14 +51,33 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
   - [GitHub](https://github.com/ngageoint/geopackage-mapcache-ios)
   - [Video](https://owncloud.devops.geointservices.io/index.php/s/Q9Z8wdP7d40empT)
 
+# Simple Features
+
+A non GeoPackage specific set of libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.org/standards/sfa) standard.
+
+- [Simple Features Java](http://ngageoint.github.io/simple-features-java/) - Base Java library of geometry objects and utilities.
+  - [GitHub](https://github.com/ngageoint/simple-features-java)
+  - [Javadoc](http://ngageoint.github.io/simple-features-java/docs/api/)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|sf|2.0.0|jar)
+
+- [Simple Features Well Known Binary Java](http://ngageoint.github.io/simple-features-wkb-java/) - Java library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
+  - [GitHub](https://github.com/ngageoint/simple-features-wkb-java)
+  - [Javadoc](http://ngageoint.github.io/simple-features-wkb-java/docs/api/)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-wkb|2.0.0|jar)
+
+- [Simple Features GeoJSON Java](http://ngageoint.github.io/simple-features-geojson-java/) - Java library for writing and reading Simple Feature Geometries to and from GeoJSON.
+  - [GitHub](https://github.com/ngageoint/simple-features-geojson-java)
+  - [Javadoc](http://ngageoint.github.io/simple-features-geojson-java/docs/api/)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-geojson|2.0.0|jar)
+
+- [Simple Features Projection Java](http://ngageoint.github.io/simple-features-proj-java/) - Java library for performing projection conversions between Simple Feature Geometries.
+  - [GitHub](https://github.com/ngageoint/simple-features-proj-java)
+  - [Javadoc](http://ngageoint.github.io/simple-features-proj-java/docs/api/)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-proj|2.0.0|jar)
+
 # WKB
 
 A non GeoPackage specific library for writing and reading Well-Known Binary Geometries to and from bytes.
-
-- [Java](http://ngageoint.github.io/geopackage-wkb-java/) - A Java library providing Well-Known Binary geometry definitions and functionality.
-  - [GitHub](https://github.com/ngageoint/geopackage-wkb-java)
-  - [Javadoc](http://ngageoint.github.io/geopackage-wkb-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|wkb|1.0.5|jar)
 
 - [iOS](http://ngageoint.github.io/geopackage-wkb-ios/) - An iOS library providing Well-Known Binary geometry definitions and functionality.
   - [GitHub](https://github.com/ngageoint/geopackage-wkb-ios)
