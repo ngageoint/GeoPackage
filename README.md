@@ -19,12 +19,14 @@ A SDK that provides the ability to manage GeoPackage files providing read, write
   - [GitHub](https://github.com/ngageoint/geopackage-android-map)
   - [Javadoc](http://ngageoint.github.io/geopackage-android-map/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage.map|geopackage-android-map|2.0.2|aar)
+  - [Examples](https://github.com/ngageoint/geopackage-android-map/tree/master/docs/examples)
 
 - [iOS](http://ngageoint.github.io/geopackage-ios/) - An iOS SDK providing GeoPackage functionality and utilities to iOS apps.
   - [GitHub](https://github.com/ngageoint/geopackage-ios)
   - [CocoaDocs](http://cocoadocs.org/docsets/geopackage-ios)
   - [CocoaPods](https://cocoapods.org/pods/geopackage-ios)
   - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1489)
+  - [Examples](https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples)
 
 - [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries.
   - [GitHub](https://github.com/ngageoint/geopackage-core-java)
@@ -55,34 +57,44 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
 
 A non GeoPackage specific set of libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.org/standards/sfa) standard.
 
-- [Simple Features Java](http://ngageoint.github.io/simple-features-java/) - Base Java library of geometry objects and utilities.
+### Java
+
+- [Simple Features Java](http://ngageoint.github.io/simple-features-java/) - Base library of geometry objects and utilities.
   - [GitHub](https://github.com/ngageoint/simple-features-java)
   - [Javadoc](http://ngageoint.github.io/simple-features-java/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|sf|2.0.0|jar)
 
-- [Simple Features Well Known Binary Java](http://ngageoint.github.io/simple-features-wkb-java/) - Java library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
+- [Simple Features Well Known Binary Java](http://ngageoint.github.io/simple-features-wkb-java/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
   - [GitHub](https://github.com/ngageoint/simple-features-wkb-java)
   - [Javadoc](http://ngageoint.github.io/simple-features-wkb-java/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-wkb|2.0.0|jar)
 
-- [Simple Features GeoJSON Java](http://ngageoint.github.io/simple-features-geojson-java/) - Java library for writing and reading Simple Feature Geometries to and from GeoJSON.
+- [Simple Features GeoJSON Java](http://ngageoint.github.io/simple-features-geojson-java/) - Library for writing and reading Simple Feature Geometries to and from GeoJSON.
   - [GitHub](https://github.com/ngageoint/simple-features-geojson-java)
   - [Javadoc](http://ngageoint.github.io/simple-features-geojson-java/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-geojson|2.0.0|jar)
 
-- [Simple Features Projection Java](http://ngageoint.github.io/simple-features-proj-java/) - Java library for performing projection conversions between Simple Feature Geometries.
+- [Simple Features Projection Java](http://ngageoint.github.io/simple-features-proj-java/) - Library for performing projection conversions between Simple Feature Geometries.
   - [GitHub](https://github.com/ngageoint/simple-features-proj-java)
   - [Javadoc](http://ngageoint.github.io/simple-features-proj-java/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-proj|2.0.0|jar)
 
-# WKB
+### iOS
 
-A non GeoPackage specific library for writing and reading Well-Known Binary Geometries to and from bytes.
+- [Simple Features iOS](http://ngageoint.github.io/simple-features-ios/) - Base library of geometry objects and utilities.
+  - [GitHub](https://github.com/ngageoint/simple-features-java)
+  - [CocoaDocs](http://cocoadocs.org/docsets/sf-ios)
+  - [CocoaPods](https://cocoapods.org/pods/sf-ios)
 
-- [iOS](http://ngageoint.github.io/geopackage-wkb-ios/) - An iOS library providing Well-Known Binary geometry definitions and functionality.
-  - [GitHub](https://github.com/ngageoint/geopackage-wkb-ios)
-  - [CocoaDocs](http://cocoadocs.org/docsets/wkb-ios)
-  - [CocoaPods](https://cocoapods.org/pods/wkb-ios)
+- [Simple Features Well Known Binary iOS](http://ngageoint.github.io/simple-features-wkb-ios/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
+  - [GitHub](https://github.com/ngageoint/simple-features-wkb-ios)
+  - [CocoaDocs](http://cocoadocs.org/docsets/sf-wkb-ios)
+  - [CocoaPods](https://cocoapods.org/pods/sf-wkb-ios)
+
+- [Simple Features Projection iOS](http://ngageoint.github.io/simple-features-proj-ios/) - Library for performing projection conversions between Simple Feature Geometries.
+  - [GitHub](https://github.com/ngageoint/simple-features-proj-ios)
+  - [CocoaDocs](http://cocoadocs.org/docsets/sf-proj-ios)
+  - [CocoaPods](https://cocoapods.org/pods/sf-proj-ios)
 
 # TIFF
 
