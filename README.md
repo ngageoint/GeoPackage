@@ -83,7 +83,7 @@ A non GeoPackage specific set of libraries based upon the [OGC Simple Feature Ac
 ### iOS
 
 - [Simple Features iOS](http://ngageoint.github.io/simple-features-ios/) - Base library of geometry objects and utilities.
-  - [GitHub](https://github.com/ngageoint/simple-features-java)
+  - [GitHub](https://github.com/ngageoint/simple-features-ios)
   - [CocoaDocs](http://cocoadocs.org/docsets/sf-ios)
   - [CocoaPods](https://cocoapods.org/pods/sf-ios)
 
