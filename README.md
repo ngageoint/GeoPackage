@@ -80,7 +80,7 @@ A non GeoPackage specific set of libraries based upon the [OGC Simple Feature Ac
   - [Javadoc](http://ngageoint.github.io/simple-features-proj-java/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-proj|2.0.0|jar)
 
-### iOS (Coming Soon)
+### iOS
 
 - [Simple Features iOS](http://ngageoint.github.io/simple-features-ios/) - Base library of geometry objects and utilities.
   - [GitHub](https://github.com/ngageoint/simple-features-java)
