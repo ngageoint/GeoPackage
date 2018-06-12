@@ -1,6 +1,12 @@
 # Related Tables Extension Updates for SOFWERX Challenge
 
-[GeoPackage Android](https://github.com/ngageoint/geopackage-android) unreleased [Related Tables Extension](http://www.geopackage.org/18-000.html) changes that may be used for the [SOFWERX challenge](https://www.teamwerx.org/mobile/) which ends 6/30/2018.  These changes will be released in future versions, but until then you may include them manually in your own project.
+Unreleased [GeoPackage Android](https://github.com/ngageoint/geopackage-android) functionality in support of [Related Tables Extension](http://www.geopackage.org/18-000.html) that may be used for the [SOFWERX challenge](https://www.teamwerx.org/mobile/) (ends 6/30/2018).  These changes will be released in future versions, but until then you may include them manually in your own project (pre-built or manually built).
+
+#### Source Projects with RTE branch changes
+* [GeoPackage Core java](https://github.com/ngageoint/geopackage-core-java/tree/rte)
+* [GeoPackage Android](https://github.com/ngageoint/geopackage-android/tree/rte)
+* [GeoPackage Android Map](https://github.com/ngageoint/geopackage-android-map/tree/rte)
+* [MapCache Android](https://github.com/ngageoint/geopackage-mapcache-android/tree/rte)
 
 #### Example Usage
 * [GeoPackage example creator](https://github.com/ngageoint/geopackage-android/blob/rte/geopackage-sdk/src/androidTest/java/mil/nga/geopackage/test/GeoPackageExample.java) which was used to produce [this GeoPackage](https://github.com/ngageoint/GeoPackage/blob/master/docs/examples/android/rte/example.gpkg) with Related Tables (features, simple attributes, and media table)
@@ -23,10 +29,10 @@
 From Android Studio:
 File -> New -> New Module -> Import .JAR/.AAR Package
 
-File Name | Subproject Name
---- | --- | ---
-geopackage-core-3.0.1.jar | geopackage-core
-geopackage-android-3.0.1.aar | geopackage-android
+| File Name | Subproject Name |
+| --- | --- |
+| geopackage-core-3.0.1.jar | geopackage-core |
+| geopackage-android-3.0.1.aar | geopackage-android |
 
 * Update your project dependencies to include the 2 modules and their sub dependencies
 
@@ -53,11 +59,11 @@ api 'ar.com.hjg:pngj:2.1.0'
 From Android Studio:
 File -> New -> New Module -> Import .JAR/.AAR Package
 
-File Name | Subproject Name
---- | --- | ---
-geopackage-core-3.0.1.jar | geopackage-core
-geopackage-android-3.0.1.aar | geopackage-android
-geopackage-android-map-3.0.1.aar | geopackage-android-map
+| File Name | Subproject Name |
+| --- | --- |
+| geopackage-core-3.0.1.jar | geopackage-core |
+| geopackage-android-3.0.1.aar | geopackage-android |
+| geopackage-android-map-3.0.1.aar | geopackage-android-map |
 
 * Update your project dependencies to include the 3 modules and their sub dependencies
 
