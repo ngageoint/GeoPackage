@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Jun 11 17:01:28 MDT 2018
+geopackage-3.0.1-sources.jar>=
+geopackage-3.0.1.jar>=
+geopackage-3.0.1-javadoc.jar>=
+geopackage-3.0.1.pom>=
