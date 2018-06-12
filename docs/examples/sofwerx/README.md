@@ -1,6 +1,6 @@
 # Related Tables Extension Updates for SOFWERX Challenge
 
-Unreleased [GeoPackage Android](https://github.com/ngageoint/geopackage-android) functionality in support of [Related Tables Extension](http://www.geopackage.org/18-000.html) that may be used for the [SOFWERX challenge](https://www.teamwerx.org/mobile/) (ends 6/30/2018).  These changes will be released in future versions, but until then you may include them manually in your own project (pre-built or manually built).
+Unreleased [GeoPackage Android](https://github.com/ngageoint/geopackage-android) functionality in support of [Related Tables Extension](http://www.geopackage.org/18-000.html) that may be used for the [SOFWERX challenge](https://www.teamwerx.org/mobile/) (ends 6/30/2018).  These changes will be released in future versions, but until then you may include them manually in your own project (pre-built or manually built). After being released, the libraries can [easily be included within projects](https://github.com/ngageoint/geopackage-android-map#normal-build).
 
 #### Source Projects with RTE branch changes
 * [GeoPackage Core java](https://github.com/ngageoint/geopackage-core-java/tree/rte)
@@ -82,4 +82,23 @@ api 'mil.nga:tiff:2.0.0'
 api 'com.j256.ormlite:ormlite-core:5.0'
 api 'com.j256.ormlite:ormlite-android:5.0'
 api 'ar.com.hjg:pngj:2.1.0'
+```
+
+## Attaching Source
+
+Although the code will build without the source code, you may want / need to reference source for any libraries containing classes you plan to use directly.
+
+*module/build.gradle*
+
+```
+sourceSets {
+    main {
+        main.java.srcDirs += '/path/simple-features-java/src/main/java'
+        main.java.srcDirs += '/path/simple-features-proj-java/src/main/java'
+        main.java.srcDirs += '/path/simple-features-wkb-java/src/main/java'
+        main.java.srcDirs += '/path/geopackage-core-java/src/main/java'
+        main.java.srcDirs += '/path/geopackage-android/geopackage-sdk/src/main/java'
+        main.java.srcDirs += '/path/geopackage-android-map/geopackage-sdk/src/main/java'
+    }
+}
 ```
