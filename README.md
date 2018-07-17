@@ -23,7 +23,7 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?specid=&specl
 
 - [iOS](http://ngageoint.github.io/geopackage-ios/) - An iOS SDK providing GeoPackage functionality and utilities to iOS apps.
   - [GitHub](https://github.com/ngageoint/geopackage-ios)
-  - [CocoaDocs](http://cocoadocs.org/docsets/geopackage-ios)
+  - [Appledoc](http://ngageoint.github.io/geopackage-ios/docs/api)
   - [CocoaPods](https://cocoapods.org/pods/geopackage-ios)
   - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1489)
   - [Examples](https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples)
@@ -84,17 +84,17 @@ A non GeoPackage specific set of libraries based upon the [OGC Simple Feature Ac
 
 - [Simple Features iOS](http://ngageoint.github.io/simple-features-ios/) - Base library of geometry objects and utilities.
   - [GitHub](https://github.com/ngageoint/simple-features-ios)
-  - [CocoaDocs](http://cocoadocs.org/docsets/sf-ios)
+  - [Appledoc](http://ngageoint.github.io/sf-ios/docs/api)
   - [CocoaPods](https://cocoapods.org/pods/sf-ios)
 
 - [Simple Features Well Known Binary iOS](http://ngageoint.github.io/simple-features-wkb-ios/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
   - [GitHub](https://github.com/ngageoint/simple-features-wkb-ios)
-  - [CocoaDocs](http://cocoadocs.org/docsets/sf-wkb-ios)
+  - [Appledoc](http://ngageoint.github.io/sf-wkb-ios/docs/api)
   - [CocoaPods](https://cocoapods.org/pods/sf-wkb-ios)
 
 - [Simple Features Projection iOS](http://ngageoint.github.io/simple-features-proj-ios/) - Library for performing projection conversions between Simple Feature Geometries.
   - [GitHub](https://github.com/ngageoint/simple-features-proj-ios)
-  - [CocoaDocs](http://cocoadocs.org/docsets/sf-proj-ios)
+  - [Appledoc](http://ngageoint.github.io/sf-proj-ios/docs/api)
   - [CocoaPods](https://cocoapods.org/pods/sf-proj-ios)
 
 # TIFF
@@ -108,5 +108,5 @@ A non GeoPackage specific library for reading and writing Tagged Image File Form
 
 - [iOS](http://ngageoint.github.io/tiff-ios/) - An iOS library providing Tagged Image File Format functionality.
   - [GitHub](https://github.com/ngageoint/tiff-ios)
-  - [CocoaDocs](http://cocoadocs.org/docsets/tiff-ios)
+  - [Appledoc](http://ngageoint.github.io/tiff-ios/docs/api)
   - [CocoaPods](https://cocoapods.org/pods/tiff-ios)
