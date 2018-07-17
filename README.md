@@ -84,17 +84,17 @@ A non GeoPackage specific set of libraries based upon the [OGC Simple Feature Ac
 
 - [Simple Features iOS](http://ngageoint.github.io/simple-features-ios/) - Base library of geometry objects and utilities.
   - [GitHub](https://github.com/ngageoint/simple-features-ios)
-  - [Appledoc](http://ngageoint.github.io/sf-ios/docs/api)
+  - [Appledoc](http://ngageoint.github.io/simple-features-ios/docs/api)
   - [CocoaPods](https://cocoapods.org/pods/sf-ios)
 
 - [Simple Features Well Known Binary iOS](http://ngageoint.github.io/simple-features-wkb-ios/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
   - [GitHub](https://github.com/ngageoint/simple-features-wkb-ios)
-  - [Appledoc](http://ngageoint.github.io/sf-wkb-ios/docs/api)
+  - [Appledoc](http://ngageoint.github.io/simple-features-wkb-ios/docs/api)
   - [CocoaPods](https://cocoapods.org/pods/sf-wkb-ios)
 
 - [Simple Features Projection iOS](http://ngageoint.github.io/simple-features-proj-ios/) - Library for performing projection conversions between Simple Feature Geometries.
   - [GitHub](https://github.com/ngageoint/simple-features-proj-ios)
-  - [Appledoc](http://ngageoint.github.io/sf-proj-ios/docs/api)
+  - [Appledoc](http://ngageoint.github.io/simple-features-proj-ios/docs/api)
   - [CocoaPods](https://cocoapods.org/pods/sf-proj-ios)
 
 # TIFF
