@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Properties</title>
+</head>
+<body>
+
+	<h3>Extension Title</h3>
+	<p>Properties</p>
+
+	<h3>Introduction</h3>
+	<p>This extension stores GeoPackage properties as key-value pairs and mappings (multiple values per key). All properties are permitted and pre-defined properties enable discovery of commonly defined metadata.</p>
+
+	<h3>Extension Author</h3>
+	<p>National Geospatial-Intelligence Agency, author_name <code>nga</code></p>
+
+	<h3>Extension Name or Template</h3>
+	<p><code>nga_properties</code></p>
+
+	<h3>Extension Type</h3>
+	<p>New Requirement</p>
+
+	<h3>Applicability</h3>
+	<p>This extension applies to a custom attributes user table (<a href="http://www.geopackage.org/spec/#attributes">2.4</a>).</p>
+
+	<h3>Scope</h3>
+	<p>Read-write</p>
+
+	<h3>Requirements</h3>
+
+	<h4>GeoPackage</h4>
+
+	<h5>Extension Table Entry</h5>
+
+	<p>The Properties extension is registered into the <code>gpkg_extensions</code> table as follows:</p>
+
+	<table border="1">
+		<caption><code>gpkg_extensions</code></caption>
+		<thead>
+			<tr>
+				<th>table_name</th>
+				<th>column_name</th>
+				<th>extension_name</th>
+				<th>definition</th>
+				<th>scope</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><p>nga_properties</p></td>
+				<td></td>
+				<td><p>nga_properties</p></td>
+				<td><p>URL to this extension description</p></td>
+				<td><p>read-write</p></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h5>Properties Attributes Table</h5>
+
+	<p>The Properties Attributes Table defines an id, property, and value column. The property and value columns store key-value pairs and mappings. A unique constraint prevents duplicate property-value entries. Values may be any data type but are stored as TEXT.</p>
+
+	<table border="1">
+		<caption><code>nga_properties</code></caption>
+		<thead>
+			<tr>
+				<th>Column Name</th>
+				<th>Type</th>
+				<th>Description</th>
+				<th>Null</th>
+				<th>Default</th>
+				<th>Key</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><p>id</p></td>
+				<td><p>INTEGER</p></td>
+				<td><p>Autoincrement primary key</p></td>
+				<td><p>no</p></td>
+				<td></td>
+				<td><p>PK</p></td>
+			</tr>
+			<tr>
+				<td><p>property</p></td>
+				<td><p>TEXT</p></td>
+				<td><p>Property name or key to a value or set of values</p></td>
+				<td><p>no</p></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><p>value</p></td>
+				<td><p>TEXT</p></td>
+				<td><p>Property value</p></td>
+				<td><p>yes</p></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<pre><code>
+CREATE TABLE nga_properties (
+	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	property TEXT NOT NULL,
+	value TEXT,
+	UNIQUE (property, value)
+);</code></pre>
+
+	<h5>Contents Entry</h5>
+
+	<p>The Properties Attributes Table defines a Contents row (<a href="http://www.geopackage.org/spec/#_contents_4">2.4.2</a>).</p>
+
+	<table border="1">
+		<caption><code>gpkg_contents</code></caption>
+		<thead>
+			<tr>
+				<th>table_name</th>
+				<th>data_type</th>
+				<th>identifier</th>
+				<th>description</th>
+				<th>last_change</th>
+				<th>min_x</th>
+				<th>min_y</th>
+				<th>max_x</th>
+				<th>max_y</th>
+				<th>srs_id</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><p>nga_properties</p></td>
+				<td><p>attributes</p></td>
+				<td><p>nga_properties</p></td>
+				<td></td>
+				<td>date of last change</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h4>GeoPackage SQLite Configuration</h4>
+	<p>None</p>
+
+	<h4>GeoPackage SQLite Extension</h4>
+	<p>None</p>
+
+	<h4>Pre-defined Properties</h4>
+
+	<p>The following pre-defined list of properties define common metadata terms, most taken from the <a href="http://dublincore.org/documents/dcmi-terms/">Dublin Core Metadata Initiative</a>.</p>
+
+	<table border="1">
+		<caption>Pre-defined Properties</caption>
+		<thead>
+			<tr>
+				<th>Property</th>
+				<th>Definition</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><p>contributor</p></td>
+				<td><p>An entity responsible for making contributions to the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>coverage</p></td>
+				<td><p>The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant</p></td>
+			</tr>
+			<tr>
+				<td><p>created</p></td>
+				<td><p>Date of creation of the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>creator</p></td>
+				<td><p>An entity primarily responsible for making the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>date</p></td>
+				<td><p>A point or period of time associated with an event in the lifecycle of the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>description</p></td>
+				<td><p>An account of the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>identifier</p></td>
+				<td><p>An unambiguous reference to the resource within a given context</p></td>
+			</tr>
+			<tr>
+				<td><p>license</p></td>
+				<td><p>A legal document giving official permission to do something with the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>modified</p></td>
+				<td><p>Date on which the resource was changed</p></td>
+			</tr>
+			<tr>
+				<td><p>publisher</p></td>
+				<td><p>An entity responsible for making the resource available</p></td>
+			</tr>
+			<tr>
+				<td><p>references</p></td>
+				<td><p>A related resource that is referenced, cited, or otherwise pointed to by the described resource</p></td>
+			</tr>
+			<tr>
+				<td><p>relation</p></td>
+				<td><p>A related resource</p></td>
+			</tr>
+			<tr>
+				<td><p>source</p></td>
+				<td><p>A related resource from which the described resource is derived</p></td>
+			</tr>
+			<tr>
+				<td><p>spatial</p></td>
+				<td><p>Spatial characteristics of the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>subject</p></td>
+				<td><p>The topic of the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>tag</p></td>
+				<td><p>A tag or label of the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>temporal</p></td>
+				<td><p>Temporal characteristics of the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>title</p></td>
+				<td><p>A name given to the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>type</p></td>
+				<td><p>The nature or genre of the resource</p></td>
+			</tr>
+			<tr>
+				<td><p>URI</p></td>
+				<td><p>The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force</p></td>
+			</tr>
+			<tr>
+				<td><p>valid</p></td>
+				<td><p>Date (often a range) of validity of a resource</p></td>
+			</tr>
+			<tr>
+				<td><p>version</p></td>
+				<td><p>A version of the resource</p></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h4>Examples</h4>
+	<p>The <a href="../../examples/rivers.gpkg">rivers</a> GeoPackage defines properties including: title, creator, contributor, source, URI, and tag</p>
+
+</body>
+</html>
