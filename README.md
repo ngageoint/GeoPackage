@@ -78,7 +78,7 @@ A non GeoPackage specific set of libraries based upon the [OGC Simple Feature Ac
 - [Simple Features Projection Java](http://ngageoint.github.io/simple-features-proj-java/) - Library for performing projection conversions between Simple Feature Geometries.
   - [GitHub](https://github.com/ngageoint/simple-features-proj-java)
   - [Javadoc](http://ngageoint.github.io/simple-features-proj-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-proj|2.0.0|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-proj|2.0.1|jar)
 
 ### iOS
 
