@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Feature Style</title>
+</head>
+<body>
+
+	<h3>Extension Title</h3>
+	<p>Feature Style</p>
+
+	<h3>Introduction</h3>
+	<p>This extension defines styles and icons for feature geometries, both individually and as defaults.</p>
+	<p>This extension depends on the <a href="http://www.geopackage.org/18-000.html">OGC GeoPackage Related Tables Extension</a>.</p>
+	<p>This extension depends on the <a href="http://ngageoint.github.io/GeoPackage/docs/extensions/contents-id.html">NGA Contents Id Extension</a> for default style configurations.</p>
+
+		<h3>Extension Author</h3>
+		<p>National Geospatial-Intelligence Agency, author_name <code>nga</code></p>
+
+		<h3>Extension Name or Template</h3>
+		<p><code>nga_feature_style</code></p>
+
+		<h3>Extension Type</h3>
+		<p>New Requirement</p>
+
+		<h3>Applicability</h3>
+		<p>This extension applies to the table names of feature user tables (<a href="http://www.geopackage.org/spec/#feature_user_tables">2.1.6</a>).</p>
+
+		<h3>Scope</h3>
+		<p>Read-write</p>
+
+		<h3>Requirements</h3>
+
+		<h4>GeoPackage</h4>
+
+		<h5>Extension Table Entry</h5>
+
+		<p>The Feature Style extension is registered into the <code>gpkg_extensions</code> table once.
+			Each <a href="http://www.geopackage.org/18-000.html#user_defined_mapping_table">user-defined mapping table</a> between a feature or table and a style or icon is registered per the <a href="http://www.geopackage.org/18-000.html#_gpkg_extensions">Related Tables Extension</a>.</p>
+
+		<table border="1">
+			<caption><code>gpkg_extensions</code></caption>
+			<thead>
+				<tr>
+					<th>table_name</th>
+					<th>column_name</th>
+					<th>extension_name</th>
+					<th>definition</th>
+					<th>scope</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><p>null</p></td>
+					<td><p>null</p></td>
+					<td><p><code>nga_feature_style</code></p></td>
+					<td><p>URL to this extension description</p></td>
+					<td><p>read-write</p></td>
+				</tr>
+				<tr>
+					<td><p>nga_style_&lt;table_name&gt;</p></td>
+					<td><p>null</p></td>
+					<td><p><code>related_tables</code></p></td>
+					<td><p>TBD</p></td>
+					<td><p>read-write</p></td>
+				</tr>
+				<tr>
+					<td><p>nga_icon_&lt;table_name&gt;</p></td>
+					<td><p>null</p></td>
+					<td><p><code>related_tables</code></p></td>
+					<td><p>TBD</p></td>
+					<td><p>read-write</p></td>
+				</tr>
+				<tr>
+					<td><p>nga_style_default_&lt;table_name&gt;</p></td>
+					<td><p>null</p></td>
+					<td><p><code>related_tables</code></p></td>
+					<td><p>TBD</p></td>
+					<td><p>read-write</p></td>
+				</tr>
+				<tr>
+					<td><p>nga_icon_default_&lt;table_name&gt;</p></td>
+					<td><p>null</p></td>
+					<td><p><code>related_tables</code></p></td>
+					<td><p>TBD</p></td>
+					<td><p>read-write</p></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h5>Style Table</h5>
+
+		<p>The Style Table defines a geometry style and is a Related Tables Extension <a href="http://www.geopackage.org/18-000.html#sa_rc">Simple Attributes Table</a>.</p>
+
+			<table border="1">
+				<caption><code>nga_style</code></caption>
+				<thead>
+					<tr>
+						<th>Column Name</th>
+						<th>Type</th>
+						<th>Description</th>
+						<th>Null</th>
+						<th>Default</th>
+						<th>Key</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><p><code>id</code></p></td>
+						<td><p>INTEGER</p></td>
+						<td><p>Autoincrement primary key</p></td>
+						<td><p>no</p></td>
+						<td></td>
+						<td><p>PK</p></td>
+					</tr>
+					<tr>
+						<td><p><code>name</code></p></td>
+						<td><p>TEXT</p></td>
+						<td><p>Feature Style name</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>description</code></p></td>
+						<td><p>TEXT</p></td>
+						<td><p>Feature Style description</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>color</code></p></td>
+						<td><p>TEXT</p></td>
+						<td><p>Geometry color in format <code>#RRGGBB</code> or <code>#RGB</code></p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>opacity</code></p></td>
+						<td><p>DOUBLE</p></td>
+						<td><p>Geometry color opacity inclusively between 0.0 and 1.0</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>width</code></p></td>
+						<td><p>DOUBLE</p></td>
+						<td><p>Geometry line stroke or point width >= 0.0</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>fill_color</code></p></td>
+						<td><p>TEXT</p></td>
+						<td><p>Closed geometry fill color in format <code>#RRGGBB</code> or <code>#RGB</code></p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>opacity</code></p></td>
+						<td><p>DOUBLE</p></td>
+						<td><p>Closed geometry fill color opacity inclusively between 0.0 and 1.0</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<pre><code>
+TODO</code></pre>
+
+		<h5>Icon Table</h5>
+
+		<p>The Icon Table defines a geometry icon or marker and is a Related Tables Extension <a href="http://www.geopackage.org/18-000.html#media_rc">Media Table</a>.</p>
+
+			<table border="1">
+				<caption><code>nga_icon</code></caption>
+				<thead>
+					<tr>
+						<th>Column Name</th>
+						<th>Type</th>
+						<th>Description</th>
+						<th>Null</th>
+						<th>Default</th>
+						<th>Key</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><p><code>id</code></p></td>
+						<td><p>INTEGER</p></td>
+						<td><p>Autoincrement primary key</p></td>
+						<td><p>no</p></td>
+						<td></td>
+						<td><p>PK</p></td>
+					</tr>
+					<tr>
+						<td><p><code>data</code></p></td>
+						<td><p>BLOB</p></td>
+						<td><p>Feature Icon content</p></td>
+						<td><p>no</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>content_type</code></p></td>
+						<td><p>TEXT</p></td>
+						<td><p>Mime-type of the feature icon</p></td>
+						<td><p>no</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>name</code></p></td>
+						<td><p>TEXT</p></td>
+						<td><p>Feature Icon name</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>description</code></p></td>
+						<td><p>TEXT</p></td>
+						<td><p>Feature Icon description</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>width</code></p></td>
+						<td><p>DOUBLE</p></td>
+						<td><p>Icon display width</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>height</code></p></td>
+						<td><p>DOUBLE</p></td>
+						<td><p>Icon display height</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>anchor_u</code></p></td>
+						<td><p>DOUBLE</p></td>
+						<td><p>UV Mapping horizontal anchor distance inclusively between 0.0 and 1.0 from the left edge</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>opacity</code></p></td>
+						<td><p>DOUBLE</p></td>
+						<td><p>UV Mapping vertical anchor distance inclusively between 0.0 and 1.0 from the top edge</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<pre><code>
+TODO</code></pre>
+
+		<h5>Mapping Tables</h5>
+
+		<p>Related Tables Extension <a href="http://www.geopackage.org/18-000.html#user_defined_mapping_table">Mapping Tables</a> are used to relate:</p>
+
+		<ul>
+  		<li>Feature Tables to Default Styles - <code>nga_style_default_&lt;table_name&gt;</code></li>
+  		<li>Feature Tables to Default Icons - <code>nga_icon_default_&lt;table_name&gt;</code></li>
+  		<li>Features to Styles - <code>nga_style_&lt;table_name&gt;</code></li>
+  		<li>Features to Icons - <code>nga_icon_&lt;table_name&gt;</code></li>
+		</ul>
+
+		<p>The Mapping Tables are defined in the Related Tables Extension <a href="http://www.geopackage.org/18-000.html#_gpkgext_relations">Relations Table:</a></p>
+
+		<table border="1">
+			<caption><code>gpkgext_relations</code></caption>
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>base_table_name</th>
+					<th>base_primary_column</th>
+					<th>related_table_name</th>
+					<th>related_primary_column</th>
+					<th>relation_name</th>
+					<th>mapping_table_name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><p>any</p></td>
+					<td><p><code>nga_contents_id</code></p></td>
+					<td><p><code>id</code></p></td>
+					<td><p><code>nga_style</code></p></td>
+					<td><p><code>id</code></p></td>
+					<td><p>simple_attributes</p></td>
+					<td><p><code>nga_style_default_&lt;table_name&gt;</code></p></td>
+				</tr>
+				<tr>
+					<td><p>any</p></td>
+					<td><p><code>nga_contents_id</code></p></td>
+					<td><p><code>id</code></p></td>
+					<td><p><code>nga_icon</code></p></td>
+					<td><p><code>id</code></p></td>
+					<td><p>media</p></td>
+					<td><p><code>nga_icon_default_&lt;table_name&gt;</code></p></td>
+				</tr>
+				<tr>
+					<td><p>any</p></td>
+					<td><p><code>&lt;feature_table&gt;</code></p></td>
+					<td><p><code>id</code></p></td>
+					<td><p><code>nga_style</code></p></td>
+					<td><p><code>id</code></p></td>
+					<td><p>simple_attributes</p></td>
+					<td><p><code>nga_style_&lt;table_name&gt;</code></p></td>
+				</tr>
+				<tr>
+					<td><p>any</p></td>
+					<td><p><code>&lt;feature_table&gt;</code></p></td>
+					<td><p><code>id</code></p></td>
+					<td><p><code>nga_icon</code></p></td>
+					<td><p><code>id</code></p></td>
+					<td><p>media</p></td>
+					<td><p><code>nga_icon_&lt;table_name&gt;</code></p></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<p>Style and Icon <a href="http://www.geopackage.org/18-000.html#user_defined_mapping_table">Mapping Tables</a> contain the id mapping columns and a nullable geometry_type_name.</p>
+
+			<table border="1">
+				<caption><code>nga_style_default_&lt;table_name&gt;, nga_icon_default_&lt;table_name&gt;, nga_style_&lt;table_name&gt;, nga_icon_&lt;table_name&gt;</code></caption>
+				<thead>
+					<tr>
+						<th>Column Name</th>
+						<th>Type</th>
+						<th>Description</th>
+						<th>Null</th>
+						<th>Default</th>
+						<th>Key</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><p><code>base_id</code></p></td>
+						<td><p>INTEGER</p></td>
+						<td><p>The primary key value of the base data table (nga_contents_id or &lt;feature_table&gt;)</p></td>
+						<td><p>no</p></td>
+						<td></td>
+						<td><p>PK</p></td>
+					</tr>
+					<tr>
+						<td><p><code>related_id</code></p></td>
+						<td><p>INTEGER</p></td>
+						<td><p>The primary key value of the related data table (nga_style or nga_icon)</p></td>
+						<td><p>no</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><p><code>geometry_type_name</code></p></td>
+						<td><p>TEXT</p></td>
+						<td><p>Name from <a href="http://www.geopackage.org/spec121/#geometry_types_core">Geometry Type Codes (Core)</a> or <a href="http://www.geopackage.org/spec121/#geometry_types_extension">Geometry Type Codes (Extension)</a> in <a href="http://www.geopackage.org/spec121/#geometry_types">Geometry Types (Normative)</a></p>
+						<p>A null value configures a top level or default geometry style or icon. A defined geometry type maps the style or icon for all inherited geometry types.</p></td>
+						<td><p>yes</p></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<pre><code>
+TODO</code></pre>
+
+				<h4>GeoPackage SQLite Configuration</h4>
+				<p>None</p>
+
+				<h4>GeoPackage SQLite Extension</h4>
+				<p>None</p>
+
+				<h4>Examples</h4>
+				<p>TODO</p>
+
+			</body>
+			</html>
