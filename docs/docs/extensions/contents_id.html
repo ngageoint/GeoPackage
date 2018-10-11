@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Contents Id</title>
+</head>
+<body>
+
+	<h3>Extension Title</h3>
+	<p>Contents Id</p>
+
+	<h3>Introduction</h3>
+	<p>This extension assigns a unique integer identifier to tables defined in the contents. Allows foreign key referencing to a contents (text based primary key) by an integer identifier.</p>
+
+	<h3>Extension Author</h3>
+	<p>National Geospatial-Intelligence Agency, author_name <code>nga</code></p>
+
+	<h3>Extension Name or Template</h3>
+	<p><code>nga_contents_id</code></p>
+
+	<h3>Extension Type</h3>
+	<p>New Requirement</p>
+
+	<h3>Applicability</h3>
+	<p>This extension applies to the table names of tables defined in the contents (<a href="http://www.geopackage.org/spec121/#_contents">1.1.3</a>).</p>
+
+	<h3>Scope</h3>
+	<p>Read-write</p>
+
+	<h3>Requirements</h3>
+
+	<h4>GeoPackage</h4>
+
+	<h5>Extension Table Entry</h5>
+
+	<p>The Contents Id extension is registered into the <code>gpkg_extensions</code> table only once as follows:</p>
+
+	<table border="1">
+		<caption><code>gpkg_extensions</code></caption>
+		<thead>
+			<tr>
+				<th>table_name</th>
+				<th>column_name</th>
+				<th>extension_name</th>
+				<th>definition</th>
+				<th>scope</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><p>null</p></td>
+				<td><p>null</p></td>
+				<td><p><code>nga_contents_id</code></p></td>
+				<td><p>URL to this extension description</p></td>
+				<td><p>read-write</p></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h5>Contents Id Table</h5>
+
+	<p>The Contents Id Table contains an integer id and contents table name.</p>
+
+	<table border="1">
+		<caption><code>nga_contents_id</code></caption>
+		<thead>
+			<tr>
+				<th>Column Name</th>
+				<th>Type</th>
+				<th>Description</th>
+				<th>Null</th>
+				<th>Default</th>
+				<th>Key</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><p><code>id</code></p></td>
+				<td><p>INTEGER</p></td>
+				<td><p>Autoincrement primary key</p></td>
+				<td><p>no</p></td>
+				<td></td>
+				<td><p>PK</p></td>
+			</tr>
+			<tr>
+				<td><p><code>table_name</code></p></td>
+				<td><p>TEXT</p></td>
+				<td><p>The name of the actual content table, foreign key to <code>gpkg_contents</code></p></td>
+				<td><p>no</p></td>
+				<td></td>
+				<td>FK,UK</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<pre><code>
+CREATE TABLE nga_contents_id (
+  id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+  table_name TEXT NOT NULL,
+  CONSTRAINT uk_nci_table_name UNIQUE (table_name),
+  CONSTRAINT fk_nci_gc_tn FOREIGN KEY (table_name) REFERENCES gpkg_contents(table_name)
+);</code></pre>
+
+	<h4>GeoPackage SQLite Configuration</h4>
+	<p>None</p>
+
+	<h4>GeoPackage SQLite Extension</h4>
+	<p>None</p>
+
+	<h4>Examples</h4>
+	<p>TODO</p>
+
+</body>
+</html>
