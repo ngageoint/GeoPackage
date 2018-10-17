@@ -11,9 +11,18 @@
 
 	<h3>Introduction</h3>
 	<p>This extension defines a SQLite version agnostic way to index user feature table geometries by their bounding envelopes for fast ranged searches.
-		Mobile implementations, including Android and iOS, use earlier versions of SQLite and can not rely on the R*Tree Module implementation.
+		Mobile implementations, including Android and iOS, often use earlier versions of SQLite and may not be able to rely on the R*Tree Module implementation.
 		Each geometry in a feature table is indexed by it's geometry id and x, y, z, and m value ranges.
 		The geometry index can be queried for fast retrieval of only geometries overlapping a desired envelope bounds.</p>
+
+	<p>It is recommended to use the OGC GeoPackage <a href="http://www.geopackage.org/spec121/#extension_rtree">RTree Spatial Indexes Extension</a> over this extension whenever possible.</p>
+
+	<h5>NGA Library RTree Support</h5>
+	<ul>
+	  <li><a href="https://github.com/ngageoint/geopackage-ios">GeoPackage iOS</a> - <b>read</b> and <b>write</b> support in version <a href="https://github.com/ngageoint/geopackage-ios/releases/tag/2.0.1">2.0.1</a>, expanded support in version <a href="https://github.com/ngageoint/geopackage-ios/releases/tag/3.1.0">3.1.0</a></li>
+	  <li><a href="https://github.com/ngageoint/geopackage-android">GeoPackage Android</a> - <b>read</b> support in version <a href="https://github.com/ngageoint/geopackage-android/releases/tag/3.1.0">3.1.0</a></li>
+	  <li><a href="https://github.com/ngageoint/geopackage-java">GeoPackage Java</a> - <b>read</b> and <b>write</b> support in version <a href="https://github.com/ngageoint/geopackage-java/releases/tag/2.0.1">2.0.1</a>, expanded support in version <a href="https://github.com/ngageoint/geopackage-java/releases/tag/3.1.0">3.1.0</a></li>
+	</ul>
 
 		<h3>Extension Author</h3>
 		<p>National Geospatial-Intelligence Agency, author_name <code>nga</code></p>
