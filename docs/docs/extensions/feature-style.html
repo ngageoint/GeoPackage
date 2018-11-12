@@ -39,9 +39,9 @@
 
 		<h5>Extension Table Entries</h5>
 
-		<p>The Feature Style extension is registered into the <code>gpkg_extensions</code> table once.
+		<p>The Feature Style extension is registered into the <code>gpkg_extensions</code> table once per feature table.
 			Each <a href="http://www.geopackage.org/18-000.html#user_defined_mapping_table">user-defined mapping table</a> between a feature or table and a style or icon is registered per the <a href="http://www.geopackage.org/18-000.html#_gpkg_extensions">Related Tables Extension</a>.</p>
-		<p><code><i>&lt;feature_table_name&gt;</i></code> - name of a feature table</p>
+		<p><code><i>&lt;feature_table_name&gt;</i></code> = name of a feature table</p>
 
 		<table border="1">
 			<caption><code>gpkg_extensions entries</code></caption>
@@ -56,7 +56,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><p>null</p></td>
+					<td><p><code><i>&lt;feature_table_name&gt;</i></code></p></td>
 					<td><p>null</p></td>
 					<td><p><code>nga_feature_style</code></p></td>
 					<td><p>URL to this extension description</p></td>
@@ -155,7 +155,7 @@
 
 		<h5>Style Table</h5>
 
-		<p>The Style Table defines a geometry style and is a Related Tables Extension <a href="http://www.geopackage.org/18-000.html#sa_rc">Simple Attributes Table</a>.</p>
+		<p>The Style Table defines a geometry style and is an <a href="http://www.geopackage.org/spec121/#attributes">Attributes Table</a>.</p>
 
 			<table border="1">
 				<caption><code>nga_style</code></caption>
@@ -204,7 +204,7 @@
 					</tr>
 					<tr>
 						<td><p><code>opacity</code></p></td>
-						<td><p>DOUBLE</p></td>
+						<td><p>REAL</p></td>
 						<td><p>Geometry color opacity inclusively between 0.0 and 1.0</p></td>
 						<td><p>yes</p></td>
 						<td></td>
@@ -212,7 +212,7 @@
 					</tr>
 					<tr>
 						<td><p><code>width</code></p></td>
-						<td><p>DOUBLE</p></td>
+						<td><p>REAL</p></td>
 						<td><p>Geometry line stroke or point width >= 0.0</p></td>
 						<td><p>yes</p></td>
 						<td></td>
@@ -228,7 +228,7 @@
 					</tr>
 					<tr>
 						<td><p><code>fill_opacity</code></p></td>
-						<td><p>DOUBLE</p></td>
+						<td><p>REAL</p></td>
 						<td><p>Closed geometry fill color opacity inclusively between 0.0 and 1.0</p></td>
 						<td><p>yes</p></td>
 						<td></td>
@@ -243,10 +243,10 @@ CREATE TABLE nga_style (
   name TEXT,
   description TEXT,
   color TEXT,
-  opacity DOUBLE,
-  width DOUBLE,
+  opacity REAL,
+  width REAL,
   fill_color TEXT,
-  fill_opacity DOUBLE
+  fill_opacity REAL
 );</code></pre>
 
 		<h5>Icon Table</h5>
@@ -308,7 +308,7 @@ CREATE TABLE nga_style (
 					</tr>
 					<tr>
 						<td><p><code>width</code></p></td>
-						<td><p>DOUBLE</p></td>
+						<td><p>REAL</p></td>
 						<td><p>Icon display width, when null use actual icon width</p></td>
 						<td><p>yes</p></td>
 						<td></td>
@@ -316,7 +316,7 @@ CREATE TABLE nga_style (
 					</tr>
 					<tr>
 						<td><p><code>height</code></p></td>
-						<td><p>DOUBLE</p></td>
+						<td><p>REAL</p></td>
 						<td><p>Icon display height, when null use actual icon height</p></td>
 						<td><p>yes</p></td>
 						<td></td>
@@ -324,7 +324,7 @@ CREATE TABLE nga_style (
 					</tr>
 					<tr>
 						<td><p><code>anchor_u</code></p></td>
-						<td><p>DOUBLE</p></td>
+						<td><p>REAL</p></td>
 						<td><p>UV Mapping horizontal anchor distance inclusively between 0.0 and 1.0 from the left edge, when null assume 0.5 (middle of icon)</p></td>
 						<td><p>yes</p></td>
 						<td></td>
@@ -332,7 +332,7 @@ CREATE TABLE nga_style (
 					</tr>
 					<tr>
 						<td><p><code>anchor_v</code></p></td>
-						<td><p>DOUBLE</p></td>
+						<td><p>REAL</p></td>
 						<td><p>UV Mapping vertical anchor distance inclusively between 0.0 and 1.0 from the top edge, when null assume 1.0 (bottom of icon)</p></td>
 						<td><p>yes</p></td>
 						<td></td>
@@ -348,10 +348,10 @@ CREATE TABLE nga_icon (
   content_type TEXT NOT NULL,
   name TEXT,
   description TEXT,
-  width DOUBLE,
-  height DOUBLE,
-  anchor_u DOUBLE,
-  anchor_v DOUBLE
+  width REAL,
+  height REAL,
+  anchor_u REAL,
+  anchor_v REAL
 );</code></pre>
 
 		<h5>Contents Id</h5>
@@ -407,7 +407,7 @@ CREATE TABLE nga_icon (
 					<td><p><code>id</code></p></td>
 					<td><p><code>nga_style</code></p></td>
 					<td><p><code>id</code></p></td>
-					<td><p>simple_attributes</p></td>
+					<td><p>attributes</p></td>
 					<td><p><code>nga_style_default_<i>&lt;feature_table_name&gt;</i></code></p></td>
 				</tr>
 				<tr>
@@ -425,7 +425,7 @@ CREATE TABLE nga_icon (
 					<td><p><code>id</code></p></td>
 					<td><p><code>nga_style</code></p></td>
 					<td><p><code>id</code></p></td>
-					<td><p>simple_attributes</p></td>
+					<td><p>attributes</p></td>
 					<td><p><code>nga_style_<i>&lt;feature_table_name&gt;</i></code></p></td>
 				</tr>
 				<tr>
