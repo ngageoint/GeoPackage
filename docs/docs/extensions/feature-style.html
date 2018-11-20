@@ -309,7 +309,7 @@ CREATE TABLE nga_style (
 					<tr>
 						<td><p><code>width</code></p></td>
 						<td><p>REAL</p></td>
-						<td><p>Icon display width, when null use actual icon width</p></td>
+						<td><p>Icon display width. When null and height has value, maintain aspect ratio. When null and height is null, use data icon width.</p></td>
 						<td><p>yes</p></td>
 						<td></td>
 						<td></td>
@@ -317,7 +317,7 @@ CREATE TABLE nga_style (
 					<tr>
 						<td><p><code>height</code></p></td>
 						<td><p>REAL</p></td>
-						<td><p>Icon display height, when null use actual icon height</p></td>
+						<td><p>Icon display height. When null and width has value, maintain aspect ratio. When null and width is null, use data icon height.</p></td>
 						<td><p>yes</p></td>
 						<td></td>
 						<td></td>
