@@ -197,7 +197,7 @@
 					<tr>
 						<td><p><code>color</code></p></td>
 						<td><p>TEXT</p></td>
-						<td><p>Geometry color in hex format <code>#RRGGBB</code> or <code>#RGB</code></p></td>
+						<td><p>Geometry color in hex format <code>#RRGGBB</code> or <code>#RGB</code>, when null assume #000000</p></td>
 						<td><p>yes</p></td>
 						<td></td>
 						<td></td>
@@ -205,7 +205,7 @@
 					<tr>
 						<td><p><code>opacity</code></p></td>
 						<td><p>REAL</p></td>
-						<td><p>Geometry color opacity inclusively between 0.0 and 1.0</p></td>
+						<td><p>Geometry color opacity inclusively between 0.0 and 1.0, when null assume 1.0</p></td>
 						<td><p>yes</p></td>
 						<td></td>
 						<td></td>
@@ -213,7 +213,7 @@
 					<tr>
 						<td><p><code>width</code></p></td>
 						<td><p>REAL</p></td>
-						<td><p>Geometry line stroke or point width >= 0.0</p></td>
+						<td><p>Geometry line stroke or point width >= 0.0, when null assume 1.0</p></td>
 						<td><p>yes</p></td>
 						<td></td>
 						<td></td>
@@ -221,7 +221,7 @@
 					<tr>
 						<td><p><code>fill_color</code></p></td>
 						<td><p>TEXT</p></td>
-						<td><p>Closed geometry fill color in hex format <code>#RRGGBB</code> or <code>#RGB</code></p></td>
+						<td><p>Closed geometry fill color in hex format <code>#RRGGBB</code> or <code>#RGB, no fill when null</code></p></td>
 						<td><p>yes</p></td>
 						<td></td>
 						<td></td>
@@ -229,7 +229,7 @@
 					<tr>
 						<td><p><code>fill_opacity</code></p></td>
 						<td><p>REAL</p></td>
-						<td><p>Closed geometry fill color opacity inclusively between 0.0 and 1.0</p></td>
+						<td><p>Closed geometry fill color opacity inclusively between 0.0 and 1.0, when null assume 1.0</p></td>
 						<td><p>yes</p></td>
 						<td></td>
 						<td></td>
