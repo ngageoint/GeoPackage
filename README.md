@@ -41,6 +41,12 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?specid=&specl
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|3.2.0|jar)
 
 - [NGA Extensions](http://ngageoint.github.io/GeoPackage/docs/extensions/) - NGA extensions to the GeoPackage spec as defined by the OGC GeoPackage [extension mechanism](http://www.geopackage.org/spec/#_extension_mechanism) and defined using the [extension template](http://www.geopackage.org/spec/#extension_template).
+  - [Contents Id](http://ngageoint.github.io/GeoPackage/docs/extensions/contents-id.html)
+  - [Feature Style](http://ngageoint.github.io/GeoPackage/docs/extensions/feature-style.html)
+  - [Feature Tile Link](http://ngageoint.github.io/GeoPackage/docs/extensions/feature-tile-link.html)
+  - [Geometry Index](http://ngageoint.github.io/GeoPackage/docs/extensions/geometry-index.html)
+  - [Properties](http://ngageoint.github.io/GeoPackage/docs/extensions/properties.html)
+  - [Tile Scaling](http://ngageoint.github.io/GeoPackage/docs/extensions/tile-scaling.html)
 
 # MapCache
 
