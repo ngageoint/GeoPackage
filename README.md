@@ -7,13 +7,13 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?specid=&specl
   - [GitHub](https://github.com/ngageoint/geopackage-java)
   - [Javadoc](http://ngageoint.github.io/geopackage-java/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|3.2.0|jar)
-  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1487)
+  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1550)
 
 - [Android](http://ngageoint.github.io/geopackage-android/) - An Android SDK providing GeoPackage functionality and utilities to Android apps. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
   - [GitHub](https://github.com/ngageoint/geopackage-android)
   - [Javadoc](http://ngageoint.github.io/geopackage-android/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|3.2.0|aar)
-  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1488)
+  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1551)
 
 - [Android Map](http://ngageoint.github.io/geopackage-android-map/) - An Android Map SDK providing Google Map library implementations in addition to the inherited base [GeoPackage Android](https://github.com/ngageoint/geopackage-android/) functionality.
   - [GitHub](https://github.com/ngageoint/geopackage-android-map)
@@ -25,14 +25,14 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?specid=&specl
   - [GitHub](https://github.com/ngageoint/geopackage-ios)
   - [Appledoc](http://ngageoint.github.io/geopackage-ios/docs/api)
   - [CocoaPods](https://cocoapods.org/pods/geopackage-ios)
-  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1489)
+  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1552)
   - [Examples](https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples)
 
 - [JS](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
   - [GitHub](https://github.com/ngageoint/geopackage-js)
   - [GeoPackage Viewer](http://ngageoint.github.io/geopackage-js/)
   - [NPM](https://www.npmjs.com/package/@ngageoint/geopackage)
-  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1492)
+  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1549)
   - [Examples](https://github.com/ngageoint/geopackage-js/tree/master/docs/examples)
 
 - [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries.
