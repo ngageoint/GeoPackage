@@ -1,7 +1,7 @@
 # GeoPackage
 Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPackage/) providing [OGC GeoPackage](http://www.geopackage.org/) [spec](http://www.geopackage.org/spec) [implementations](http://www.geopackage.org/implementations.html)
 
-An [OGC Certified](http://www.opengeospatial.org/resource/products?specid=&speclist=&org_match=US+National+Geospatial-Intelligence+Agency&orglist=US+National+Geospatial-Intelligence+Agency&display_opt=1&specfiltered=1) SDK that provides the ability to manage GeoPackage files providing read, write, import, export, share, and open support. Open GeoPackage files provide read and write access to features and tiles.
+An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+National+Geospatial-Intelligence+Agency) SDK that provides the ability to manage GeoPackage files providing read, write, import, export, share, and open support. Open GeoPackage files provide read and write access to features and tiles.
 
 - [Java](http://ngageoint.github.io/geopackage-java/) – A Java library providing GeoPackage functionality and command line tools. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
   - [GitHub](https://github.com/ngageoint/geopackage-java)
