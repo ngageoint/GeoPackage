@@ -69,22 +69,22 @@ A non GeoPackage specific set of libraries based upon the [OGC Simple Feature Ac
 - [Simple Features Java](http://ngageoint.github.io/simple-features-java/) - Base library of geometry objects and utilities.
   - [GitHub](https://github.com/ngageoint/simple-features-java)
   - [Javadoc](http://ngageoint.github.io/simple-features-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|sf|2.0.1|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|sf|2.0.2|jar)
 
 - [Simple Features Well Known Binary Java](http://ngageoint.github.io/simple-features-wkb-java/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
   - [GitHub](https://github.com/ngageoint/simple-features-wkb-java)
   - [Javadoc](http://ngageoint.github.io/simple-features-wkb-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-wkb|2.0.1|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-wkb|2.0.2|jar)
 
 - [Simple Features GeoJSON Java](http://ngageoint.github.io/simple-features-geojson-java/) - Library for writing and reading Simple Feature Geometries to and from GeoJSON.
   - [GitHub](https://github.com/ngageoint/simple-features-geojson-java)
   - [Javadoc](http://ngageoint.github.io/simple-features-geojson-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-geojson|2.0.1|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-geojson|2.0.2|jar)
 
 - [Simple Features Projection Java](http://ngageoint.github.io/simple-features-proj-java/) - Library for performing projection conversions between Simple Feature Geometries.
   - [GitHub](https://github.com/ngageoint/simple-features-proj-java)
   - [Javadoc](http://ngageoint.github.io/simple-features-proj-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-proj|3.0.0|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-proj|3.0.1|jar)
 
 ### iOS
 
