@@ -62,7 +62,7 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
 
 # Simple Features
 
-A non GeoPackage specific set of libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.org/standards/sfa) standard.
+Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.org/standards/sfa) standard (not GeoPackage specific).
 
 ### Java
 
@@ -105,7 +105,7 @@ A non GeoPackage specific set of libraries based upon the [OGC Simple Feature Ac
 
 # TIFF
 
-A non GeoPackage specific library for reading and writing Tagged Image File Format files.
+Library for reading and writing Tagged Image File Format files (not GeoPackage specific).
 
 - [Java](http://ngageoint.github.io/tiff-java/) - A Java library providing Tagged Image File Format functionality.
   - [GitHub](https://github.com/ngageoint/tiff-java)
@@ -116,3 +116,12 @@ A non GeoPackage specific library for reading and writing Tagged Image File Form
   - [GitHub](https://github.com/ngageoint/tiff-ios)
   - [Appledoc](http://ngageoint.github.io/tiff-ios/docs/api)
   - [CocoaPods](https://cocoapods.org/pods/tiff-ios)
+
+# OGC API
+
+Libraries based upon the [OGC API Specification](https://github.com/opengeospatial/oapi_common) (not GeoPackage specific).
+
+- [Java](http://ngageoint.github.io/ogc-api-features-json-java/) - A Java library for writing and reading OGC API - Features to and from JSON.
+  - [GitHub](https://github.com/ngageoint/ogc-api-features-json-java)
+  - [Javadoc](http://ngageoint.github.io/ogc-api-features-json-java/docs/api/)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.oapi.features|oapi-features-json|1.0.0|jar)
