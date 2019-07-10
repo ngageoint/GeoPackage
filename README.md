@@ -15,19 +15,19 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
 - [Java](http://ngageoint.github.io/geopackage-java/) – A Java library providing GeoPackage functionality and command line tools. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
   - [GitHub](https://github.com/ngageoint/geopackage-java)
   - [Javadoc](http://ngageoint.github.io/geopackage-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|3.2.0|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|3.3.0|jar)
   - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1550)
 
 - [Android](http://ngageoint.github.io/geopackage-android/) - An Android SDK providing GeoPackage functionality and utilities to Android apps. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
   - [GitHub](https://github.com/ngageoint/geopackage-android)
   - [Javadoc](http://ngageoint.github.io/geopackage-android/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|3.2.0|aar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|3.3.0|aar)
   - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1551)
 
 - [Android Map](http://ngageoint.github.io/geopackage-android-map/) - An Android Map SDK providing Google Map library implementations in addition to the inherited base [GeoPackage Android](https://github.com/ngageoint/geopackage-android/) functionality.
   - [GitHub](https://github.com/ngageoint/geopackage-android-map)
   - [Javadoc](http://ngageoint.github.io/geopackage-android-map/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage.map|geopackage-android-map|3.2.0|aar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage.map|geopackage-android-map|3.3.0|aar)
   - [Examples](https://github.com/ngageoint/geopackage-android-map/tree/master/docs/examples)
 
 - [iOS](http://ngageoint.github.io/geopackage-ios/) - An iOS SDK providing GeoPackage functionality and utilities to iOS apps.
@@ -47,7 +47,7 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
 - [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries.
   - [GitHub](https://github.com/ngageoint/geopackage-core-java)
   - [Javadoc](http://ngageoint.github.io/geopackage-core-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|3.2.0|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|3.3.0|jar)
 
 - [NGA Extensions](http://ngageoint.github.io/GeoPackage/docs/extensions/) - NGA extensions to the GeoPackage spec as defined by the OGC GeoPackage [extension mechanism](http://www.geopackage.org/spec/#_extension_mechanism) and defined using the [extension template](http://www.geopackage.org/spec/#extension_template).
   - [Contents Id](http://ngageoint.github.io/GeoPackage/docs/extensions/contents-id.html)
@@ -63,7 +63,7 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
 
 - [Android](http://ngageoint.github.io/geopackage-mapcache-android) - An Android app that can be built and installed from Android Studio or directly from the APK.
   - [GitHub](https://github.com/ngageoint/geopackage-mapcache-android)
-  - [APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.23/mapcache-1.23.apk)
+  - [APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.24/mapcache-1.24.apk)
 
 - [iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - An iOS app that can be built and installed from Xcode.
   - [GitHub](https://github.com/ngageoint/geopackage-mapcache-ios)
