@@ -110,6 +110,11 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
   - [Appledoc](http://ngageoint.github.io/simple-features-wkb-ios/docs/api)
   - [CocoaPods](https://cocoapods.org/pods/sf-wkb-ios)
 
+- [Simple Features GeoJSON iOS](http://ngageoint.github.io/simple-features-geojson-ios/) - Library for writing and reading Simple Feature Geometries to and from GeoJSON.
+  - [GitHub](https://github.com/ngageoint/simple-features-geojson-ios)
+  - [Appledoc](http://ngageoint.github.io/simple-features-geojson-ios/docs/api)
+  - [CocoaPods](https://cocoapods.org/pods/sf-geojson-ios)
+
 - [Simple Features Projection iOS](http://ngageoint.github.io/simple-features-proj-ios/) - Library for performing projection conversions between Simple Feature Geometries.
   - [GitHub](https://github.com/ngageoint/simple-features-proj-ios)
   - [Appledoc](http://ngageoint.github.io/simple-features-proj-ios/docs/api)
@@ -133,8 +138,12 @@ Library for reading and writing Tagged Image File Format files (not GeoPackage s
 
 Libraries based upon the [OGC API Specification](https://github.com/opengeospatial/oapi_common) (not GeoPackage specific).
 
-- [Java](http://ngageoint.github.io/ogc-api-features-json-java/) - A Java library for writing and reading [OGC API - Features](https://github.com/opengeospatial/WFS_FES) to and from JSON.
-
+- [Features JSON Java](http://ngageoint.github.io/ogc-api-features-json-java/) - A Java library for writing and reading [OGC API - Features](https://github.com/opengeospatial/WFS_FES) to and from JSON.
   - [GitHub](https://github.com/ngageoint/ogc-api-features-json-java)
   - [Javadoc](http://ngageoint.github.io/ogc-api-features-json-java/docs/api/)
   - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.oapi.features|oapi-features-json|1.0.0|jar)
+
+- [Features JSON iOS](http://ngageoint.github.io/ogc-api-features-json-ios/) - An iOS library for writing and reading [OGC API - Features](https://github.com/opengeospatial/WFS_FES) to and from JSON.
+  - [GitHub](https://github.com/ngageoint/ogc-api-features-json-ios)
+  - [Appledoc](http://ngageoint.github.io/ogc-api-features-json-ios/docs/api)
+  - [CocoaPods](https://cocoapods.org/pods/ogc-api-features-json-ios)
