@@ -18,7 +18,7 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
 
 - [iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - An iOS app that can be built and installed from Xcode.
   - [GitHub](https://github.com/ngageoint/geopackage-mapcache-ios)
-  - [App Store](https://apps.apple.com/us/app/mapcache-by-nga/id1477252454')
+  - [App Store](https://apps.apple.com/us/app/mapcache-by-nga/id1477252454)
   - [Legacy Video](https://owncloud.devops.geointservices.io/index.php/s/Qh2pYaoo9ge1Ei0)
 
 # GeoPackage
