@@ -1,13 +1,28 @@
 Table of Contents
 =================
 
-* [GeoPackage](#geopackage)
 * [MapCache](#mapcache)
+* [GeoPackage](#geopackage)
 * [Simple Features](#simple-features)
 * [TIFF](#tiff)
 * [OGC API](#ogc-api)
 
+# MapCache
+
+An app that utilizes and demonstrates the functionality in the GeoPackage Mobile Libraries.
+
+- [Android](http://ngageoint.github.io/geopackage-mapcache-android) - An Android app that can be built and installed from Android Studio or directly from the APK.
+  - [GitHub](https://github.com/ngageoint/geopackage-mapcache-android)
+  - [Google Play](https://play.google.com/store/apps/details?id=mil.nga.mapcache)
+  - [Legacy APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.24/mapcache-1.24.apk)
+
+- [iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - An iOS app that can be built and installed from Xcode.
+  - [GitHub](https://github.com/ngageoint/geopackage-mapcache-ios)
+  - [App Store](https://apps.apple.com/us/app/mapcache-by-nga/id1477252454')
+  - [Legacy Video](https://owncloud.devops.geointservices.io/index.php/s/Qh2pYaoo9ge1Ei0)
+
 # GeoPackage
+
 Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPackage/) providing [OGC GeoPackage](http://www.geopackage.org/) [spec](http://www.geopackage.org/spec) [implementations](http://www.geopackage.org/implementations.html)
 
 An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+National+Geospatial-Intelligence+Agency) SDK that provides the ability to manage GeoPackage files providing read, write, import, export, share, and open support. Open GeoPackage files provide read and write access to features and tiles.
@@ -59,18 +74,6 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
 
 - [SQLite Exec](http://github.com/ngageoint/geopackage-java/tree/master/script/sqlite-exec) - Command utility that executes SQL statements on a SQLite database, including GeoPackages.
     - [sqlite-exec.zip](https://github.com/ngageoint/geopackage-java/releases/latest/download/sqlite-exec.zip)
-
-# MapCache
-
-An app that utilizes and demonstrates the functionality in the GeoPackage Mobile Libraries.
-
-- [Android](http://ngageoint.github.io/geopackage-mapcache-android) - An Android app that can be built and installed from Android Studio or directly from the APK.
-  - [GitHub](https://github.com/ngageoint/geopackage-mapcache-android)
-  - [APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.24/mapcache-1.24.apk)
-
-- [iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - An iOS app that can be built and installed from Xcode.
-  - [GitHub](https://github.com/ngageoint/geopackage-mapcache-ios)
-  - [Video](https://owncloud.devops.geointservices.io/index.php/s/Qh2pYaoo9ge1Ei0)
 
 # Simple Features
 
