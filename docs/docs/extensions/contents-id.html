@@ -10,7 +10,8 @@
 	<p>Contents Id</p>
 
 	<h3>Introduction</h3>
-	<p>This extension assigns a unique integer identifier to tables defined in the contents. Allows foreign key referencing to a contents (text based primary key) by an integer identifier.</p>
+	<p>This extension assigns a unique integer identifier to tables defined in the contents. Allows foreign key referencing to a contents (text based primary key) by an integer identifier. This extension is required because the <code>gpkg_contents</code> table "<a href="https://www.sqlite.org/rowidtable.html">rowid table</a>" <code>rowid</code> values are "not persistent and might change".</p>
+	<p>"If the rowid is not aliased by INTEGER PRIMARY KEY then it is not persistent and might change. In particular the VACUUM command will change rowids for tables that do not declare an INTEGER PRIMARY KEY. Therefore, applications should not normally access the rowid directly, but instead use an INTEGER PRIMARY KEY."</p>
 
 	<h3>Extension Author</h3>
 	<p>National Geospatial-Intelligence Agency, author_name <code>nga</code></p>
