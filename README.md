@@ -94,12 +94,12 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
 - [Simple Features GeoJSON Java](http://ngageoint.github.io/simple-features-geojson-java/) - Library for writing and reading Simple Feature Geometries to and from GeoJSON.
   - [GitHub](https://github.com/ngageoint/simple-features-geojson-java)
   - [Javadoc](http://ngageoint.github.io/simple-features-geojson-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-geojson|2.0.2|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-geojson|2.0.3|jar)
 
 - [Simple Features Projection Java](http://ngageoint.github.io/simple-features-proj-java/) - Library for performing projection conversions between Simple Feature Geometries.
   - [GitHub](https://github.com/ngageoint/simple-features-proj-java)
   - [Javadoc](http://ngageoint.github.io/simple-features-proj-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-proj|3.0.1|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.sf|sf-proj|3.0.2|jar)
 
 ### iOS
 
@@ -144,7 +144,7 @@ Libraries based upon the [OGC API Specification](https://github.com/opengeospati
 - [Features JSON Java](http://ngageoint.github.io/ogc-api-features-json-java/) - A Java library for writing and reading [OGC API - Features](https://github.com/opengeospatial/WFS_FES) to and from JSON.
   - [GitHub](https://github.com/ngageoint/ogc-api-features-json-java)
   - [Javadoc](http://ngageoint.github.io/ogc-api-features-json-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.oapi.features|oapi-features-json|1.0.0|jar)
+  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.oapi.features|oapi-features-json|1.0.1|jar)
 
 - [Features JSON iOS](http://ngageoint.github.io/ogc-api-features-json-ios/) - An iOS library for writing and reading [OGC API - Features](https://github.com/opengeospatial/WFS_FES) to and from JSON.
   - [GitHub](https://github.com/ngageoint/ogc-api-features-json-ios)
