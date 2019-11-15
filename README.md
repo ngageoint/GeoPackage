@@ -14,7 +14,7 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
 - [Android](http://ngageoint.github.io/geopackage-mapcache-android) - An Android app that can be built and installed from Android Studio or directly from the APK.
   - [GitHub](https://github.com/ngageoint/geopackage-mapcache-android)
   - [Google Play](https://play.google.com/store/apps/details?id=mil.nga.mapcache)
-  - [Legacy APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.24/mapcache-1.24.apk)
+  - [Legacy APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.25/mapcache-1.25.apk)
 
 - [iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - An iOS app that can be built and installed from Xcode.
   - [GitHub](https://github.com/ngageoint/geopackage-mapcache-ios)
