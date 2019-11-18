@@ -102,6 +102,43 @@ CREATE TABLE nga_contents_id (
   CONSTRAINT fk_nci_gc_tn FOREIGN KEY (table_name) REFERENCES gpkg_contents(table_name)
 );</code></pre>
 
+	<h5>Contents Entry</h5>
+
+	<p>The Contents Id Table defines a Contents row (<a href="http://www.geopackage.org/spec/#_contents_4">2.4.2</a>).
+		This is required for use in the <a href="http://docs.opengeospatial.org/is/18-000/18-000.html">Related Tables Extension</a>.</p>
+
+	<table border="1">
+		<caption><code>gpkg_contents</code></caption>
+		<thead>
+			<tr>
+				<th>table_name</th>
+				<th>data_type</th>
+				<th>identifier</th>
+				<th>description</th>
+				<th>last_change</th>
+				<th>min_x</th>
+				<th>min_y</th>
+				<th>max_x</th>
+				<th>max_y</th>
+				<th>srs_id</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><p>nga_contents_id</p></td>
+				<td><p>gpkg_extensions</p></td>
+				<td><p>nga_contents_id</p></td>
+				<td></td>
+				<td>date of last change</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+
 	<h4>GeoPackage SQLite Configuration</h4>
 	<p>None</p>
 
