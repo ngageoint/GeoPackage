@@ -12,12 +12,12 @@ Table of Contents
 An app that utilizes and demonstrates the functionality in the GeoPackage Mobile Libraries.
 
 - [Android](http://ngageoint.github.io/geopackage-mapcache-android) - An Android app that can be built and installed from Android Studio or directly from the APK.
-  - [GitHub](https://github.com/ngageoint/geopackage-mapcache-android)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-mapcache-android.svg?label=GitHub)](https://github.com/ngageoint/geopackage-mapcache-android) [![Build](https://github.com/ngageoint/geopackage-mapcache-android/workflows/Build/badge.svg)](https://github.com/ngageoint/geopackage-mapcache-android/actions?query=workflow%3ABuild)
   - [Google Play](https://play.google.com/store/apps/details?id=mil.nga.mapcache)
   - [Legacy APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.26/mapcache-1.26.apk)
 
 - [iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - An iOS app that can be built and installed from Xcode.
-  - [GitHub](https://github.com/ngageoint/geopackage-mapcache-ios)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-mapcache-ios.svg?label=GitHub)](https://github.com/ngageoint/geopackage-mapcache-ios) [![Build Archive](https://github.com/ngageoint/geopackage-mapcache-ios/workflows/Build%20Archive/badge.svg)](https://github.com/ngageoint/geopackage-mapcache-ios/actions?query=workflow%3A%22Build+Archive%22)
   - [App Store](https://apps.apple.com/us/app/mapcache-by-nga/id1477252454)
   - [Legacy Video](https://owncloud.devops.geointservices.io/index.php/s/Qh2pYaoo9ge1Ei0)
 
@@ -28,16 +28,17 @@ Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPacka
 An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+National+Geospatial-Intelligence+Agency) SDK that provides the ability to manage GeoPackage files providing read, write, import, export, share, and open support. Open GeoPackage files provide read and write access to features and tiles.
 
 - [Java](http://ngageoint.github.io/geopackage-java/) – A Java library providing GeoPackage functionality and command line tools. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
-  - [GitHub](https://github.com/ngageoint/geopackage-java)
-  - [Javadoc](http://ngageoint.github.io/geopackage-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|3.5.0|jar)
-  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1550)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-java.svg?label=GitHub)](https://github.com/ngageoint/geopackage-java) [![Build & Test](https://github.com/ngageoint/geopackage-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/geopackage-java/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/geopackage-java/docs/api/)
+  - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage.svg?label=The%20Central%20Repository)](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage|3.5.0|jar)
+  - [![OGC](https://img.shields.io/badge/OGC-v3.2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1550)
 
 - [Android](http://ngageoint.github.io/geopackage-android/) - An Android SDK providing GeoPackage functionality and utilities to Android apps. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
-  - [GitHub](https://github.com/ngageoint/geopackage-android)
-  - [Javadoc](http://ngageoint.github.io/geopackage-android/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|3.5.0|aar)
-  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1551)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-android.svg?label=GitHub)](https://github.com/ngageoint/geopackage-android) [![Build Artifacts](https://github.com/ngageoint/geopackage-android/workflows/Build%20Artifacts/badge.svg)](https://github.com/ngageoint/geopackage-android/actions?query=workflow%3A%22Build+Artifacts%22)
+[![Test](https://github.com/ngageoint/geopackage-android/workflows/Test/badge.svg)](https://github.com/ngageoint/geopackage-android/actions?query=workflow%3ATest)
+  - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-android.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/geopackage-android/docs/api/)
+  - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-android.svg?label=The%20Central%20Repository)](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-android|3.5.0|aar)
+  - [![OGC](https://img.shields.io/badge/OGC-v3.2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1551)
 
 - [Android Map](http://ngageoint.github.io/geopackage-android-map/) - An Android Map SDK providing Google Map library implementations in addition to the inherited base [GeoPackage Android](https://github.com/ngageoint/geopackage-android/) functionality.
   - [GitHub](https://github.com/ngageoint/geopackage-android-map)
