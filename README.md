@@ -130,9 +130,9 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
 Library for reading and writing Tagged Image File Format files (not GeoPackage specific).
 
 - [Java](http://ngageoint.github.io/tiff-java/) - A Java library providing Tagged Image File Format functionality.
-  - [GitHub](https://github.com/ngageoint/tiff-java)
-  - [Javadoc](http://ngageoint.github.io/tiff-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga|tiff|2.0.1|jar)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/tiff-java.svg?label=GitHub)](https://github.com/ngageoint/tiff-java) [![Build & Test](https://github.com/ngageoint/tiff-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/tiff-java/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga/tiff.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/tiff-java/docs/api/)
+  - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga/tiff.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga/tiff)
 
 - [iOS](http://ngageoint.github.io/tiff-ios/) - An iOS library providing Tagged Image File Format functionality.
   - [GitHub](https://github.com/ngageoint/tiff-ios)
@@ -144,9 +144,9 @@ Library for reading and writing Tagged Image File Format files (not GeoPackage s
 Libraries based upon the [OGC API Specification](https://github.com/opengeospatial/oapi_common) (not GeoPackage specific).
 
 - [Features JSON Java](http://ngageoint.github.io/ogc-api-features-json-java/) - A Java library for writing and reading [OGC API - Features](https://github.com/opengeospatial/WFS_FES) to and from JSON.
-  - [GitHub](https://github.com/ngageoint/ogc-api-features-json-java)
-  - [Javadoc](http://ngageoint.github.io/ogc-api-features-json-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.oapi.features|oapi-features-json|1.0.1|jar)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/ogc-api-features-json-java.svg?label=GitHub)](https://github.com/ngageoint/ogc-api-features-json-java) [![Build & Test](https://github.com/ngageoint/ogc-api-features-json-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/ogc-api-features-json-java/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.oapi.features/oapi-features-json.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/ogc-api-features-json-java/docs/api/)
+  - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.oapi.features/oapi-features-json.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.oapi.features/oapi-features-json)
 
 - [Features JSON iOS](http://ngageoint.github.io/ogc-api-features-json-ios/) - An iOS library for writing and reading [OGC API - Features](https://github.com/opengeospatial/WFS_FES) to and from JSON.
   - [GitHub](https://github.com/ngageoint/ogc-api-features-json-ios)
