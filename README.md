@@ -106,24 +106,24 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
 ### iOS
 
 - [Simple Features iOS](http://ngageoint.github.io/simple-features-ios/) - Base library of geometry objects and utilities.
-  - [GitHub](https://github.com/ngageoint/simple-features-ios)
-  - [Appledoc](http://ngageoint.github.io/simple-features-ios/docs/api)
-  - [CocoaPods](https://cocoapods.org/pods/sf-ios)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-ios.svg?label=GitHub)](https://github.com/ngageoint/simple-features-ios) [![Build & Test](https://github.com/ngageoint/simple-features-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/simple-features-ios/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Appledoc](https://img.shields.io/github/release/ngageoint/simple-features-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/simple-features-ios/docs/api)
+  - [![CocoaPods](https://img.shields.io/cocoapods/v/sf-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/sf-ios)
 
 - [Simple Features Well Known Binary iOS](http://ngageoint.github.io/simple-features-wkb-ios/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
-  - [GitHub](https://github.com/ngageoint/simple-features-wkb-ios)
-  - [Appledoc](http://ngageoint.github.io/simple-features-wkb-ios/docs/api)
-  - [CocoaPods](https://cocoapods.org/pods/sf-wkb-ios)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-wkb-ios.svg?label=GitHub)](https://github.com/ngageoint/simple-features-wkb-ios) [![Build & Test](https://github.com/ngageoint/simple-features-wkb-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/simple-features-wkb-ios/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Appledoc](https://img.shields.io/github/release/ngageoint/simple-features-wkb-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/simple-features-wkb-ios/docs/api)
+  - [![CocoaPods](https://img.shields.io/cocoapods/v/sf-wkb-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/sf-wkb-ios)
 
 - [Simple Features GeoJSON iOS](http://ngageoint.github.io/simple-features-geojson-ios/) - Library for writing and reading Simple Feature Geometries to and from GeoJSON.
-  - [GitHub](https://github.com/ngageoint/simple-features-geojson-ios)
-  - [Appledoc](http://ngageoint.github.io/simple-features-geojson-ios/docs/api)
-  - [CocoaPods](https://cocoapods.org/pods/sf-geojson-ios)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-geojson-ios.svg?label=GitHub)](https://github.com/ngageoint/simple-features-geojson-ios) [![Build & Test](https://github.com/ngageoint/simple-features-geojson-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/simple-features-geojson-ios/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Appledoc](https://img.shields.io/github/release/ngageoint/simple-features-geojson-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/simple-features-geojson-ios/docs/api)
+  - [![CocoaPods](https://img.shields.io/cocoapods/v/sf-geojson-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/sf-geojson-ios)
 
 - [Simple Features Projection iOS](http://ngageoint.github.io/simple-features-proj-ios/) - Library for performing projection conversions between Simple Feature Geometries.
-  - [GitHub](https://github.com/ngageoint/simple-features-proj-ios)
-  - [Appledoc](http://ngageoint.github.io/simple-features-proj-ios/docs/api)
-  - [CocoaPods](https://cocoapods.org/pods/sf-proj-ios)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-proj-ios.svg?label=GitHub)](https://github.com/ngageoint/simple-features-proj-ios) [![Build & Test](https://github.com/ngageoint/simple-features-proj-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/simple-features-proj-ios/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Appledoc](https://img.shields.io/github/release/ngageoint/simple-features-proj-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/simple-features-proj-ios/docs/api)
+  - [![CocoaPods](https://img.shields.io/cocoapods/v/sf-proj-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/sf-proj-ios)
 
 # TIFF
 
