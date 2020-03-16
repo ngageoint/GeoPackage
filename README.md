@@ -62,9 +62,9 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
   - [Examples](https://github.com/ngageoint/geopackage-js/tree/master/docs/examples)
 
 - [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries.
-  - [GitHub](https://github.com/ngageoint/geopackage-core-java)
-  - [Javadoc](http://ngageoint.github.io/geopackage-core-java/docs/api/)
-  - [The Central Repository](http://search.maven.org/#artifactdetails|mil.nga.geopackage|geopackage-core|3.5.0|jar)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-core-java.svg?label=GitHub)](https://github.com/ngageoint/geopackage-core-java) [![Build & Test](https://github.com/ngageoint/geopackage-core-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/geopackage-core-java/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-core.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/geopackage-core-java/docs/api/)
+  - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-core.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.geopackage/geopackage-core)
 
 - [NGA Extensions](http://ngageoint.github.io/GeoPackage/docs/extensions/) - NGA extensions to the GeoPackage spec as defined by the OGC GeoPackage [extension mechanism](http://www.geopackage.org/spec/#_extension_mechanism) and defined using the [extension template](http://www.geopackage.org/spec/#extension_template).
   - [Contents Id](http://ngageoint.github.io/GeoPackage/docs/extensions/contents-id.html)
