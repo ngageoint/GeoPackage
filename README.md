@@ -55,10 +55,10 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
   - [Examples](https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples)
 
 - [JS](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
-  - [GitHub](https://github.com/ngageoint/geopackage-js)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-js.svg?label=GitHub)](https://github.com/ngageoint/geopackage-js) [![Build and Run Tests](https://github.com/ngageoint/geopackage-js/workflows/Build%20and%20Run%20Tests/badge.svg)](https://github.com/ngageoint/geopackage-js/actions?query=workflow%3A%22Build+and+Run+Tests%22)
   - [GeoPackage Viewer](http://ngageoint.github.io/geopackage-js/)
-  - [NPM](https://www.npmjs.com/package/@ngageoint/geopackage)
-  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1549)
+  - [![NPM](https://img.shields.io/npm/v/@ngageoint/geopackage.svg)](https://www.npmjs.com/package/@ngageoint/geopackage)
+  - [![OGC](https://img.shields.io/badge/OGC-v2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1549)
   - [Examples](https://github.com/ngageoint/geopackage-js/tree/master/docs/examples)
 
 - [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries.
