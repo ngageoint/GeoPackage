@@ -135,9 +135,9 @@ Library for reading and writing Tagged Image File Format files (not GeoPackage s
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga/tiff.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga/tiff)
 
 - [iOS](http://ngageoint.github.io/tiff-ios/) - An iOS library providing Tagged Image File Format functionality.
-  - [GitHub](https://github.com/ngageoint/tiff-ios)
-  - [Appledoc](http://ngageoint.github.io/tiff-ios/docs/api)
-  - [CocoaPods](https://cocoapods.org/pods/tiff-ios)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/tiff-ios.svg?label=GitHub)](https://github.com/ngageoint/tiff-ios) [![Build & Test](https://github.com/ngageoint/tiff-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/tiff-ios/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Appledoc](https://img.shields.io/github/release/ngageoint/tiff-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/tiff-ios/docs/api)
+  - [![CocoaPods](https://img.shields.io/cocoapods/v/tiff-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/tiff-ios)
 
 # OGC API
 
@@ -149,6 +149,6 @@ Libraries based upon the [OGC API Specification](https://github.com/opengeospati
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.oapi.features/oapi-features-json.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.oapi.features/oapi-features-json)
 
 - [Features JSON iOS](http://ngageoint.github.io/ogc-api-features-json-ios/) - An iOS library for writing and reading [OGC API - Features](https://github.com/opengeospatial/WFS_FES) to and from JSON.
-  - [GitHub](https://github.com/ngageoint/ogc-api-features-json-ios)
-  - [Appledoc](http://ngageoint.github.io/ogc-api-features-json-ios/docs/api)
-  - [CocoaPods](https://cocoapods.org/pods/ogc-api-features-json-ios)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/ogc-api-features-json-ios.svg?label=GitHub)](https://github.com/ngageoint/ogc-api-features-json-ios) [![Build & Test](https://github.com/ngageoint/ogc-api-features-json-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/ogc-api-features-json-ios/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Appledoc](https://img.shields.io/github/release/ngageoint/ogc-api-features-json-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/ogc-api-features-json-ios/docs/api)
+  - [![CocoaPods](https://img.shields.io/cocoapods/v/ogc-api-features-json-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/ogc-api-features-json-ios)
