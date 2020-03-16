@@ -75,7 +75,7 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
   - [Tile Scaling](http://ngageoint.github.io/GeoPackage/docs/extensions/tile-scaling.html)
 
 - [SQLite Exec](http://github.com/ngageoint/geopackage-java/tree/master/script/sqlite-exec) - Command utility that executes SQL statements on a SQLite database, including GeoPackages.
-    - [sqlite-exec.zip](https://github.com/ngageoint/geopackage-java/releases/latest/download/sqlite-exec.zip)
+  - [![sqlite-exec.zip](https://img.shields.io/github/release/ngageoint/geopackage-java.svg?label=sqlite-exec.zip)](https://github.com/ngageoint/geopackage-java/releases/latest/download/sqlite-exec.zip)
 
 # Simple Features
 
