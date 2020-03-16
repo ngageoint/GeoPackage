@@ -48,10 +48,11 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
   - [Examples](https://github.com/ngageoint/geopackage-android-map/tree/master/docs/examples)
 
 - [iOS](http://ngageoint.github.io/geopackage-ios/) - An iOS SDK providing GeoPackage functionality and utilities to iOS apps.
-  - [GitHub](https://github.com/ngageoint/geopackage-ios)
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=GitHub)](https://github.com/ngageoint/geopackage-ios) [![Build & Test](https://github.com/ngageoint/geopackage-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/geopackage-ios/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Appledoc](https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/geopackage-ios/docs/api)
   - [Appledoc](http://ngageoint.github.io/geopackage-ios/docs/api)
-  - [CocoaPods](https://cocoapods.org/pods/geopackage-ios)
-  - [OGC](http://www.opengeospatial.org/resource/products/details/?pid=1552)
+  - [![CocoaPods](https://img.shields.io/cocoapods/v/geopackage-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/geopackage-ios)
+  - [![OGC](https://img.shields.io/badge/OGC-v3.2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1552)
   - [Examples](https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples)
 
 - [JS](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
