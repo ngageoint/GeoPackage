@@ -43,7 +43,7 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
 - [Android Map](http://ngageoint.github.io/geopackage-android-map/) - An Android Map SDK providing Google Map library implementations in addition to the inherited base [GeoPackage Android](https://github.com/ngageoint/geopackage-android/) functionality.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-android-map.svg?label=GitHub)](https://github.com/ngageoint/geopackage-android-map) [![Build Artifacts](https://github.com/ngageoint/geopackage-android-map/workflows/Build%20Artifacts/badge.svg)](https://github.com/ngageoint/geopackage-android-map/actions?query=workflow%3A%22Build+Artifacts%22)
 [![Test](https://github.com/ngageoint/geopackage-android-map/workflows/Test/badge.svg)](https://github.com/ngageoint/geopackage-android-map/actions?query=workflow%3ATest)
-  - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-android-map.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/geopackage-android-map/docs/api/)
+  - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.geopackage.map/geopackage-android-map.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/geopackage-android-map/docs/api/)
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.geopackage.map/geopackage-android-map.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.geopackage.map/geopackage-android-map)
   - [Examples](https://github.com/ngageoint/geopackage-android-map/tree/master/docs/examples)
 
