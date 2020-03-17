@@ -13,13 +13,13 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
 
 - [Android](http://ngageoint.github.io/geopackage-mapcache-android) - An Android app that can be built and installed from Android Studio or directly from the APK.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-mapcache-android.svg?label=GitHub)](https://github.com/ngageoint/geopackage-mapcache-android) [![Build](https://github.com/ngageoint/geopackage-mapcache-android/workflows/Build/badge.svg)](https://github.com/ngageoint/geopackage-mapcache-android/actions?query=workflow%3ABuild)
-  - [Google Play](https://play.google.com/store/apps/details?id=mil.nga.mapcache)
-  - [Legacy APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.26/mapcache-1.26.apk)
+  - [![Google Play](https://img.shields.io/static/v1?label=&logo=Google-Play&color=informational&message=Google%20Play)](https://play.google.com/store/apps/details?id=mil.nga.mapcache)
+  - [![Legacy APK](https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=Legacy%20APK)](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.26/mapcache-1.26.apk)
 
 - [iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - An iOS app that can be built and installed from Xcode.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-mapcache-ios.svg?label=GitHub)](https://github.com/ngageoint/geopackage-mapcache-ios) [![Build Archive](https://github.com/ngageoint/geopackage-mapcache-ios/workflows/Build%20Archive/badge.svg)](https://github.com/ngageoint/geopackage-mapcache-ios/actions?query=workflow%3A%22Build+Archive%22)
-  - [App Store](https://apps.apple.com/us/app/mapcache-by-nga/id1477252454)
-  - [Legacy Video](https://owncloud.devops.geointservices.io/index.php/s/Qh2pYaoo9ge1Ei0)
+  - [![App Store](https://img.shields.io/static/v1?label=&logo=Apple&color=informational&message=App%20Store)](https://apps.apple.com/us/app/mapcache-by-nga/id1477252454)
+  - [![Legacy Movie](https://img.shields.io/static/v1?label=&logo=iOS&color=informational&message=Legacy%20Movie)](https://owncloud.devops.geointservices.io/index.php/s/Qh2pYaoo9ge1Ei0)
 
 # GeoPackage
 
