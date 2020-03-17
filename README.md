@@ -13,13 +13,13 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
 
 - [Android](http://ngageoint.github.io/geopackage-mapcache-android) - An Android app that can be built and installed from Android Studio or directly from the APK.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-mapcache-android.svg?label=GitHub)](https://github.com/ngageoint/geopackage-mapcache-android) [![Build](https://github.com/ngageoint/geopackage-mapcache-android/workflows/Build/badge.svg)](https://github.com/ngageoint/geopackage-mapcache-android/actions?query=workflow%3ABuild)
-  - [Google Play](https://play.google.com/store/apps/details?id=mil.nga.mapcache)
-  - [Legacy APK](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.26/mapcache-1.26.apk)
+  - [![Google Play](https://img.shields.io/static/v1?label=&logo=Google-Play&color=informational&message=Google%20Play)](https://play.google.com/store/apps/details?id=mil.nga.mapcache)
+  - [![Legacy APK](https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=Legacy%20APK)](https://github.com/ngageoint/geopackage-mapcache-android/releases/download/1.26/mapcache-1.26.apk)
 
 - [iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - An iOS app that can be built and installed from Xcode.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-mapcache-ios.svg?label=GitHub)](https://github.com/ngageoint/geopackage-mapcache-ios) [![Build Archive](https://github.com/ngageoint/geopackage-mapcache-ios/workflows/Build%20Archive/badge.svg)](https://github.com/ngageoint/geopackage-mapcache-ios/actions?query=workflow%3A%22Build+Archive%22)
-  - [App Store](https://apps.apple.com/us/app/mapcache-by-nga/id1477252454)
-  - [Legacy Video](https://owncloud.devops.geointservices.io/index.php/s/Qh2pYaoo9ge1Ei0)
+  - [![App Store](https://img.shields.io/static/v1?label=&logo=Apple&color=informational&message=App%20Store)](https://apps.apple.com/us/app/mapcache-by-nga/id1477252454)
+  - [![Legacy Movie](https://img.shields.io/static/v1?label=&logo=iOS&color=informational&message=Legacy%20Movie)](https://owncloud.devops.geointservices.io/index.php/s/Qh2pYaoo9ge1Ei0)
 
 # GeoPackage
 
@@ -45,21 +45,21 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
 [![Test](https://github.com/ngageoint/geopackage-android-map/workflows/Test/badge.svg)](https://github.com/ngageoint/geopackage-android-map/actions?query=workflow%3ATest)
   - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.geopackage.map/geopackage-android-map.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/geopackage-android-map/docs/api/)
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.geopackage.map/geopackage-android-map.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.geopackage.map/geopackage-android-map)
-  - [Examples](https://github.com/ngageoint/geopackage-android-map/tree/master/docs/examples)
+  - [![Examples](https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=Examples)](https://github.com/ngageoint/geopackage-android-map/tree/master/docs/examples)
 
 - [iOS](http://ngageoint.github.io/geopackage-ios/) - An iOS SDK providing GeoPackage functionality and utilities to iOS apps.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=GitHub)](https://github.com/ngageoint/geopackage-ios) [![Build & Test](https://github.com/ngageoint/geopackage-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/geopackage-ios/actions?query=workflow%3A%22Build+%26+Test%22)
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/geopackage-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/geopackage-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/geopackage-ios)
   - [![OGC](https://img.shields.io/badge/OGC-v3.2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1552)
-  - [Examples](https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples)
+  - [![Examples](https://img.shields.io/static/v1?label=&logo=iOS&color=informational&message=Examples)](https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples)
 
 - [JS](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-js.svg?label=GitHub)](https://github.com/ngageoint/geopackage-js) [![Build and Run Tests](https://github.com/ngageoint/geopackage-js/workflows/Build%20and%20Run%20Tests/badge.svg)](https://github.com/ngageoint/geopackage-js/actions?query=workflow%3A%22Build+and+Run+Tests%22)
-  - [GeoPackage Viewer](http://ngageoint.github.io/geopackage-js/)
+  - [![GeoPackage Viewer](https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=GeoPackage%20Viewer)](http://ngageoint.github.io/geopackage-js/)
   - [![NPM](https://img.shields.io/npm/v/@ngageoint/geopackage.svg)](https://www.npmjs.com/package/@ngageoint/geopackage)
   - [![OGC](https://img.shields.io/badge/OGC-v2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1549)
-  - [Examples](https://github.com/ngageoint/geopackage-js/tree/master/docs/examples)
+  - [![Examples](https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=Examples)](https://github.com/ngageoint/geopackage-js/tree/master/docs/examples)
 
 - [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-core-java.svg?label=GitHub)](https://github.com/ngageoint/geopackage-core-java) [![Build & Test](https://github.com/ngageoint/geopackage-core-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/geopackage-core-java/actions?query=workflow%3A%22Build+%26+Test%22)
@@ -67,12 +67,12 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-core.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.geopackage/geopackage-core)
 
 - [NGA Extensions](http://ngageoint.github.io/GeoPackage/docs/extensions/) - NGA extensions to the GeoPackage spec as defined by the OGC GeoPackage [extension mechanism](http://www.geopackage.org/spec/#_extension_mechanism) and defined using the [extension template](http://www.geopackage.org/spec/#extension_template).
-  - [Contents Id](http://ngageoint.github.io/GeoPackage/docs/extensions/contents-id.html)
-  - [Feature Style](http://ngageoint.github.io/GeoPackage/docs/extensions/feature-style.html)
-  - [Feature Tile Link](http://ngageoint.github.io/GeoPackage/docs/extensions/feature-tile-link.html)
-  - [Geometry Index](http://ngageoint.github.io/GeoPackage/docs/extensions/geometry-index.html)
-  - [Properties](http://ngageoint.github.io/GeoPackage/docs/extensions/properties.html)
-  - [Tile Scaling](http://ngageoint.github.io/GeoPackage/docs/extensions/tile-scaling.html)
+  - [![Contents Id](https://img.shields.io/static/v1?label=&color=informational&message=Contents%20Id)](http://ngageoint.github.io/GeoPackage/docs/extensions/contents-id.html)
+  - [![Feature Style](https://img.shields.io/static/v1?label=&color=informational&message=Feature%20Style)](http://ngageoint.github.io/GeoPackage/docs/extensions/feature-style.html)
+  - [![Feature Tile Link](https://img.shields.io/static/v1?label=&color=informational&message=Feature%20Tile%20Link)](http://ngageoint.github.io/GeoPackage/docs/extensions/feature-tile-link.html)
+  - [![Geometry Index](https://img.shields.io/static/v1?label=&color=informational&message=Geometry%20Index)](http://ngageoint.github.io/GeoPackage/docs/extensions/geometry-index.html)
+  - [![Properties](https://img.shields.io/static/v1?label=&color=informational&message=Properties)](http://ngageoint.github.io/GeoPackage/docs/extensions/properties.html)
+  - [![Tile Scaling](https://img.shields.io/static/v1?label=&color=informational&message=Tile%20Scaling)](http://ngageoint.github.io/GeoPackage/docs/extensions/tile-scaling.html)
 
 - [SQLite Exec](http://github.com/ngageoint/geopackage-java/tree/master/script/sqlite-exec) - Command utility that executes SQL statements on a SQLite database, including GeoPackages.
   - [![sqlite-exec.zip](https://img.shields.io/github/release/ngageoint/geopackage-java.svg?label=sqlite-exec.zip)](https://github.com/ngageoint/geopackage-java/releases/latest/download/sqlite-exec.zip)
