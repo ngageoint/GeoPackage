@@ -31,14 +31,14 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-java.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/geopackage-java) [![Build & Test](https://github.com/ngageoint/geopackage-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/geopackage-java/actions?query=workflow%3A%22Build+%26+Test%22)
   - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/geopackage-java/docs/api/)
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.geopackage/geopackage)
-  - [![OGC](https://img.shields.io/badge/OGC-v3.2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1550)
+  - [![OGC](https://img.shields.io/badge/OGC-v3.2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1625)
 
 - [Android](http://ngageoint.github.io/geopackage-android/) - An Android SDK providing GeoPackage functionality and utilities to Android apps. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-android.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/geopackage-android) [![Build Artifacts](https://github.com/ngageoint/geopackage-android/workflows/Build%20Artifacts/badge.svg)](https://github.com/ngageoint/geopackage-android/actions?query=workflow%3A%22Build+Artifacts%22)
 [![Test](https://github.com/ngageoint/geopackage-android/workflows/Test/badge.svg)](https://github.com/ngageoint/geopackage-android/actions?query=workflow%3ATest)
   - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-android.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/geopackage-android/docs/api/)
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-android.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.geopackage/geopackage-android)
-  - [![OGC](https://img.shields.io/badge/OGC-v3.2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1551)
+  - [![OGC](https://img.shields.io/badge/OGC-v3.2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1626)
 
 - [Android Map](http://ngageoint.github.io/geopackage-android-map/) - An Android Map SDK providing Google Map library implementations in addition to the inherited base [GeoPackage Android](https://github.com/ngageoint/geopackage-android/) functionality.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-android-map.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/geopackage-android-map) [![Build Artifacts](https://github.com/ngageoint/geopackage-android-map/workflows/Build%20Artifacts/badge.svg)](https://github.com/ngageoint/geopackage-android-map/actions?query=workflow%3A%22Build+Artifacts%22)
@@ -51,14 +51,14 @@ An [OGC Certified](http://www.opengeospatial.org/resource/products?org_match=US+
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/geopackage-ios) [![Build & Test](https://github.com/ngageoint/geopackage-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/geopackage-ios/actions?query=workflow%3A%22Build+%26+Test%22)
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/geopackage-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/geopackage-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/geopackage-ios)
-  - [![OGC](https://img.shields.io/badge/OGC-v3.2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1552)
+  - [![OGC](https://img.shields.io/badge/OGC-v3.2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1627)
   - [![Examples](https://img.shields.io/static/v1?label=&logo=iOS&color=informational&message=Examples)](https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples)
 
 - [JS](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/geopackage-js) [![Build and Run Tests](https://github.com/ngageoint/geopackage-js/workflows/Build%20and%20Run%20Tests/badge.svg)](https://github.com/ngageoint/geopackage-js/actions?query=workflow%3A%22Build+and+Run+Tests%22)
   - [![GeoPackage Viewer](https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=GeoPackage%20Viewer)](http://ngageoint.github.io/geopackage-js/)
   - [![NPM](https://img.shields.io/npm/v/@ngageoint/geopackage.svg)](https://www.npmjs.com/package/@ngageoint/geopackage)
-  - [![OGC](https://img.shields.io/badge/OGC-v2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1549)
+  - [![OGC](https://img.shields.io/badge/OGC-v2-blue)](http://www.opengeospatial.org/resource/products/details/?pid=1628)
   - [![Examples](https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=Examples)](https://github.com/ngageoint/geopackage-js/tree/master/docs/examples)
 
 - [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries.
