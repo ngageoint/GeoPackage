@@ -88,10 +88,15 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
   - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga/sf.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/simple-features-java/docs/api/)
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga/sf.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga/sf)
 
-- [Simple Features Well Known Binary Java](http://ngageoint.github.io/simple-features-wkb-java/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
+- [Simple Features Well-Known Binary Java](http://ngageoint.github.io/simple-features-wkb-java/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-wkb-java.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/simple-features-wkb-java) [![Build & Test](https://github.com/ngageoint/simple-features-wkb-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/simple-features-wkb-java/actions?query=workflow%3A%22Build+%26+Test%22)
   - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkb.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/simple-features-wkb-java/docs/api/)
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkb.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.sf/sf-wkb)
+
+- [Simple Features Well-Known Text Java](http://ngageoint.github.io/simple-features-wkt-java/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Text.
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-wkt-java.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/simple-features-wkt-java) [![Build & Test](https://github.com/ngageoint/simple-features-wkt-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/simple-features-wkt-java/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkt.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/simple-features-wkt-java/docs/api/)
+  - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkt.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.sf/sf-wkt)
 
 - [Simple Features GeoJSON Java](http://ngageoint.github.io/simple-features-geojson-java/) - Library for writing and reading Simple Feature Geometries to and from GeoJSON.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-geojson-java.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/simple-features-geojson-java) [![Build & Test](https://github.com/ngageoint/simple-features-geojson-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/simple-features-geojson-java/actions?query=workflow%3A%22Build+%26+Test%22)
