@@ -115,10 +115,15 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/simple-features-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/simple-features-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/sf-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/sf-ios)
 
-- [Simple Features Well Known Binary iOS](http://ngageoint.github.io/simple-features-wkb-ios/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
+- [Simple Features Well-Known Binary iOS](http://ngageoint.github.io/simple-features-wkb-ios/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-wkb-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/simple-features-wkb-ios) [![Build & Test](https://github.com/ngageoint/simple-features-wkb-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/simple-features-wkb-ios/actions?query=workflow%3A%22Build+%26+Test%22)
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/simple-features-wkb-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/simple-features-wkb-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/sf-wkb-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/sf-wkb-ios)
+
+- [Simple Features Well-Known Text iOS](http://ngageoint.github.io/simple-features-wkt-ios/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Text.
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-wkt-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/simple-features-wkt-ios) [![Build & Test](https://github.com/ngageoint/simple-features-wkt-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/simple-features-wkt-ios/actions?query=workflow%3A%22Build+%26+Test%22)
+  - [![Appledoc](https://img.shields.io/github/release/ngageoint/simple-features-wkt-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/simple-features-wkt-ios/docs/api)
+  - [![CocoaPods](https://img.shields.io/cocoapods/v/sf-wkt-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/sf-wkt-ios)
 
 - [Simple Features GeoJSON iOS](http://ngageoint.github.io/simple-features-geojson-ios/) - Library for writing and reading Simple Feature Geometries to and from GeoJSON.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-geojson-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/simple-features-geojson-ios) [![Build & Test](https://github.com/ngageoint/simple-features-geojson-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/simple-features-geojson-ios/actions?query=workflow%3A%22Build+%26+Test%22)
