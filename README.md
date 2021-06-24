@@ -135,6 +135,24 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/simple-features-proj-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/simple-features-proj-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/sf-proj-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/sf-proj-ios)
 
+# Projections
+
+  Library for performing projection conversions between coordinates (not GeoPackage specific).
+
+  - [Java](http://ngageoint.github.io/projections-java/) - A Java library providing projections functionality.
+    - [![GitHub](https://img.shields.io/github/release/ngageoint/projections-java.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/projections-java) [![Build & Test](https://github.com/ngageoint/projections-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/projections-java/actions/workflows/build-test.yml)
+    - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga/proj.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/projections-java/docs/api/)
+    - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga/proj.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga/proj)
+
+# Coordinate Reference Systems
+
+  Library implementation of the OGC [Geographic information — Well-known text representation of coordinate reference systems](http://docs.opengeospatial.org/is/18-010r7/18-010r7.html) specification (not GeoPackage specific).
+
+  - [Java](http://ngageoint.github.io/coordinate-reference-systems-java/) - A Java library providing Coordinate Reference System and Well-Known Text functionality.
+    - [![GitHub](https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-java.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/coordinate-reference-systems-java) [![Build & Test](https://github.com/ngageoint/coordinate-reference-systems-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/coordinate-reference-systems-java/actions/workflows/build-test.yml)
+    - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga/crs.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/coordinate-reference-systems-java/docs/api/)
+    - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga/crs.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga/crs)
+
 # TIFF
 
 Library for reading and writing Tagged Image File Format files (not GeoPackage specific).
