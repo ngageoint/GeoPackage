@@ -23,6 +23,9 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
   - [![App Store](https://img.shields.io/static/v1?label=&logo=Apple&color=informational&message=App%20Store)](https://apps.apple.com/us/app/mapcache-by-nga/id1477252454)
   - [![Legacy Movie](https://img.shields.io/static/v1?label=&logo=iOS&color=informational&message=Legacy%20Movie)](https://owncloud.devops.geointservices.io/index.php/s/Qh2pYaoo9ge1Ei0)
 
+- Desktop - A desktop application running in Electron, built for Windows, Linux, and MacOS.
+  - [![GitHub](https://img.shields.io/github/last-commit/ngageoint/mapcache-electron)](https://github.com/ngageoint/mapcache-electron)
+
 # GeoPackage
 
 Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPackage/) providing [OGC GeoPackage](http://www.geopackage.org/) [spec](http://www.geopackage.org/spec) [implementations](http://www.geopackage.org/implementations.html)
