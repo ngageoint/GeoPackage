@@ -4,6 +4,8 @@ Table of Contents
 * [MapCache](#mapcache)
 * [GeoPackage](#geopackage)
 * [Simple Features](#simple-features)
+* [Projections](#projections)
+* [Coordinate Reference Systems](#coordinate-reference-systems)
 * [TIFF](#tiff)
 * [OGC API](#ogc-api)
 
