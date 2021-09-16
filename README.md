@@ -144,6 +144,11 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
     - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga/proj.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/projections-java/docs/api/)
     - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga/proj.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga/proj)
 
+  - [iOS](http://ngageoint.github.io/projections-ios/) - An iOS library providing projections functionality.
+    - [![GitHub](https://img.shields.io/github/release/ngageoint/projections-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/projections-ios) [![Build & Test](https://github.com/ngageoint/projections-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/projections-ios/actions/workflows/build-test.yml)
+    - [![Appledoc](https://img.shields.io/github/release/ngageoint/projections-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/projections-ios/docs/api)
+    - [![CocoaPods](https://img.shields.io/cocoapods/v/proj-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/proj-ios)
+
 # Coordinate Reference Systems
 
   Library implementation of the OGC [Geographic information — Well-known text representation of coordinate reference systems](http://docs.opengeospatial.org/is/18-010r7/18-010r7.html) specification (not GeoPackage specific).
@@ -152,6 +157,11 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
     - [![GitHub](https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-java.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/coordinate-reference-systems-java) [![Build & Test](https://github.com/ngageoint/coordinate-reference-systems-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/coordinate-reference-systems-java/actions/workflows/build-test.yml)
     - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga/crs.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/coordinate-reference-systems-java/docs/api/)
     - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga/crs.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga/crs)
+
+  - [iOS](http://ngageoint.github.io/coordinate-reference-systems-ios/) - An iOS library providing Coordinate Reference System and Well-Known Text functionality.
+    - [![GitHub](https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/coordinate-reference-systems-ios) [![Build & Test](https://github.com/ngageoint/coordinate-reference-systems-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/coordinate-reference-systems-ios/actions/workflows/build-test.yml)
+    - [![Appledoc](https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/coordinate-reference-systems-ios/docs/api)
+    - [![CocoaPods](https://img.shields.io/cocoapods/v/crs-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/crs-ios)
 
 # TIFF
 
