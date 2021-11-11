@@ -21,7 +21,6 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
 - [iOS](http://ngageoint.github.io/geopackage-mapcache-ios) - An iOS app that can be built and installed from Xcode.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-mapcache-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/geopackage-mapcache-ios) [![Build Archive](https://github.com/ngageoint/geopackage-mapcache-ios/workflows/Build%20Archive/badge.svg)](https://github.com/ngageoint/geopackage-mapcache-ios/actions/workflows/build-archive.yml)
   - [![App Store](https://img.shields.io/static/v1?label=&logo=Apple&color=informational&message=App%20Store)](https://apps.apple.com/us/app/mapcache-by-nga/id1477252454)
-  - [![Legacy Movie](https://img.shields.io/static/v1?label=&logo=iOS&color=informational&message=Legacy%20Movie)](https://owncloud.devops.geointservices.io/index.php/s/Qh2pYaoo9ge1Ei0)
 
 - Desktop - A desktop application running in Electron, built for Windows, Linux, and MacOS.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/mapcache-electron.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/mapcache-electron)
