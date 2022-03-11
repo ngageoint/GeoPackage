@@ -154,6 +154,9 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
     - [![Appledoc](https://img.shields.io/github/release/ngageoint/projections-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/projections-ios/docs/api)
     - [![CocoaPods](https://img.shields.io/cocoapods/v/proj-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/proj-ios)
 
+  - [Project](http://github.com/ngageoint/projections-java/tree/master/script/project) - Command utility to perform coordinate transformations from a source projection to a target projection.
+    - [![project.zip](https://img.shields.io/github/release/ngageoint/projections-java.svg?label=project.zip)](https://github.com/ngageoint/projections-java/releases/latest/download/project.zip)
+
 # Coordinate Reference Systems
 
   Library implementation of the OGC [Geographic information — Well-known text representation of coordinate reference systems](http://docs.opengeospatial.org/is/18-010r7/18-010r7.html) specification (not GeoPackage specific).
@@ -167,6 +170,9 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
     - [![GitHub](https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/coordinate-reference-systems-ios) [![Build & Test](https://github.com/ngageoint/coordinate-reference-systems-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/coordinate-reference-systems-ios/actions/workflows/build-test.yml)
     - [![Appledoc](https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/coordinate-reference-systems-ios/docs/api)
     - [![CocoaPods](https://img.shields.io/cocoapods/v/crs-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/crs-ios)
+
+  - [Pretty](http://github.com/ngageoint/coordinate-reference-systems-java/tree/master/script/pretty) - Command utility to parse and pretty print OGC Coordinate Reference System Well-Known Text.
+    - [![pretty.zip](https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-java.svg?label=pretty.zip)](https://github.com/ngageoint/coordinate-reference-systems-java/releases/latest/download/pretty.zip)
 
 # TIFF
 
