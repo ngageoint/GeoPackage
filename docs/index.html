@@ -6,796 +6,802 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="stylesheets/gpkg.css" media="screen">
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
-  <section class="page-header">
-    <h1 class="project-name">GeoPackage Libraries</h1>
-    <img class="img" alt="GeoPackage" src="images/GeoPackage.png" width="128px">
-    <h2 class="project-tagline">by the National Geospatial-Intelligence Agency</h2>
-  </section>
-
-  <section class="main-content">
-
-    <p>
-      The <a href='http://www.nga.mil/'>National Geospatial-Intelligence Agency (NGA)</a>, in collaboration with <a href='http://www.caci.com/bit-systems'>BIT Systems</a>, makes available under the <a href="https://opensource.org/licenses/MIT">MIT License</a> a collection of <a href='http://www.geopackage.org'>OGC GeoPackage</a> <a href='http://www.geopackage.org/spec'>spec</a> libraries listed as GeoPackage <a href='http://www.geopackage.org/implementations.html'>implementations</a>.
-      The NGA GeoPackage Libraries include creation, visualization, and management SDKs including sample applications for Android and iOS.
-    </p>
-
-
-    <h2>MapCache</h2>
-
-    <div class="heading-description">An app that utilizes and demonstrates the functionality in the GeoPackage Mobile Libraries.</div>
-
-    <ul class="projects">
-      <li>
-        <a href='http://ngageoint.github.io/geopackage-mapcache-android/'>Android</a>
-        <div>An Android app that can be built and installed from Android Studio or directly from the APK.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-mapcache-android'>
-              <img src="https://img.shields.io/github/release/ngageoint/geopackage-mapcache-android.svg?label=GitHub&sort=semver"/>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://www.nga.mil" target="_blank">
+        <img src="images/nga.png">
+        National Geospatial-Intelligence Agency
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              GeoPackage Libraries
             </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#java">Java</a></li>
+              <li><a class="dropdown-item" href="#javascript">JavaScript</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#android">Android</a></li>
+              <li><a class="dropdown-item" href="#ios">iOS</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#examples">Examples</a></li>
+            </ul>
           </li>
-          <li>
-            <a href='https://play.google.com/store/apps/details?id=mil.nga.mapcache'>
-              <img src="images/google-play-badge.png" height=52 />
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              MapCache
             </a>
-          </li>
-          <li>
-            <a href='https://ngageoint.github.io/geopackage-mapcache-android/legacy/mapcache.zip'>
-              <img src="https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=Legacy%20APK"/>
-            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <li><a class="dropdown-item" href="#desktop">MacOS and Windows</a></li>
+              <li><a class="dropdown-item" href="#mobile">Android and iOS</a></li>
+            </ul>
           </li>
         </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/geopackage-mapcache-ios/'>iOS</a>
-        <div>An iOS app that can be built and installed from Xcode.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-mapcache-ios'>
-              <img src="https://img.shields.io/github/release/ngageoint/geopackage-mapcache-ios.svg?label=GitHub&sort=semver"/>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid header d-flex justify-content-center center-vertical-container">
+    <div class="row">
+      <div class="col-5 right-align gap-top center-vertical-container">
+        <h1>GeoPackage</h1>
+      </div>
+      <div class="col-2">
+        <img class="img-fit" alt="GeoPackage" src="images/gpkg.png">
+      </div>
+      <div class="col-5 gap-top center-vertical-container">
+        <h2>Tiles and features</h2>
+        <h2>Mobile friendly</h2>
+        <h2>No connection, no problem</h2>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div id="desktop" class="container-fluid gap-top justify-content-center"></div>
+    <div class="row gap-top-l">
+      <div class="col col-lg-6 offset-lg-1 col-xl-4 offset-xl-2 col-xxl-4 offset-xxl-4 center-vertical-container">
+        <div class="row px-5">
+          <div class="col-2 center-vertical-container">
+            <img src="images/mapcache.png" class="img-fit">
+          </div>
+          <div class="col center-vertical-container">
+            <h1 class="display-5">MapCache Desktop</h1>
+            <h2 class="text-muted">Transform your data and share GeoPacakges</h2>
+          </div>
+          <div class="row my-4"></div>
+            <div class="col">
+              <p>Download tiles from WMS or XYZ servers, and import GEOINT from a variety of sources: KML, shapefile, geotiff, and more.</p>
+              <p>Find what's nearby with OpenStreetMap search. Set custom icons and style your polygons. Attach and save images.</p>
+              <p>Save your data into a GeoPackage and go offline in the field on Android and iOS</p>
+              <a href='https://github.com/ngageoint/mapcache-electron/releases/latest'></a>
+            </div>
+        </div>
+        <div class="row m-5">
+          <div class="col m-1 btn btn-windows text-center">
+            <a href="" class="">
+              <img src="images/windows.svg">
+              Windows
             </a>
-          </li>
-          <li>
-            <a href='https://apps.apple.com/us/app/mapcache-by-nga/id1477252454'>
-              <img src="images/app-store-logo.png" height=56 />
+          </div>
+          <div class="col m-1 btn btn-macos text-center">
+            <a href="" class="center"> MacOS</a>
+          </div>
+          <div class="col m-1 btn btn-linux text-center">
+            <a href="" class="center">
+              <img src="images/linux.svg">
+              Linux
             </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        Desktop
-        <div>A desktop application running in Electron, built for Windows, Linux, and MacOS.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/mapcache-electron'>
-              <img src="https://img.shields.io/github/release/ngageoint/mapcache-electron.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://github.com/ngageoint/mapcache-electron/releases/latest'>
-              <img src="https://img.shields.io/github/release/ngageoint/mapcache-electron.svg?label=Release&sort=semver"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-    </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p>
+              Fork it on Github <a href='https://github.com/ngageoint/mapcache-electron'>
+                <img src="https://img.shields.io/github/release/ngageoint/mapcache-electron.svg?label=GitHub&sort=semver"/>
+              </a>
+            </p>
+          </div>
+        </div>  
+      </div>
+
+      <div class="col col-lg-5 col-xl-3 offset-xl-3 col-xxl-3 offset-xxl-1 right-align">
+        <img src="images/mbp.png" class="img-fit">
+      </div>
+    </div>
+  </div>
+
+  <div id="mobile" class="container-fluid gap-top-xl gap-bottom-xl">
+    <div class="row">
+      <div class="col col-lg-4 offset-lg-1 col-xxl-4">
+        <img src="images/mobile.png" class="img-fit">
+      </div>
+      <div class="col col-lg-6 col-xxl-3 center-vertical-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/mapcache-mobile.png" class="img-fit">
+          </div>
+          <div class="col center-vertical-container">
+            <h1 class="display-5">MapCache Mobile</h1>
+            <h2 class="text-muted">Your geospatial data, on the go, even disconnected</h2>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col">
+            <p>Download tiles from XYZ and WMS servers for use in disadvantaged areas. Create points and collect data in the field with custom forms and photo attachments.</p>
+            <p>Share your GeoPackages with other users via Android Beam or Airdrop. Use your data in other apps that support GeoPackage on your device.</p>
+            <p>Download from Google Play or the App Store on your device, or build it on your machine from source.</p>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col">
+            <div>
+              <a href='https://play.google.com/store/apps/details?id=mil.nga.mapcache'>
+                <img src="images/google-play-badge.png" height=52 />
+              </a>
+            </div>
+            <div class="px-3">
+              <a href='https://github.com/ngageoint/geopackage-mapcache-android'>
+                <img src="https://img.shields.io/github/release/ngageoint/geopackage-mapcache-android.svg?label=Android%20GitHub&sort=semver"/>
+              </a>
+            </div>
+            <div class="p-3">
+              <a href='https://ngageoint.github.io/geopackage-mapcache-android/legacy/mapcache.zip'>
+                <img src="https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=Legacy%20APK"/>
+              </a>
+            </div>
+          </div>
+
+          <div class="col">
+            <div>
+              <a href='https://apps.apple.com/us/app/mapcache-by-nga/id1477252454'>
+                <img src="images/app-store-logo.png" height=56 />
+              </a>
+            </div>
+
+            <div class="px-3">
+              <a href='https://github.com/ngageoint/geopackage-mapcache-ios'>
+                <img src="https://img.shields.io/github/release/ngageoint/geopackage-mapcache-ios.svg?label=iOS%20GitHub&sort=semver"/>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-    <h2>GeoPackage</h2>
+  <div class="section-code center-vertical-container">
+    <div class="container">
+      <div class="row gap-top">
+        <div class="col-3 center-vertical-container">
+          <img src="images/gpkg-gray.png" class="img-fit">
+        </div>
+        <div class="col center-vertical-container">
+          <h1 class="display-1">Build with GeoPackage</h1>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <div class="heading-description">An <a href='https://www.ogc.org/resource/products?org_match=US%20National%20Geospatial-Intelligence%20Agency%20(NGA)'>OGC Certified</a> SDK that provides the ability to manage GeoPackage files providing read, write, import, export, share, and open support. Open GeoPackage files provide read and write access to features and tiles.</div>
+  <div class="container gap-top-xl">
+    <div class="row justify-content-md-center">
+      <div class="col-9 col-offset-3">
+        <p>
+          MapCache, and many other apps, are powered by the NGA's GeoPackage libraries.
+        </p>
+        <p>
+          The <a href='http://www.nga.mil/'>National Geospatial-Intelligence Agency (NGA)</a>, in collaboration with <a href='http://www.caci.com/bit-systems'>BIT Systems</a>, makes available under the <a href="https://opensource.org/licenses/MIT">MIT License</a> a collection of <a href='http://www.geopackage.org'>OGC GeoPackage</a> <a href='http://www.geopackage.org/spec'>spec</a> libraries listed as GeoPackage <a href='http://www.geopackage.org/implementations.html'>implementations</a>.
+          The NGA GeoPackage Libraries include creation, visualization, and management SDKs including sample applications for Android and iOS.
+        </p>
 
-    <ul class="projects">
-      <li>
-        <a class="project-title" href='http://ngageoint.github.io/geopackage-java/'>Java</a>
-        <div>A Java library providing GeoPackage functionality and command line tools.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-java'>
-              <img src="https://img.shields.io/github/release/ngageoint/geopackage-java.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/geopackage-java/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga.geopackage/geopackage'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://www.opengeospatial.org/resource/products/details/?pid=1678'>
-              <img src="images/ogc.gif" height=30/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/geopackage-android/'>Android</a>
-        <div>An Android SDK providing GeoPackage functionality and utilities to Android apps.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-android'>
-              <img src="https://img.shields.io/github/release/ngageoint/geopackage-android.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/geopackage-android/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-android.svg?label=Javadoc&colorB=39be00" />
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga.geopackage/geopackage-android'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-android.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://www.opengeospatial.org/resource/products/details/?pid=1679'>
-              <img src="images/ogc.gif" height=30/>
-            </a>
-          </li>
-          <li>
-            <a href='https://github.com/opengeospatial/cite/wiki/Reference-Implementations'>
-              <p style="font-size:14px;color:red;white-space:nowrap"><img src="https://www.ogc.org/pub/www/files/favicon.ico"/>Official Reference Implementation</p>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/geopackage-android-map/'>Android Map</a>
-        <div>An Android Map SDK providing GeoPackage map functionality (includes GeoPackage Android).</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-android-map'>
-              <img src="https://img.shields.io/github/release/ngageoint/geopackage-android-map.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/geopackage-android-map/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage.map/geopackage-android-map.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga.geopackage.map/geopackage-android-map'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage.map/geopackage-android-map.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://www.opengeospatial.org/resource/products/details/?pid=1679'>
-              <img src="images/ogc.gif" height=30/>
-            </a>
-          </li>
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-android-map/tree/master/docs/examples'>
-              <img src="https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=Examples"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/geopackage-ios/'>iOS</a>
-        <div>An iOS SDK providing GeoPackage functionality and utilities to iOS apps.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-ios'>
-              <img src="https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/geopackage-ios/docs/api/'>
-              <img src="https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=Appledoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://cocoapods.org/pods/geopackage-ios'>
-              <img src="https://img.shields.io/cocoapods/v/geopackage-ios.svg?label=CocoaPods"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://www.opengeospatial.org/resource/products/details/?pid=1680'>
-              <img src="images/ogc.gif" height=30/>
-            </a>
-          </li>
-          <li>
-            <a href='https://github.com/opengeospatial/cite/wiki/Reference-Implementations'>
-              <p style="font-size:14px;color:red;white-space:nowrap"><img src="https://www.ogc.org/pub/www/files/favicon.ico"/>Official Reference Implementation</p>
-            </a>
-          </li>
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples'>
-              <img src="https://img.shields.io/static/v1?label=&logo=iOS&color=informational&message=Examples"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/geopackage-js/'>JavaScript</a>
-        <div>A JavaScript library providing GeoPackage functionality and utilities to node and web applications.</div>
-        <ul class="locations">
-          <li>
+        <p>An <a href='https://www.ogc.org/resource/products?org_match=US%20National%20Geospatial-Intelligence%20Agency%20(NGA)'>OGC Certified</a> SDK that provides the ability to manage GeoPackage files providing read, write, import, export, share, and open support. Open GeoPackage files provide read and write access to features and tiles.</p>
+      
+        <h2><a href='http://ngageoint.github.io/GeoPackage/docs/extensions/'>Extensions</a></h2>
+        <p>
+          <p>NGA defined GeoPackage extensions.</p>
+          <ul class="locations">
+            <li>
+              <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/contents-id.html'>
+                <img src="https://img.shields.io/static/v1?label=&color=informational&message=Contents%20Id"/>
+              </a>
+            </li>
+            <li>
+              <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/feature-style.html'>
+                <img src="https://img.shields.io/static/v1?label=&color=informational&message=Feature%20Style"/>
+              </a>
+            </li>
+            <li>
+              <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/feature-tile-link.html'>
+                <img src="https://img.shields.io/static/v1?label=&color=informational&message=Feature%20Tile%20Link"/>
+              </a>
+            </li>
+            <li>
+              <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/geometry-index.html'>
+                <img src="https://img.shields.io/static/v1?label=&color=informational&message=Geometry%20Index"/>
+              </a>
+            </li>
+            <li>
+              <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/properties.html'>
+                <img src="https://img.shields.io/static/v1?label=&color=informational&message=Properties"/>
+              </a>
+            </li>
+            <li>
+              <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/tile-scaling.html'>
+                <img src="https://img.shields.io/static/v1?label=&color=informational&message=Tile%20Scaling"/>
+              </a>
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>  
+  </div>
+
+
+  <div class="section-topo">
+    <div class="container gap-top-xl">
+      <div class="row gap-bottom-l">
+        <div class="col-3">
+          <h1 id="java">Java</h1>
+        </div>
+        <div class="col-9">
+          <div class="row">
+            
+            <div class="col-4">
+              <div class="card p-4">
+                <h2><a class="project-title" href='http://ngageoint.github.io/geopackage-java/'>Java</a>
+                  <a href='http://www.opengeospatial.org/resource/products/details/?pid=1678'>
+                    <img src="images/ogc.gif" height=30/>
+                  </a>
+                </h2>
+                <p>A Java library providing GeoPackage functionality and command line tools.</p>
+                <div>
+                  <a href='https://github.com/ngageoint/geopackage-java'>
+                    <img src="https://img.shields.io/github/release/ngageoint/geopackage-java.svg?label=GitHub&sort=semver"/>
+                  </a>
+                </div>
+                <div class="my-2">
+                  <a href='http://ngageoint.github.io/geopackage-java/docs/api'>
+                    <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage.svg?label=Javadoc&colorB=39be00"/>
+                  </a>
+                </div>
+                <div>
+                  <a href='https://search.maven.org/artifact/mil.nga.geopackage/geopackage'>
+                    <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage.svg?label=The%20Central%20Repository"/>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <div class="col-4">
+              <div class="card p-4">
+                <h2><a href='http://github.com/ngageoint/geopackage-java/tree/master/script/sqlite-exec'>SQLite Exec</a></h2>
+                <p>Command utility that executes SQL statements on a SQLite database, including GeoPackages.</p>
+                <a href='https://github.com/ngageoint/geopackage-java/releases/latest/download/sqlite-exec.zip'>
+                  <img src="https://img.shields.io/github/release/ngageoint/geopackage-java.svg?label=sqlite-exec.zip"/>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="col-4">
+              <div class=" card p-4">
+                <h2><a href='http://ngageoint.github.io/simple-features-java/'>Simple Features</a></h2>
+                <p>Base library of geometry objects and utilities.</p>
+                <a href='https://github.com/ngageoint/simple-features-java'>
+                  <img src="https://img.shields.io/github/release/ngageoint/simple-features-java.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/simple-features-java/docs/api' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga/sf.svg?label=Javadoc&colorB=39be00"/>
+                </a>
+                <a href='https://search.maven.org/artifact/mil.nga/sf'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga/sf.svg?label=The%20Central%20Repository"/>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2><a href='http://ngageoint.github.io/simple-features-wkb-java/'>Well-Known Binary</a></h2>
+                <p>Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.</p>
+                <a href='https://github.com/ngageoint/simple-features-wkb-java'>
+                  <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkb-java.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/simple-features-wkb-java/docs/api' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkb.svg?label=Javadoc&colorB=39be00"/>
+                </a>
+                <a href='https://search.maven.org/artifact/mil.nga.sf/sf-wkb'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkb.svg?label=The%20Central%20Repository"/>
+                </a>
+                </div>
+              </div>
+
+
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2><a href='http://ngageoint.github.io/simple-features-wkt-java/'>Well-Known Text</a></h2>
+                <p>Library for writing and reading Simple Feature Geometries to and from Well-Known Text.</p>
+                <a href='https://github.com/ngageoint/simple-features-wkt-java'>
+                  <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkt-java.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/simple-features-wkt-java/docs/api' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkt.svg?label=Javadoc&colorB=39be00"/>
+                </a>
+                <a href='https://search.maven.org/artifact/mil.nga.sf/sf-wkt'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkt.svg?label=The%20Central%20Repository"/>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2><a href='http://ngageoint.github.io/simple-features-geojson-java/'>GeoJSON</a></h2>
+                <p>Library for writing and reading Simple Feature Geometries to and from GeoJSON.</p>                
+                <a href='https://github.com/ngageoint/simple-features-geojson-java'>
+                  <img src="https://img.shields.io/github/release/ngageoint/simple-features-geojson-java.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/simple-features-geojson-java/docs/api' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-geojson.svg?label=Javadoc&colorB=39be00"/>
+                </a>
+                <a href='https://search.maven.org/artifact/mil.nga.sf/sf-geojson'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-geojson.svg?label=The%20Central%20Repository"/>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2><a href='http://ngageoint.github.io/simple-features-proj-java/'>Projection</a></h2>
+                <p>Library for performing projection conversions between Simple Feature Geometries.</p>
+                <a href='https://github.com/ngageoint/simple-features-proj-java'>
+                  <img src="https://img.shields.io/github/release/ngageoint/simple-features-proj-java.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/simple-features-proj-java/docs/api' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-proj.svg?label=Javadoc&colorB=39be00"/>
+                </a>
+                <a href='https://search.maven.org/artifact/mil.nga.sf/sf-proj'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-proj.svg?label=The%20Central%20Repository"/>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2><a href='http://ngageoint.github.io/geopackage-core-java/'>Core Java</a></h2>
+                <p>A non-standalone library providing core GeoPackage functionality to Java and Android libraries.</p>
+                <a href='https://github.com/ngageoint/geopackage-core-java'>
+                  <img src="https://img.shields.io/github/release/ngageoint/geopackage-core-java.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/geopackage-core-java/docs/api' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-core.svg?label=Javadoc&colorB=39be00"/>
+                </a>
+                <a href='https://search.maven.org/artifact/mil.nga.geopackage/geopackage-core'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-core.svg?label=The%20Central%20Repository"/>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2><a href='http://ngageoint.github.io/projections-java/'>Projections Java</a></h2>
+                <p>A Java library providing projections functionality.</p>
+                <a href='https://github.com/ngageoint/projections-java'>
+                  <img src="https://img.shields.io/github/release/ngageoint/projections-java.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/projections-java/docs/api' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga/proj.svg?label=Javadoc&colorB=39be00"/>
+                </a>     
+                <a href='https://search.maven.org/artifact/mil.nga/proj'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga/proj.svg?label=The%20Central%20Repository"/>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2><a href='http://github.com/ngageoint/projections-java/tree/master/script/project'>Project</a></h2>
+                <p>Command utility to perform coordinate transformations from a source projection to a target projection.</p>
+                <a href='https://github.com/ngageoint/projections-java/releases/latest/download/project.zip'>
+                  <img src="https://img.shields.io/github/release/ngageoint/projections-java.svg?label=project.zip"/>
+                </a>
+              </div>
+            </div>  
+
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2><a href='http://ngageoint.github.io/coordinate-reference-systems-java/'>Coordinate Reference Systems Java</a></h2>
+                <p>A Java implementation of the OGC <a href='http://docs.opengeospatial.org/is/18-010r7/18-010r7.html'>Geographic information — Well-known text representation of coordinate reference systems</a> specification (not GeoPackage specific).</p>
+                <a href='https://github.com/ngageoint/coordinate-reference-systems-java'>
+                  <img src="https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-java.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/coordinate-reference-systems-java/docs/api' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga/crs.svg?label=Javadoc&colorB=39be00"/>
+                </a>
+                <a href='https://search.maven.org/artifact/mil.nga/crs'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga/crs.svg?label=The%20Central%20Repository"/>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2><a href='http://ngageoint.github.io/tiff-java/'>TIFF Java</a></h2>
+                <p>A Java library providing Tagged Image File Format functionality (not GeoPackage specific).</p>
+                <a href='https://github.com/ngageoint/tiff-java'>
+                  <img src="https://img.shields.io/github/release/ngageoint/tiff-java.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/tiff-java/docs/api' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga/tiff.svg?label=Javadoc&colorB=39be00"/>
+                </a>
+                <a href='https://search.maven.org/artifact/mil.nga/tiff'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga/tiff.svg?label=The%20Central%20Repository"/>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2><a href='http://ngageoint.github.io/ogc-api-features-json-java/'>Features JSON Java</a></h2>
+                <p>A Java library for writing and reading <a href='https://github.com/opengeospatial/WFS_FES'>OGC API - Features</a> to and from JSON. Based upon the <a href='https://github.com/opengeospatial/oapi_common'>OGC API Specification</a> (not GeoPackage specific).</p>
+                <a href='https://github.com/ngageoint/ogc-api-features-json-java'>
+                  <img src="https://img.shields.io/github/release/ngageoint/ogc-api-features-json-java.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/ogc-api-features-json-java/docs/api/' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.oapi.features/oapi-features-json.svg?label=Javadoc&colorB=39be00"/>
+                </a>
+                <a href='https://search.maven.org/artifact/mil.nga.oapi.features/oapi-features-json'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.oapi.features/oapi-features-json.svg?label=The%20Central%20Repository"/>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2><a href='http://github.com/ngageoint/coordinate-reference-systems-java/tree/master/script/pretty'>Coordinate Reference Systems Pretty</a></h2>
+                <p>Command utility to parse and pretty print OGC Coordinate Reference System Well-Known Text.</p>
+                <a href='https://github.com/ngageoint/coordinate-reference-systems-java/releases/latest/download/pretty.zip'>
+                  <img src="https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-java.svg?label=pretty.zip"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container gap-top-xl">
+    <div class="row">
+      <div class="col-3">
+        <h1 id="javascript">JavaScript</h1>
+      </div>
+      <div class="col-9">
+        <div class="row">
+          <div class="col-4 card p-4 m-2">
+            <h2 class="project-title"><a href='http://ngageoint.github.io/geopackage-js/'>JavaScript</a>
+              <a href='http://www.opengeospatial.org/resource/products/details/?pid=1628'>
+                <img src="images/ogc.gif" height=30/>
+              </a>
+            </h2>
+            <p>A JavaScript library providing GeoPackage functionality and utilities to node and web applications.</p>
             <a href='https://github.com/ngageoint/geopackage-js'>
               <img src="https://img.shields.io/github/release/ngageoint/geopackage-js.svg?label=GitHub&sort=semver"/>
             </a>
-          </li>
-          <li>
-            <a href='https://www.npmjs.com/package/@ngageoint/geopackage'>
+            <a href='https://www.npmjs.com/package/@ngageoint/geopackage' class="my-2">
               <img src="https://img.shields.io/npm/v/@ngageoint/geopackage.svg"/>
             </a>
-          </li>
-          <li>
             <a href='http://ngageoint.github.io/geopackage-js/'>
               <img src="https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=GeoPackage%20Viewer"/>
             </a>
-          </li>
-          <li>
-            <a href='http://www.opengeospatial.org/resource/products/details/?pid=1628'>
-              <img src="images/ogc.gif" height=30/>
-            </a>
-          </li>
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-js/tree/master/docs/examples'>
+            <a href='https://github.com/ngageoint/geopackage-js/tree/master/docs/examples' class="mt-2">
               <img src="https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=Examples"/>
             </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/geopackage-core-java/'>Core Java</a>
-        <div>A non-standalone library providing core GeoPackage functionality to Java and Android libraries.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-core-java'>
-              <img src="https://img.shields.io/github/release/ngageoint/geopackage-core-java.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/geopackage-core-java/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-core.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga.geopackage/geopackage-core'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-core.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/'>Extensions</a>
-        <div>NGA defined GeoPackage extensions.</div>
-        <ul class="locations">
-          <li>
-            <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/contents-id.html'>
-              <img src="https://img.shields.io/static/v1?label=&color=informational&message=Contents%20Id"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/feature-style.html'>
-              <img src="https://img.shields.io/static/v1?label=&color=informational&message=Feature%20Style"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/feature-tile-link.html'>
-              <img src="https://img.shields.io/static/v1?label=&color=informational&message=Feature%20Tile%20Link"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/geometry-index.html'>
-              <img src="https://img.shields.io/static/v1?label=&color=informational&message=Geometry%20Index"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/properties.html'>
-              <img src="https://img.shields.io/static/v1?label=&color=informational&message=Properties"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/GeoPackage/docs/extensions/tile-scaling.html'>
-              <img src="https://img.shields.io/static/v1?label=&color=informational&message=Tile%20Scaling"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://github.com/ngageoint/geopackage-java/tree/master/script/sqlite-exec'>SQLite Exec</a>
-        <div>Command utility that executes SQL statements on a SQLite database, including GeoPackages.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-java/releases/latest/download/sqlite-exec.zip'>
-              <img src="https://img.shields.io/github/release/ngageoint/geopackage-java.svg?label=sqlite-exec.zip"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        GeoPackage To Go
-        <div>Code examples from the talk at FOSS4G North America 2018 - St. Louis, MO.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-android-map/tree/master/docs/examples/kotlin/GeoPackageToGoAndroid'>
-              <img src="https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=Android"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples/swift/GeoPackage-to-go-iOS'>
-              <img src="https://img.shields.io/static/v1?label=&logo=Apple&color=informational&message=iOS"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://github.com/ngageoint/geopackage-js/tree/master/docs/examples/GeoPackageToGo'>
-              <img src="https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=Web"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-    </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-    <h2>Simple Features</h2>
+  <div class="section-topo">
+    <div class="container gap-top-xl">
+      <div class="row gap-bottom-l">
+        <div class="col-3">
+          <h1 id="android">Android</h1>
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2 class="project-title">
+                  <a href='http://ngageoint.github.io/geopackage-android/'>Android</a>
+                  <a href='http://www.opengeospatial.org/resource/products/details/?pid=1679'>
+                    <img src="images/ogc.gif" height=30/>
+                  </a>
+                </h2>
+                <p>An Android SDK providing GeoPackage functionality and utilities to Android apps.</p>
+                <a href='https://github.com/ngageoint/geopackage-android'>
+                  <img src="https://img.shields.io/github/release/ngageoint/geopackage-android.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/geopackage-android/docs/api' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-android.svg?label=Javadoc&colorB=39be00" />
+                </a>
+                <a href='https://search.maven.org/artifact/mil.nga.geopackage/geopackage-android'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-android.svg?label=The%20Central%20Repository"/>
+                </a>
+                <a href='https://github.com/opengeospatial/cite/wiki/Reference-Implementations' class="my-2">
+                  <p style="font-size:14px;color:red;white-space:nowrap"><img src="https://www.ogc.org/pub/www/files/favicon.ico"/>Official Reference Implementation</p>
+                </a>
+              </div>
+            </div>
 
-    <div class="heading-description">Libraries based upon the <a href='http://www.opengeospatial.org/standards/sfa'>OGC Simple Feature Access</a> standard (not GeoPackage specific).</div>
+            <div class="col-4 my-4">
+              <div class=" card p-4">
+                <h2 class="project-title">
+                  <a href='http://ngageoint.github.io/geopackage-android-map/'>Android Map</a>
+                  <a href='http://www.opengeospatial.org/resource/products/details/?pid=1679'>
+                    <img src="images/ogc.gif" height=30/>
+                  </a>
+                </h2>
+                <p>An Android Map SDK providing GeoPackage map functionality (includes GeoPackage Android).</p>
+                <a href='https://github.com/ngageoint/geopackage-android-map'>
+                  <img src="https://img.shields.io/github/release/ngageoint/geopackage-android-map.svg?label=GitHub&sort=semver"/>
+                </a>
+                <a href='http://ngageoint.github.io/geopackage-android-map/docs/api' class="my-2">
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage.map/geopackage-android-map.svg?label=Javadoc&colorB=39be00"/>
+                </a>
+                <a href='https://search.maven.org/artifact/mil.nga.geopackage.map/geopackage-android-map'>
+                  <img src="https://img.shields.io/maven-central/v/mil.nga.geopackage.map/geopackage-android-map.svg?label=The%20Central%20Repository"/>
+                </a>
+                <a href='https://github.com/ngageoint/geopackage-android-map/tree/master/docs/examples' class="mt-2">
+                  <img src="https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=Examples"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <h3>Java</h3>
+  <div class="container gap-top-xl">
+    <div class="row">
+      <div class="col-3">
+        <h1 id="ios">iOS</h1>
+      </div>
+      <div class="col-9">
+        <div class="row">
+          <div class="col-4">
+            <div class=" card p-4">
+              <h2 class="project-title">
+                <a href='http://ngageoint.github.io/geopackage-ios/'>iOS</a>
+                <a href='http://www.opengeospatial.org/resource/products/details/?pid=1680'>
+                  <img src="images/ogc.gif" height=30/>
+                </a>
+              </h2>
+              <p>An iOS SDK providing GeoPackage functionality and utilities to iOS apps.</p>
+              <a href='https://github.com/ngageoint/geopackage-ios'>
+                <img src="https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=GitHub&sort=semver"/>
+              </a>
+              <a href='http://ngageoint.github.io/geopackage-ios/docs/api/' class="my-2">
+                <img src="https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=Appledoc&colorB=39be00"/>
+              </a>
+              <a href='https://cocoapods.org/pods/geopackage-ios'>
+                <img src="https://img.shields.io/cocoapods/v/geopackage-ios.svg?label=CocoaPods"/>
+              </a>
+              <a href='https://github.com/opengeospatial/cite/wiki/Reference-Implementations' class="my-2">
+                <p style="font-size:14px;color:red;white-space:nowrap"><img src="https://www.ogc.org/pub/www/files/favicon.ico"/>Official Reference Implementation</p>
+              </a>
+              <a href='https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples'>
+                <img src="https://img.shields.io/static/v1?label=&logo=iOS&color=informational&message=Examples"/>
+              </a>
+            </div>
+          </div>
 
-    <ul class="projects">
-      <li>
-        <a href='http://ngageoint.github.io/simple-features-java/'>Simple Features</a>
-        <div>Base library of geometry objects and utilities.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/simple-features-java'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-java.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/simple-features-java/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga/sf.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga/sf'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga/sf.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/simple-features-wkb-java/'>Well-Known Binary</a>
-        <div>Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/simple-features-wkb-java'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkb-java.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/simple-features-wkb-java/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkb.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga.sf/sf-wkb'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkb.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/simple-features-wkt-java/'>Well-Known Text</a>
-        <div>Library for writing and reading Simple Feature Geometries to and from Well-Known Text.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/simple-features-wkt-java'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkt-java.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/simple-features-wkt-java/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkt.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga.sf/sf-wkt'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-wkt.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/simple-features-geojson-java/'>GeoJSON</a>
-        <div>Library for writing and reading Simple Feature Geometries to and from GeoJSON.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/simple-features-geojson-java'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-geojson-java.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/simple-features-geojson-java/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-geojson.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga.sf/sf-geojson'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-geojson.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/simple-features-proj-java/'>Projection</a>
-        <div>Library for performing projection conversions between Simple Feature Geometries.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/simple-features-proj-java'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-proj-java.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/simple-features-proj-java/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-proj.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga.sf/sf-proj'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.sf/sf-proj.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-    </ul>
+          <div class="col-4">
+            <div class=" card p-4">
+              <h2><a href='http://ngageoint.github.io/simple-features-ios/'>Simple Features</a></h2>
+              <p>Base library of geometry objects and utilities.</p>
+              <a href='https://github.com/ngageoint/simple-features-ios'>
+                <img src="https://img.shields.io/github/release/ngageoint/simple-features-ios.svg?label=GitHub&sort=semver"/>
+              </a>
+              <a href='http://ngageoint.github.io/simple-features-ios/docs/api/' class="my-2">
+                <img src="https://img.shields.io/github/release/ngageoint/simple-features-ios.svg?label=Appledoc&colorB=39be00"/>
+              </a>
+              <a href='https://cocoapods.org/pods/sf-ios'>
+                <img src="https://img.shields.io/cocoapods/v/sf-ios.svg?label=CocoaPods"/>
+              </a>
+            </div>
+          </div>
 
-    <h3>iOS</h3>
+          <div class="col-4">
+            <div class=" card p-4">
+              <h2><a href='http://ngageoint.github.io/simple-features-wkb-ios/'>Well-Known Binary</a></h2>
+              <p>Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.</p>
+              <a href='https://github.com/ngageoint/simple-features-wkb-ios'>
+                <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkb-ios.svg?label=GitHub&sort=semver"/>
+              </a>
+              <a href='http://ngageoint.github.io/simple-features-wkb-ios/docs/api/' class="my-2">
+                <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkb-ios.svg?label=Appledoc&colorB=39be00"/>
+              </a>
+              <a href='https://cocoapods.org/pods/sf-wkb-ios'>
+                <img src="https://img.shields.io/cocoapods/v/sf-wkb-ios.svg?label=CocoaPods"/>
+              </a>
+            </div>
+          </div>
 
-    <ul class="projects">
-      <li>
-        <a href='http://ngageoint.github.io/simple-features-ios/'>Simple Features</a>
-        <div>Base library of geometry objects and utilities.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/simple-features-ios'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-ios.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/simple-features-ios/docs/api/'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-ios.svg?label=Appledoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://cocoapods.org/pods/sf-ios'>
-              <img src="https://img.shields.io/cocoapods/v/sf-ios.svg?label=CocoaPods"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/simple-features-wkb-ios/'>Well-Known Binary</a>
-        <div>Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/simple-features-wkb-ios'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkb-ios.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/simple-features-wkb-ios/docs/api/'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkb-ios.svg?label=Appledoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://cocoapods.org/pods/sf-wkb-ios'>
-              <img src="https://img.shields.io/cocoapods/v/sf-wkb-ios.svg?label=CocoaPods"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/simple-features-wkt-ios/'>Well-Known Text</a>
-        <div>Library for writing and reading Simple Feature Geometries to and from Well-Known Text.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/simple-features-wkt-ios'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkt-ios.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/simple-features-wkt-ios/docs/api/'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkt-ios.svg?label=Appledoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://cocoapods.org/pods/sf-wkt-ios'>
-              <img src="https://img.shields.io/cocoapods/v/sf-wkt-ios.svg?label=CocoaPods"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/simple-features-geojson-ios/'>GeoJSON</a>
-        <div>Library for writing and reading Simple Feature Geometries to and from GeoJSON.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/simple-features-geojson-ios'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-geojson-ios.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/simple-features-geojson-ios/docs/api'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-geojson-ios.svg?label=Appledoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://cocoapods.org/pods/sf-geojson-ios'>
-              <img src="https://img.shields.io/cocoapods/v/sf-geojson-ios.svg?label=CocoaPods"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/simple-features-proj-ios/'>Projection</a>
-        <div>Library for performing projection conversions between Simple Feature Geometries.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/simple-features-proj-ios'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-proj-ios.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/simple-features-proj-ios/docs/api/'>
-              <img src="https://img.shields.io/github/release/ngageoint/simple-features-proj-ios.svg?label=Appledoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://cocoapods.org/pods/sf-proj-ios'>
-              <img src="https://img.shields.io/cocoapods/v/sf-proj-ios.svg?label=CocoaPods"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-    </ul>
+          <div class="col-4 my-4">
+            <div class=" card p-4">
+              <h2><a href='http://ngageoint.github.io/simple-features-wkt-ios/'>Well-Known Text</a></h2>
+              <p>Library for writing and reading Simple Feature Geometries to and from Well-Known Text.</p>         
+              <a href='https://github.com/ngageoint/simple-features-wkt-ios'>
+                <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkt-ios.svg?label=GitHub&sort=semver"/>
+              </a>
+              <a href='http://ngageoint.github.io/simple-features-wkt-ios/docs/api/' class="my-2">
+                <img src="https://img.shields.io/github/release/ngageoint/simple-features-wkt-ios.svg?label=Appledoc&colorB=39be00"/>
+              </a>
+              <a href='https://cocoapods.org/pods/sf-wkt-ios'>
+                <img src="https://img.shields.io/cocoapods/v/sf-wkt-ios.svg?label=CocoaPods"/>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-4 my-4">
+            <div class=" card p-4">
+              <h2><a href='http://ngageoint.github.io/simple-features-geojson-ios/'>GeoJSON</a></h2>
+              <p>Library for writing and reading Simple Feature Geometries to and from GeoJSON.</p>
+              <a href='https://github.com/ngageoint/simple-features-geojson-ios'>
+                <img src="https://img.shields.io/github/release/ngageoint/simple-features-geojson-ios.svg?label=GitHub&sort=semver"/>
+              </a>
+              <a href='http://ngageoint.github.io/simple-features-geojson-ios/docs/api' class="my-2">
+                <img src="https://img.shields.io/github/release/ngageoint/simple-features-geojson-ios.svg?label=Appledoc&colorB=39be00"/>
+              </a>
+              <a href='https://cocoapods.org/pods/sf-geojson-ios'>
+                <img src="https://img.shields.io/cocoapods/v/sf-geojson-ios.svg?label=CocoaPods"/>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-4 my-4">
+            <div class=" card p-4">
+              <h2><a href='http://ngageoint.github.io/simple-features-proj-ios/'>Simple Features Projection</a></h2>
+              <p>Library for performing projection conversions between Simple Feature Geometries.</p>
+              <a href='https://github.com/ngageoint/simple-features-proj-ios'>
+                <img src="https://img.shields.io/github/release/ngageoint/simple-features-proj-ios.svg?label=GitHub&sort=semver"/>
+              </a>
+              <a href='http://ngageoint.github.io/simple-features-proj-ios/docs/api/' class="my-2">
+                <img src="https://img.shields.io/github/release/ngageoint/simple-features-proj-ios.svg?label=Appledoc&colorB=39be00"/>
+              </a>
+              <a href='https://cocoapods.org/pods/sf-proj-ios'>
+                <img src="https://img.shields.io/cocoapods/v/sf-proj-ios.svg?label=CocoaPods"/>
+              </a>
+            </div>
+          </div>
 
 
-    <h2>Projections</h2>
+          <div class="col-4 my-4">
+            <div class=" card p-4">
+              <h2><a href='http://ngageoint.github.io/projections-ios/'>Projections iOS</a></h2>
+              <p>An iOS library providing projections functionality (not GeoPackage specific).</p>
+              <a href='https://github.com/ngageoint/projections-ios'>
+                <img src="https://img.shields.io/github/release/ngageoint/projections-ios.svg?label=GitHub&sort=semver"/>
+              </a>
+              <a href='http://ngageoint.github.io/projections-ios/docs/api/' class="my-2">
+                <img src="https://img.shields.io/github/release/ngageoint/projections-ios.svg?label=Appledoc&colorB=39be00"/>
+              </a>
+              <a href='https://cocoapods.org/pods/proj-ios'>
+                <img src="https://img.shields.io/cocoapods/v/proj-ios.svg?label=CocoaPods"/>
+              </a>
+            </div>
+          </div>
 
-    <div class="heading-description">Library for performing projection conversions between coordinates (not GeoPackage specific).</div>
+          <div class="col-4 my-4">
+            <div class=" card p-4">
+              <h2><a href='http://ngageoint.github.io/coordinate-reference-systems-ios/'>Coordinate Reference Systems iOS</a></h2>
+              <p>An iOS implementation of the OGC <a href='http://docs.opengeospatial.org/is/18-010r7/18-010r7.html'>Geographic information — Well-known text representation of coordinate reference systems</a> specification (not GeoPackage specific).</p>
+              <a href='https://github.com/ngageoint/coordinate-reference-systems-ios'>
+                <img src="https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-ios.svg?label=GitHub&sort=semver"/>
+              </a>
+              <a href='http://ngageoint.github.io/coordinate-reference-systems-ios/docs/api/' class="my-2">
+                <img src="https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-ios.svg?label=Appledoc&colorB=39be00"/>
+              </a>
+              <a href='https://cocoapods.org/pods/crs-ios'>
+                <img src="https://img.shields.io/cocoapods/v/crs-ios.svg?label=CocoaPods"/>
+              </a>
+            </div>
+          </div>
 
-    <ul class="projects">
-      <li>
-        <a href='http://ngageoint.github.io/projections-java/'>Java</a>
-        <div>A Java library providing projections functionality.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/projections-java'>
-              <img src="https://img.shields.io/github/release/ngageoint/projections-java.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/projections-java/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga/proj.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga/proj'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga/proj.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/projections-ios/'>iOS</a>
-        <div>An iOS library providing projections functionality.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/projections-ios'>
-              <img src="https://img.shields.io/github/release/ngageoint/projections-ios.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/projections-ios/docs/api/'>
-              <img src="https://img.shields.io/github/release/ngageoint/projections-ios.svg?label=Appledoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://cocoapods.org/pods/proj-ios'>
-              <img src="https://img.shields.io/cocoapods/v/proj-ios.svg?label=CocoaPods"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://github.com/ngageoint/projections-java/tree/master/script/project'>Project</a>
-        <div>Command utility to perform coordinate transformations from a source projection to a target projection.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/projections-java/releases/latest/download/project.zip'>
-              <img src="https://img.shields.io/github/release/ngageoint/projections-java.svg?label=project.zip"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-    </ul>
+          <div class="col-4 my-4">
+            <div class=" card p-4">
+              <h2><a href='http://ngageoint.github.io/tiff-ios/'>TIFF iOS</a></h2>
+              <p>An iOS library providing Tagged Image File Format functionality (not GeoPackage specific).</p>
+              <a href='https://github.com/ngageoint/tiff-ios'>
+                <img src="https://img.shields.io/github/release/ngageoint/tiff-ios.svg?label=GitHub&sort=semver"/>
+              </a>
+              <a href='http://ngageoint.github.io/tiff-ios/docs/api/' class="my-2">
+                <img src="https://img.shields.io/github/release/ngageoint/tiff-ios.svg?label=Appledoc&colorB=39be00"/>
+              </a>
+              <a href='https://cocoapods.org/pods/tiff-ios'>
+                <img src="https://img.shields.io/cocoapods/v/tiff-ios.svg?label=CocoaPods"/>
+              </a>
+            </div>
+          </div>
 
+          <div class="col-4 my-4">
+            <div class=" card p-4">
+              <h2><a href='http://ngageoint.github.io/ogc-api-features-json-ios/'>Features JSON iOS</a></h2>
+              <p>An iOS library for writing and reading <a href='https://github.com/opengeospatial/WFS_FES'>OGC API - Features</a> to and from JSON. Based upon the <a href='https://github.com/opengeospatial/oapi_common'>OGC API Specification</a> (not GeoPackage specific).</p>
+              <a href='https://github.com/ngageoint/ogc-api-features-json-ios'>
+                <img src="https://img.shields.io/github/release/ngageoint/ogc-api-features-json-ios.svg?label=GitHub&sort=semver"/>
+              </a>
+              <a href='http://ngageoint.github.io/ogc-api-features-json-ios/docs/api' class="my-2">
+                <img src="https://img.shields.io/github/release/ngageoint/ogc-api-features-json-ios.svg?label=Appledoc&colorB=39be00"/>
+              </a>
+              <a href='https://cocoapods.org/pods/ogc-api-features-json-ios'>
+                <img src="https://img.shields.io/cocoapods/v/ogc-api-features-json-ios.svg?label=CocoaPods"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <h2>Coordinate Reference Systems</h2>
-
-    <div class="heading-description">Library implementation of the OGC <a href='http://docs.opengeospatial.org/is/18-010r7/18-010r7.html'>Geographic information — Well-known text representation of coordinate reference systems</a> specification (not GeoPackage specific).</div>
-
-    <ul class="projects">
-      <li>
-        <a href='http://ngageoint.github.io/coordinate-reference-systems-java/'>Java</a>
-        <div>A Java library providing Coordinate Reference System and Well-Known Text functionality.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/coordinate-reference-systems-java'>
-              <img src="https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-java.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/coordinate-reference-systems-java/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga/crs.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga/crs'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga/crs.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/coordinate-reference-systems-ios/'>iOS</a>
-        <div>An iOS library providing Coordinate Reference System and Well-Known Text functionality.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/coordinate-reference-systems-ios'>
-              <img src="https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-ios.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/coordinate-reference-systems-ios/docs/api/'>
-              <img src="https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-ios.svg?label=Appledoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://cocoapods.org/pods/crs-ios'>
-              <img src="https://img.shields.io/cocoapods/v/crs-ios.svg?label=CocoaPods"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://github.com/ngageoint/coordinate-reference-systems-java/tree/master/script/pretty'>Pretty</a>
-        <div>Command utility to parse and pretty print OGC Coordinate Reference System Well-Known Text.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/coordinate-reference-systems-java/releases/latest/download/pretty.zip'>
-              <img src="https://img.shields.io/github/release/ngageoint/coordinate-reference-systems-java.svg?label=pretty.zip"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-
-    <h2>TIFF</h2>
-
-    <div class="heading-description">Library for reading and writing Tagged Image File Format files (not GeoPackage specific).</div>
-
-    <ul class="projects">
-      <li>
-        <a href='http://ngageoint.github.io/tiff-java/'>Java</a>
-        <div>A Java library providing Tagged Image File Format functionality.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/tiff-java'>
-              <img src="https://img.shields.io/github/release/ngageoint/tiff-java.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/tiff-java/docs/api'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga/tiff.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga/tiff'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga/tiff.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/tiff-ios/'>iOS</a>
-        <div>An iOS library providing Tagged Image File Format functionality.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/tiff-ios'>
-              <img src="https://img.shields.io/github/release/ngageoint/tiff-ios.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/tiff-ios/docs/api/'>
-              <img src="https://img.shields.io/github/release/ngageoint/tiff-ios.svg?label=Appledoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://cocoapods.org/pods/tiff-ios'>
-              <img src="https://img.shields.io/cocoapods/v/tiff-ios.svg?label=CocoaPods"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-
-    <h2>OGC API</h2>
-
-    <div class="heading-description">Libraries based upon the <a href='https://github.com/opengeospatial/oapi_common'>OGC API Specification</a> (not GeoPackage specific).</div>
-
-    <ul class="projects">
-      <li>
-        <a href='http://ngageoint.github.io/ogc-api-features-json-java/'>Features JSON Java</a>
-        <div>A Java library for writing and reading <a href='https://github.com/opengeospatial/WFS_FES'>OGC API - Features</a> to and from JSON.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/ogc-api-features-json-java'>
-              <img src="https://img.shields.io/github/release/ngageoint/ogc-api-features-json-java.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/ogc-api-features-json-java/docs/api/'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.oapi.features/oapi-features-json.svg?label=Javadoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://search.maven.org/artifact/mil.nga.oapi.features/oapi-features-json'>
-              <img src="https://img.shields.io/maven-central/v/mil.nga.oapi.features/oapi-features-json.svg?label=The%20Central%20Repository"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href='http://ngageoint.github.io/ogc-api-features-json-ios/'>Features JSON iOS</a>
-        <div>An iOS library for writing and reading <a href='https://github.com/opengeospatial/WFS_FES'>OGC API - Features</a> to and from JSON.</div>
-        <ul class="locations">
-          <li>
-            <a href='https://github.com/ngageoint/ogc-api-features-json-ios'>
-              <img src="https://img.shields.io/github/release/ngageoint/ogc-api-features-json-ios.svg?label=GitHub&sort=semver"/>
-            </a>
-          </li>
-          <li>
-            <a href='http://ngageoint.github.io/ogc-api-features-json-ios/docs/api'>
-              <img src="https://img.shields.io/github/release/ngageoint/ogc-api-features-json-ios.svg?label=Appledoc&colorB=39be00"/>
-            </a>
-          </li>
-          <li>
-            <a href='https://cocoapods.org/pods/ogc-api-features-json-ios'>
-              <img src="https://img.shields.io/cocoapods/v/ogc-api-features-json-ios.svg?label=CocoaPods"/>
-            </a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-    <footer class="site-footer">
-      <span class="site-footer-owner"><a href="https://github.com/ngageoint/GeoPackage">GeoPackage</a> is maintained by:</span>
-      <br>
-      <a href="https://github.com/ngageoint"><img src="images/NGA_Logo.png" align="middle" height=60 />National Geospatial-Intelligence Agency</a>
-      <a style="padding-left: 30px;" href="http://www.caci.com/bit-systems"><img src="images/BITSystems_Logo.png" align="middle" height=40 /></a>
-      <br>
-      <br>
-      <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+  <div class="section-topo">
+    <div class="container gap-top-xl">
+      <div class="row">
+        <div class="col-3">
+          <h1 id="examples">Examples</h1>
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <div class="col-4 card p-4 m-2">
+              <h2>GeoPackage To Go</h2>
+              <p>Code examples from the talk at FOSS4G North America 2018 - St. Louis, MO.</p>
+              <a href='https://github.com/ngageoint/geopackage-android-map/tree/master/docs/examples/kotlin/GeoPackageToGoAndroid'>
+                <img src="https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=Android"/>
+              </a>
+              <a href='https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples/swift/GeoPackage-to-go-iOS' class="my-2">
+                <img src="https://img.shields.io/static/v1?label=&logo=Apple&color=informational&message=iOS"/>
+              </a>
+              <a href='https://github.com/ngageoint/geopackage-js/tree/master/docs/examples/GeoPackageToGo'>
+                <img src="https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=Web"/>
+              </a>        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="container gap-top-xxl">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-11 d-flex">
+        <p class="site-footer-owner"><a href="https://github.com/ngageoint/GeoPackage">GeoPackage</a> is maintained by:
+          <a href="https://github.com/ngageoint"><img src="images/NGA_Logo.png" align="middle" height=60 />National Geospatial-Intelligence Agency</a>
+          <a style="padding-left: 30px;" href="http://www.caci.com/bit-systems"><img src="images/BITSystems_Logo.png" align="middle" height=40 /></a>
+        </p>
+      </div>
+  
+      <ul class="nav col-md-1 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      </ul>
     </footer>
-
-  </section>
-
-
+  </div>
+  <script src="vendor/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
