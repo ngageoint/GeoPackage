@@ -8,6 +8,7 @@ Table of Contents
 * [Coordinate Reference Systems](#coordinate-reference-systems)
 * [TIFF](#tiff)
 * [OGC API](#ogc-api)
+* [Color](#color)
 
 # MapCache
 
@@ -201,3 +202,12 @@ Libraries based upon the [OGC API Specification](https://github.com/opengeospati
   - [![GitHub](https://img.shields.io/github/release/ngageoint/ogc-api-features-json-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/ogc-api-features-json-ios) [![Build & Test](https://github.com/ngageoint/ogc-api-features-json-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/ogc-api-features-json-ios/actions/workflows/build-test.yml)
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/ogc-api-features-json-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/ogc-api-features-json-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/ogc-api-features-json-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/ogc-api-features-json-ios)
+
+# Color
+
+Library providing color representation with support for hex, RBG, arithmetic RBG, HSL, and integer colors.
+
+- [Color Java](http://ngageoint.github.io/color-java/) - A Java color library.
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/color-java.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/color-java) [![Build & Test](https://github.com/ngageoint/color-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/color-java/actions/workflows/build-test.yml)
+  - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga/color.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/color-java/docs/api/)
+  - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga/color.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga/color)
