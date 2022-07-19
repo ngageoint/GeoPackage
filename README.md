@@ -207,7 +207,12 @@ Libraries based upon the [OGC API Specification](https://github.com/opengeospati
 
 Library providing color representation with support for hex, RBG, arithmetic RBG, HSL, and integer colors.
 
-- [Color Java](http://ngageoint.github.io/color-java/) - A Java color library.
+- [Java](http://ngageoint.github.io/color-java/) - A Java color library.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/color-java.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/color-java) [![Build & Test](https://github.com/ngageoint/color-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/color-java/actions/workflows/build-test.yml)
   - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga/color.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/color-java/docs/api/)
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga/color.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga/color)
+
+- [iOS](http://ngageoint.github.io/color-ios/) - An iOS color library.
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/color-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/color-ios) [![Build & Test](https://github.com/ngageoint/color-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/color-ios/actions/workflows/build-test.yml)
+  - [![Appledoc](https://img.shields.io/github/release/ngageoint/color-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/color-ios/docs/api)
+  - [![CocoaPods](https://img.shields.io/cocoapods/v/color-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/color-ios)
