@@ -266,8 +266,10 @@ Libraries providing geospatial reference system grid functionality (not used by 
   - [![GitHub](https://img.shields.io/github/release/ngageoint/mgrs-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/mgrs-ios) [![Build & Test](https://github.com/ngageoint/mgrs-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/mgrs-ios/actions/workflows/build-test.yml)
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/mgrs-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/mgrs-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/mgrs-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/mgrs-ios)
+  - [![App](https://img.shields.io/static/v1?label=&logo=Apple&color=informational&message=App)](https://github.com/ngageoint/mgrs-ios/tree/master/app)
 
 - [GARS](http://ngageoint.github.io/gars-ios/) - Global Area Reference System library. Relies on [Grid](https://github.com/ngageoint/grid-ios).
   - [![GitHub](https://img.shields.io/github/release/ngageoint/gars-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/gars-ios) [![Build & Test](https://github.com/ngageoint/gars-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/gars-ios/actions/workflows/build-test.yml)
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/gars-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/gars-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/gars-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/gars-ios)
+  - [![App](https://img.shields.io/static/v1?label=&logo=Apple&color=informational&message=App)](https://github.com/ngageoint/gars-ios/tree/master/app)
