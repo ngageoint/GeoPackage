@@ -9,6 +9,7 @@ Table of Contents
 * [TIFF](#tiff)
 * [OGC API](#ogc-api)
 * [Color](#color)
+* [Grid](#grid)
 
 # MapCache
 
