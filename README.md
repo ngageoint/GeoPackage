@@ -246,12 +246,14 @@ Libraries providing geospatial reference system grid functionality (not used by 
 [![Test](https://github.com/ngageoint/mgrs-android/workflows/Test/badge.svg)](https://github.com/ngageoint/mgrs-android/actions/workflows/test.yml)
   - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.mgrs/mgrs-android.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/mgrs-android/docs/api/)
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.mgrs/mgrs-android.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.mgrs/mgrs-android)
+  - [![App](https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=App)](https://github.com/ngageoint/mgrs-android/tree/master/app) [![APK](https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=APK)](https://github.com/ngageoint/mgrs-android/releases/latest/download/mgrs.apk)
 
 - [GARS](http://ngageoint.github.io/gars-android/) - Global Area Reference System library. Relies on [GARS Java](https://github.com/ngageoint/gars-java).
   - [![GitHub](https://img.shields.io/github/release/ngageoint/gars-android.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/gars-android) [![Build Artifacts](https://github.com/ngageoint/gars-android/workflows/Build%20Artifacts/badge.svg)](https://github.com/ngageoint/gars-android/actions/workflows/build-artifacts.yml)
 [![Test](https://github.com/ngageoint/gars-android/workflows/Test/badge.svg)](https://github.com/ngageoint/gars-android/actions/workflows/test.yml)
   - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.gars/gars-android.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/gars-android/docs/api/)
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.gars/gars-android.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.gars/gars-android)
+  - [![App](https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=App)](https://github.com/ngageoint/gars-android/tree/master/app) [![APK](https://img.shields.io/static/v1?label=&logo=Android&color=informational&message=APK)](https://github.com/ngageoint/gars-android/releases/latest/download/gars.apk)
 
 ### iOS
 
