@@ -280,5 +280,5 @@ Libraries providing geospatial reference system grid functionality (not used by 
 
 Visualization of library and app dependency architecture.
 
-* [Java & Android](https://github.com/ngageoint/GeoPackage/blob/master/DependencyJavaAndroid.md)
-* [iOS](https://github.com/ngageoint/GeoPackage/blob/master/DependencyiOS.md)
+- [![Java & Android](https://img.shields.io/static/v1?label=&logo=github&color=informational&message=Java%20%26%20Android)](https://github.com/ngageoint/GeoPackage/blob/master/DependencyJavaAndroid.md)
+- [![iOS](https://img.shields.io/static/v1?label=&logo=github&color=informational&message=iOS)](https://github.com/ngageoint/GeoPackage/blob/master/DependencyiOS.md)
