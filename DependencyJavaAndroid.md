@@ -6,6 +6,8 @@ graph TD;
     MapCache-->GD_MGRSAndroid
     MapCache-->GD_GARSAndroid
     subgraph GeoPackage
+        GP_Utilities[Tile & Feature Utilities]-->GP
+        GP_SQLiteExec[SQLite Exec Utility]-->GP
         GP[GeoPackage]-->GP_Core
         GP_AndroidMap[GeoPackage Android Map]-->GP_Android
         GP_Android[GeoPackage Android]-->GP_Core
@@ -27,7 +29,10 @@ graph TD;
         SF[Simple Features]
     end
     SF_Projection-->Projections
-    Projections-->CRS[Coordinate Reference Systems]
+    ProjectUtility[Project Utility]-->Projections
+    PrettyUtility[Pretty Utility]-->CRS
+    Projections-->CRS
+    CRS[Coordinate Reference Systems]
     subgraph Grid
         GD_MGRSAndroid[MGRS Android]-->GD_MGRS
         GD_GARSAndroid[GARS Android]-->GD_GARS
