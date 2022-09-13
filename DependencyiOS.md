@@ -3,14 +3,14 @@
 ```mermaid
 graph TD;
 
-    MapCache-->GeoPackage
     MapCache-->GD_MGRS
     MapCache-->GD_GARS
-    GeoPackage-->SF_WKB
-    GeoPackage-->SF_WKT
-    GeoPackage-->OGCAPIFeatures
-    GeoPackage-->SF_Projection
+    MapCache-->GeoPackage
     GeoPackage-->Color
+    GeoPackage-->OGCAPIFeatures
+    GeoPackage-->SF_WKT
+    GeoPackage-->SF_WKB
+    GeoPackage-->SF_Projection
     GeoPackage-->TIFF
     OGCAPIFeatures[OGC API Features JSON]-->SF_GeoJSON
     subgraph Simple Features
@@ -28,8 +28,8 @@ graph TD;
         GD_GARS[GARS]-->GD
         GD[Grid]
     end
-    GD-->SF
     GD-->Color
+    GD-->SF
     
     click MapCache "https://github.com/ngageoint/geopackage-mapcache-ios" "MapCache iOS" _blank
     click GeoPackage "https://github.com/ngageoint/geopackage-ios" "GeoPackage iOS" _blank
