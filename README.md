@@ -10,7 +10,11 @@ Table of Contents
 * [OGC API](#ogc-api)
 * [Color](#color)
 * [Grid](#grid)
-* [Dependency Graphs](#dependency-graphs)
+
+#### Dependency Graphs
+
+- [![Java & Android](https://img.shields.io/static/v1?label=&logo=github&color=informational&message=Java%20%26%20Android)](https://github.com/ngageoint/GeoPackage/blob/master/DependencyJavaAndroid.md)
+- [![iOS](https://img.shields.io/static/v1?label=&logo=github&color=informational&message=iOS)](https://github.com/ngageoint/GeoPackage/blob/master/DependencyiOS.md)
 
 # MapCache
 
@@ -274,11 +278,3 @@ Libraries providing geospatial reference system grid functionality (not used by 
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/gars-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/gars-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/gars-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/gars-ios)
   - [![App](https://img.shields.io/static/v1?label=&logo=Apple&color=informational&message=App)](https://github.com/ngageoint/gars-ios/tree/master/app)
-
-
-# Dependency Graphs
-
-Visualization of library and app dependency architecture.
-
-- [![Java & Android](https://img.shields.io/static/v1?label=&logo=github&color=informational&message=Java%20%26%20Android)](https://github.com/ngageoint/GeoPackage/blob/master/DependencyJavaAndroid.md)
-- [![iOS](https://img.shields.io/static/v1?label=&logo=github&color=informational&message=iOS)](https://github.com/ngageoint/GeoPackage/blob/master/DependencyiOS.md)
