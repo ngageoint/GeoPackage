@@ -52,13 +52,13 @@
 
   <div class="container-fluid header d-flex justify-content-center center-vertical-container">
     <div class="row">
-      <div class="col-5 right-align gap-top center-vertical-container">
+      <div class="col col-4 col-lg-5 right-align gap-top center-vertical-container">
         <h1>GeoPackage</h1>
       </div>
-      <div class="col-2">
+      <div class="col col-4 col-lg-2">
         <img class="img-fit" alt="GeoPackage" src="images/gpkg.png">
       </div>
-      <div class="col-5 gap-top center-vertical-container">
+      <div class="col col-4 col-lg-5 gap-top center-vertical-container">
         <h2>Tiles and features</h2>
         <h2>Mobile friendly</h2>
         <h2>No connection, no problem</h2>
@@ -69,7 +69,12 @@
 
   <div id="desktop" class="container-fluid gap-top justify-content-center"></div>
     <div class="row gap-top-l">
-      <div class="col col-xs-12 col-sm-8 col-lg-6 offset-lg-1 col-xl-6 offset-xl-0 col-xxl-4 offset-xxl-4 center-vertical-container">
+      <div class="col col-12 col-sm-12 col-lg-6 offset-lg-1 col-xl-6 offset-xl-0 col-xxl-4 offset-xxl-4 center-vertical-container">
+        <div class="row d-block d-md-none">
+          <div lass="col">
+            <img src="images/mbp.png" class="w-50 float-end">
+          </div>
+        </div>
         <div class="row px-5">
           <div class="col-2 center-vertical-container">
             <img src="images/mapcache.png" class="img-fit">
@@ -114,7 +119,7 @@
         </div>
       </div>
 
-      <div class="col col-xs-12 col-sm-4 col-lg-5 col-xl-6 col-xxl-3 offset-xxl-1 right-align">
+      <div class="col col-xs-12 col-sm-4 col-lg-5 col-xl-6 col-xxl-3 offset-xxl-1 right-align d-none d-md-inline">
         <img src="images/mbp.png" class="img-fit">
       </div>
     </div>
@@ -259,7 +264,7 @@
         <div class="col-9">
           <div class="row">
 
-            <div class="col-4">
+            <div class="col-12 col-md-4 mb-sm-4">
               <div class="card p-4">
                 <h2><a class="project-title" href='http://ngageoint.github.io/geopackage-java/'>Java</a>
                   <a href='https://www.ogc.org/resource/products/details/?pid=1731'>
@@ -287,7 +292,7 @@
 
 
 
-            <div class="col-4">
+            <div class="col-12 col-md-4 mb-sm-4">
               <div class="card p-4">
                 <h2><a href='http://github.com/ngageoint/geopackage-java/tree/master/script/sqlite-exec'>SQLite Exec</a></h2>
                 <p>Command utility that executes SQL statements on a SQLite database, including GeoPackages.</p>
@@ -298,7 +303,7 @@
             </div>
 
 
-            <div class="col-4">
+            <div class="col-12 col-md-4 mb-sm-4">
               <div class=" card p-4">
                 <h2><a href='http://ngageoint.github.io/simple-features-java/'>Simple Features</a></h2>
                 <p>Base library of geometry objects and utilities.</p>
@@ -314,7 +319,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://ngageoint.github.io/simple-features-wkb-java/'>Well-Known Binary</a></h2>
                 <p>Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.</p>
@@ -331,7 +336,7 @@
               </div>
 
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://ngageoint.github.io/simple-features-wkt-java/'>Well-Known Text</a></h2>
                 <p>Library for writing and reading Simple Feature Geometries to and from Well-Known Text.</p>
@@ -347,7 +352,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://ngageoint.github.io/simple-features-geojson-java/'>GeoJSON</a></h2>
                 <p>Library for writing and reading Simple Feature Geometries to and from GeoJSON.</p>
@@ -363,7 +368,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://ngageoint.github.io/simple-features-proj-java/'>Projection</a></h2>
                 <p>Library for performing projection conversions between Simple Feature Geometries.</p>
@@ -379,7 +384,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://ngageoint.github.io/geopackage-core-java/'>Core Java</a></h2>
                 <p>A non-standalone library providing core GeoPackage functionality to Java and Android libraries.</p>
@@ -395,7 +400,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://ngageoint.github.io/projections-java/'>Projections Java</a></h2>
                 <p>A Java library providing projections functionality.</p>
@@ -411,7 +416,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://github.com/ngageoint/projections-java/tree/master/script/project'>Project</a></h2>
                 <p>Command utility to perform coordinate transformations from a source projection to a target projection.</p>
@@ -421,7 +426,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://ngageoint.github.io/coordinate-reference-systems-java/'>Coordinate Reference Systems Java</a></h2>
                 <p>A Java implementation of the OGC <a href='http://docs.opengeospatial.org/is/18-010r7/18-010r7.html'>Geographic information — Well-known text representation of coordinate reference systems</a> specification (not GeoPackage specific).</p>
@@ -437,7 +442,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://ngageoint.github.io/tiff-java/'>TIFF Java</a></h2>
                 <p>A Java library providing Tagged Image File Format functionality (not GeoPackage specific).</p>
@@ -453,7 +458,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://ngageoint.github.io/ogc-api-features-json-java/'>Features JSON Java</a></h2>
                 <p>A Java library for writing and reading <a href='https://github.com/opengeospatial/WFS_FES'>OGC API - Features</a> to and from JSON. Based upon the <a href='https://github.com/opengeospatial/oapi_common'>OGC API Specification</a> (not GeoPackage specific).</p>
@@ -469,7 +474,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://github.com/ngageoint/coordinate-reference-systems-java/tree/master/script/pretty'>Coordinate Reference Systems Pretty</a></h2>
                 <p>Command utility to parse and pretty print OGC Coordinate Reference System Well-Known Text.</p>
@@ -479,7 +484,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2><a href='http://ngageoint.github.io/color-java/'>Color Java</a></h2>
                 <p>A Java library providing color representation with support for hex, RBG, arithmetic RBG, HSL, and integer colors.</p>
@@ -507,7 +512,7 @@
       </div>
       <div class="col-9">
         <div class="row">
-          <div class="col-4 card p-4 m-2">
+          <div class="col-12 col-md-4 card p-4 m-2">
             <h2 class="project-title"><a href='http://ngageoint.github.io/geopackage-js/'>JavaScript</a>
               <a href='https://www.ogc.org/resource/products/details/?pid=1628'>
                 <img src="images/ogc.gif" height=30/>
@@ -541,7 +546,7 @@
         </div>
         <div class="col-9">
           <div class="row">
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2 class="project-title">
                   <a href='http://ngageoint.github.io/geopackage-android/'>Android</a>
@@ -565,7 +570,7 @@
               </div>
             </div>
 
-            <div class="col-4 my-4">
+            <div class="col-12 col-md-4 my-4">
               <div class=" card p-4">
                 <h2 class="project-title">
                   <a href='http://ngageoint.github.io/geopackage-android-map/'>Android Map</a>
@@ -601,7 +606,7 @@
       </div>
       <div class="col-9">
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-md-4 mb-sm-4">
             <div class=" card p-4">
               <h2 class="project-title">
                 <a href='http://ngageoint.github.io/geopackage-ios/'>iOS</a>
@@ -628,7 +633,7 @@
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-12 col-md-4 mb-sm-4">
             <div class=" card p-4">
               <h2><a href='http://ngageoint.github.io/simple-features-ios/'>Simple Features</a></h2>
               <p>Base library of geometry objects and utilities.</p>
@@ -644,7 +649,7 @@
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-12 col-md-4 mb-sm-4">
             <div class=" card p-4">
               <h2><a href='http://ngageoint.github.io/simple-features-wkb-ios/'>Well-Known Binary</a></h2>
               <p>Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.</p>
@@ -660,7 +665,7 @@
             </div>
           </div>
 
-          <div class="col-4 my-4">
+          <div class="col-12 col-md-4 my-4">
             <div class=" card p-4">
               <h2><a href='http://ngageoint.github.io/simple-features-wkt-ios/'>Well-Known Text</a></h2>
               <p>Library for writing and reading Simple Feature Geometries to and from Well-Known Text.</p>
@@ -676,7 +681,7 @@
             </div>
           </div>
 
-          <div class="col-4 my-4">
+          <div class="col-12 col-md-4 my-4">
             <div class=" card p-4">
               <h2><a href='http://ngageoint.github.io/simple-features-geojson-ios/'>GeoJSON</a></h2>
               <p>Library for writing and reading Simple Feature Geometries to and from GeoJSON.</p>
@@ -692,7 +697,7 @@
             </div>
           </div>
 
-          <div class="col-4 my-4">
+          <div class="col-12 col-md-4 my-4">
             <div class=" card p-4">
               <h2><a href='http://ngageoint.github.io/simple-features-proj-ios/'>Simple Features Projection</a></h2>
               <p>Library for performing projection conversions between Simple Feature Geometries.</p>
@@ -709,7 +714,7 @@
           </div>
 
 
-          <div class="col-4 my-4">
+          <div class="col-12 col-md-4 my-4">
             <div class=" card p-4">
               <h2><a href='http://ngageoint.github.io/projections-ios/'>Projections iOS</a></h2>
               <p>An iOS library providing projections functionality (not GeoPackage specific).</p>
@@ -725,7 +730,7 @@
             </div>
           </div>
 
-          <div class="col-4 my-4">
+          <div class="col-12 col-md-4 my-4">
             <div class=" card p-4">
               <h2><a href='http://ngageoint.github.io/coordinate-reference-systems-ios/'>Coordinate Reference Systems iOS</a></h2>
               <p>An iOS implementation of the OGC <a href='http://docs.opengeospatial.org/is/18-010r7/18-010r7.html'>Geographic information — Well-known text representation of coordinate reference systems</a> specification (not GeoPackage specific).</p>
@@ -741,7 +746,7 @@
             </div>
           </div>
 
-          <div class="col-4 my-4">
+          <div class="col-12 col-md-4 my-4">
             <div class=" card p-4">
               <h2><a href='http://ngageoint.github.io/tiff-ios/'>TIFF iOS</a></h2>
               <p>An iOS library providing Tagged Image File Format functionality (not GeoPackage specific).</p>
@@ -757,7 +762,7 @@
             </div>
           </div>
 
-          <div class="col-4 my-4">
+          <div class="col-12 col-md-4 my-4">
             <div class=" card p-4">
               <h2><a href='http://ngageoint.github.io/ogc-api-features-json-ios/'>Features JSON iOS</a></h2>
               <p>An iOS library for writing and reading <a href='https://github.com/opengeospatial/WFS_FES'>OGC API - Features</a> to and from JSON. Based upon the <a href='https://github.com/opengeospatial/oapi_common'>OGC API Specification</a> (not GeoPackage specific).</p>
@@ -773,7 +778,7 @@
             </div>
           </div>
 
-          <div class="col-4 my-4">
+          <div class="col-12 col-md-4 my-4">
             <div class=" card p-4">
               <h2><a href='http://ngageoint.github.io/color-ios/'>Color iOS</a></h2>
               <p>An iOS library providing color representation with support for hex, RBG, arithmetic RBG, HSL, and integer colors.</p>
@@ -801,7 +806,7 @@
         </div>
         <div class="col-9">
           <div class="row">
-            <div class="col-4 card p-4 m-2">
+            <div class="col-12 col-md-4 card p-4 m-2">
               <h2>GeoPackage To Go</h2>
               <p>Code examples from the talk at FOSS4G North America 2018 - St. Louis, MO.</p>
               <a href='https://github.com/ngageoint/geopackage-android-map/tree/master/docs/examples/kotlin/GeoPackageToGoAndroid'>
