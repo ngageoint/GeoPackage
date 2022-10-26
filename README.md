@@ -86,6 +86,8 @@ An [OGC Certified](https://www.ogc.org/resource/products?org_match=US%20National
   - [![Properties](https://img.shields.io/static/v1?label=&color=informational&message=Properties)](http://ngageoint.github.io/GeoPackage/docs/extensions/properties.html)
   - [![Tile Scaling](https://img.shields.io/static/v1?label=&color=informational&message=Tile%20Scaling)](http://ngageoint.github.io/GeoPackage/docs/extensions/tile-scaling.html)
 
+- [Examples](https://github.com/ngageoint/GeoPackage/tree/master/docs/examples) - GeoPackage file examples
+
 - [SQLite Exec](http://github.com/ngageoint/geopackage-java/tree/master/script/sqlite-exec) - Command utility that executes SQL statements on a SQLite database, including GeoPackages.
   - [![sqlite-exec.zip](https://img.shields.io/github/release/ngageoint/geopackage-java.svg?label=sqlite-exec.zip)](https://github.com/ngageoint/geopackage-java/releases/latest/download/sqlite-exec.zip)
 
