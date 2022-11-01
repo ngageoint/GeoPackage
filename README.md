@@ -66,9 +66,9 @@ An [OGC Certified](https://www.ogc.org/resource/products?org_match=US%20National
   - [![OGC](https://img.shields.io/badge/OGC-v7-blue)](https://www.ogc.org/resource/products/details/?pid=1733) [![OGC](https://www.ogc.org/pub/www/files/favicon.ico) Official Reference Implementation](https://github.com/opengeospatial/cite/wiki/Reference-Implementations)
   - [![Examples](https://img.shields.io/static/v1?label=&logo=iOS&color=informational&message=Examples)](https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples)
 
-- [JS](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
+- [JavaScript](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/geopackage-js) [![Build and Run Tests](https://github.com/ngageoint/geopackage-js/workflows/Build%20and%20Run%20Tests/badge.svg)](https://github.com/ngageoint/geopackage-js/actions/workflows/run-tests.yml)
-  - [![GeoPackage Viewer](https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=GeoPackage%20Viewer)](http://ngageoint.github.io/geopackage-js/)
+  - [![GeoPackage Viewer](https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=GeoPackage%20Viewer)](http://ngageoint.github.io/geopackage-viewer-js/)
   - [![NPM](https://img.shields.io/npm/v/@ngageoint/geopackage.svg)](https://www.npmjs.com/package/@ngageoint/geopackage)
   - [![OGC](https://img.shields.io/badge/OGC-v3-blue)](https://www.ogc.org/resource/products/details/?pid=1628)
   - [![Examples](https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=Examples)](https://github.com/ngageoint/geopackage-js/tree/master/docs/examples)
@@ -149,6 +149,34 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/simple-features-proj-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/simple-features-proj-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/sf-proj-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/sf-proj-ios)
 
+### JavaScript
+
+- [Simple Features JavaScript](http://ngageoint.github.io/simple-features-js/) - Base library of geometry objects and utilities.
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/simple-features-js) [![Build & Test](https://github.com/ngageoint/simple-features-js/actions/workflows/run-tests.yml/badge.svg)](https://github.com/ngageoint/simple-features-js/actions/workflows/run-tests.yml)
+  - [![API](https://img.shields.io/github/release/ngageoint/simple-features-js.svg?label=API&colorB=39be00)](http://ngageoint.github.io/simple-features-js/api/)
+  - [![NPM](https://img.shields.io/npm/v/@ngageoint/simple-features-js.svg)](https://www.npmjs.com/package/@ngageoint/simple-features-js)
+
+- [Simple Features Well-Known Binary JavaScript](http://ngageoint.github.io/simple-features-wkb-js/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Binary.
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-wkb-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/simple-features-wkb-js) [![Build & Test](https://github.com/ngageoint/simple-features-wkb-js/actions/workflows/run-tests.yml/badge.svg)](https://github.com/ngageoint/simple-features-wkb-js/actions/workflows/run-tests.yml)
+  - [![API](https://img.shields.io/github/release/ngageoint/simple-features-wkb-js.svg?label=API&colorB=39be00)](http://ngageoint.github.io/simple-features-wkb-js/api/)
+  - [![NPM](https://img.shields.io/npm/v/@ngageoint/simple-features-wkb-js.svg)](https://www.npmjs.com/package/@ngageoint/simple-features-wkb-js)
+
+- [Simple Features Well-Known Text JavaScript](http://ngageoint.github.io/simple-features-wkt-js/) - Library for writing and reading Simple Feature Geometries to and from Well-Known Text.
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-wkt-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/simple-features-wkt-js) [![Build & Test](https://github.com/ngageoint/simple-features-wkt-js/actions/workflows/run-tests.yml/badge.svg)](https://github.com/ngageoint/simple-features-wkt-js/actions/workflows/run-tests.yml)
+  - [![API](https://img.shields.io/github/release/ngageoint/simple-features-wkt-js.svg?label=API&colorB=39be00)](http://ngageoint.github.io/simple-features-wkt-js/api/)
+  - [![NPM](https://img.shields.io/npm/v/@ngageoint/simple-features-wkt-js.svg)](https://www.npmjs.com/package/@ngageoint/simple-features-wkt-js)
+
+- [Simple Features GeoJSON JavaScript](http://ngageoint.github.io/simple-features-geojson-js/) - Library for writing and reading Simple Feature Geometries to and from GeoJSON.
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-geojson-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/simple-features-geojson-js) [![Build & Test](https://github.com/ngageoint/simple-features-geojson-js/actions/workflows/run-tests.yml/badge.svg)](https://github.com/ngageoint/simple-features-geojson-js/actions/workflows/run-tests.yml)
+  - [![API](https://img.shields.io/github/release/ngageoint/simple-features-geojson-js.svg?label=API&colorB=39be00)](http://ngageoint.github.io/simple-features-geojson-js/api/)
+  - [![NPM](https://img.shields.io/npm/v/@ngageoint/simple-features-geojson-js.svg)](https://www.npmjs.com/package/@ngageoint/simple-features-geojson-js)
+
+- [Simple Features Projection JavaScript](http://ngageoint.github.io/simple-features-proj-js/) - Library for performing projection conversions between Simple Feature Geometries.
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/simple-features-proj-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/simple-features-proj-js) [![Build & Test](https://github.com/ngageoint/simple-features-proj-js/actions/workflows/run-tests.yml/badge.svg)](https://github.com/ngageoint/simple-features-proj-js/actions/workflows/run-tests.yml)
+  - [![API](https://img.shields.io/github/release/ngageoint/simple-features-proj-js.svg?label=API&colorB=39be00)](http://ngageoint.github.io/simple-features-proj-js/api/)
+  - [![NPM](https://img.shields.io/npm/v/@ngageoint/simple-features-proj-js.svg)](https://www.npmjs.com/package/@ngageoint/simple-features-proj-js)
+
+
 # Projections
 
   Library for performing projection conversions between coordinates (not GeoPackage specific).
@@ -163,6 +191,11 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
     - [![Appledoc](https://img.shields.io/github/release/ngageoint/projections-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/projections-ios/docs/api)
     - [![CocoaPods](https://img.shields.io/cocoapods/v/proj-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/proj-ios)
 
+  - [JavaScript](http://ngageoint.github.io/projections-js/) - A JavaScript library providing projections functionality.
+    - [![GitHub](https://img.shields.io/github/release/ngageoint/projections-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/projections-js) [![Build & Test](https://github.com/ngageoint/projections-js/actions/workflows/run-tests.yml/badge.svg)](https://github.com/ngageoint/projections-js/actions/workflows/run-tests.yml)
+    - [![API](https://img.shields.io/github/release/ngageoint/projections-js.svg?label=API&colorB=39be00)](http://ngageoint.github.io/projections-js/api/)
+    - [![NPM](https://img.shields.io/npm/v/@ngageoint/projections-js.svg)](https://www.npmjs.com/package/@ngageoint/projections-js)
+    
   - [Project](http://github.com/ngageoint/projections-java/tree/master/script/project) - Command utility to perform coordinate transformations from a source projection to a target projection.
     - [![project.zip](https://img.shields.io/github/release/ngageoint/projections-java.svg?label=project.zip)](https://github.com/ngageoint/projections-java/releases/latest/download/project.zip)
 
@@ -225,6 +258,11 @@ Library providing color representation with support for hex, RBG, arithmetic RBG
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/color-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/color-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/color-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/color-ios)
 
+- [JavaScript](http://ngageoint.github.io/color-js/) - A JavaScript color library.
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/color-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/color-js) [![Build & Test](https://github.com/ngageoint/color-js/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/color-js/actions/workflows/build-test.yml)
+  - [![API](https://img.shields.io/github/release/ngageoint/color-js.svg?label=API&colorB=39be00)](http://ngageoint.github.io/color-js/api/)
+  - [![NPM](https://img.shields.io/npm/v/@ngageoint/color-js.svg)](https://www.npmjs.com/package/@ngageoint/color-js)
+
 # Grid
 
 Libraries providing geospatial reference system grid functionality (not used by or specific to GeoPackage).
@@ -280,3 +318,20 @@ Libraries providing geospatial reference system grid functionality (not used by 
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/gars-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/gars-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/gars-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/gars-ios)
   - [![App](https://img.shields.io/static/v1?label=&logo=Apple&color=informational&message=App)](https://github.com/ngageoint/gars-ios/tree/master/app)
+
+### JavaScript
+
+- [Grid](http://ngageoint.github.io/grid-js/) - Common geospatial reference system grid library.
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/grid-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/grid-js) [![Build & Test](https://github.com/ngageoint/grid-js/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/grid-js/actions/workflows/build-test.yml)
+  - [![API](https://img.shields.io/github/release/ngageoint/grid-js.svg?label=API&colorB=39be00)](http://ngageoint.github.io/grid-js/api/)
+  - [![NPM](https://img.shields.io/npm/v/@ngageoint/grid-js.svg)](https://www.npmjs.com/package/@ngageoint/grid-js)
+
+- [MGRS](http://ngageoint.github.io/mgrs-js/) - Military Grid Reference System library. Relies on [Grid](https://github.com/ngageoint/grid-js).
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/mgrs-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/mgrs-js) [![Build & Test](https://github.com/ngageoint/mgrs-js/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/mgrs-js/actions/workflows/build-test.yml)
+  - [![API](https://img.shields.io/github/release/ngageoint/mgrs-js.svg?label=API&colorB=39be00)](http://ngageoint.github.io/mgrs-js/api/)
+  - [![NPM](https://img.shields.io/npm/v/@ngageoint/mgrs-js.svg)](https://www.npmjs.com/package/@ngageoint/mgrs-js)
+
+- [GARS](http://ngageoint.github.io/gars-js/) - Global Area Reference System library. Relies on [Grid](https://github.com/ngageoint/grid-js).
+  - [![GitHub](https://img.shields.io/github/release/ngageoint/gars-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/gars-js) [![Build & Test](https://github.com/ngageoint/gars-js/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/gars-js/actions/workflows/build-test.yml)
+  - [![API](https://img.shields.io/github/release/ngageoint/gars-js.svg?label=API&colorB=39be00)](http://ngageoint.github.io/gars-js/api/)
+  - [![NPM](https://img.shields.io/npm/v/@ngageoint/gars-js.svg)](https://www.npmjs.com/package/@ngageoint/gars-js)
