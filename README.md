@@ -15,6 +15,7 @@ Table of Contents
 
 - [![Java & Android](https://img.shields.io/static/v1?label=&logo=github&color=informational&message=Java%20%26%20Android)](https://github.com/ngageoint/GeoPackage/blob/master/DependencyJavaAndroid.md)
 - [![iOS](https://img.shields.io/static/v1?label=&logo=github&color=informational&message=iOS)](https://github.com/ngageoint/GeoPackage/blob/master/DependencyiOS.md)
+- [![JavaScript](https://img.shields.io/static/v1?label=&logo=github&color=informational&message=JavaScript)](https://github.com/ngageoint/GeoPackage/blob/master/DependencyJavaScript.md)
 
 # MapCache
 
