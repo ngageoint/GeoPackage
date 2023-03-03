@@ -38,7 +38,7 @@ An app that utilizes and demonstrates the functionality in the GeoPackage Mobile
 
 Main Page for the NGA [GeoPackage Libraries](http://ngageoint.github.io/GeoPackage/) providing [OGC GeoPackage](http://www.geopackage.org/) [spec](http://www.geopackage.org/spec) [implementations](http://www.geopackage.org/implementations.html)
 
-An [OGC Certified](https://www.ogc.org/resource/products?org_match=US%20National%20Geospatial-Intelligence%20Agency%20(NGA)) SDK that provides the ability to manage GeoPackage files providing read, write, import, export, share, and open support. Open GeoPackage files provide read and write access to features and tiles.
+An [OGC Certified](https://portal.ogc.org/public_ogc/compliance/products_compliant2.php?org_match=US%20National%20Geospatial-Intelligence%20Agency%20(NGA)) SDK that provides the ability to manage GeoPackage files providing read, write, import, export, share, and open support. Open GeoPackage files provide read and write access to features and tiles.
 
 - [Java](http://ngageoint.github.io/geopackage-java/) – A Java library providing GeoPackage functionality and command line tools. Relies on [Core Java](https://github.com/ngageoint/geopackage-core-java).
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-java.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/geopackage-java) [![Build & Test](https://github.com/ngageoint/geopackage-java/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/geopackage-java/actions/workflows/build-test.yml)
