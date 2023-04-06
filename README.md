@@ -71,7 +71,7 @@ An [OGC Certified](https://portal.ogc.org/public_ogc/compliance/products_complia
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-js.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/geopackage-js) [![Build and Run Tests](https://github.com/ngageoint/geopackage-js/workflows/Build%20and%20Run%20Tests/badge.svg)](https://github.com/ngageoint/geopackage-js/actions/workflows/run-tests.yml)
   - [![GeoPackage Viewer](https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=GeoPackage%20Viewer)](http://ngageoint.github.io/geopackage-viewer-js/)
   - [![NPM](https://img.shields.io/npm/v/@ngageoint/geopackage.svg)](https://www.npmjs.com/package/@ngageoint/geopackage)
-  - [![OGC](https://img.shields.io/badge/OGC-v3-blue)](https://www.ogc.org/resource/products/details/?pid=1768)
+  - [![OGC](https://img.shields.io/badge/OGC-v5-blue)](https://www.ogc.org/resource/products/details/?pid=1768)
   - [![Examples](https://img.shields.io/static/v1?label=&logo=JavaScript&color=informational&message=Examples)](https://github.com/ngageoint/geopackage-js/tree/master/docs/examples)
 
 - [Core Java](http://ngageoint.github.io/geopackage-core-java/) - A non-standalone library providing core GeoPackage functionality to the Java and Android libraries.
