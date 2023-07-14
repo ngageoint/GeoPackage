@@ -197,9 +197,10 @@ Libraries based upon the [OGC Simple Feature Access](http://www.opengeospatial.o
     - [![API](https://img.shields.io/github/release/ngageoint/projections-js.svg?label=API&colorB=39be00)](http://ngageoint.github.io/projections-js/api/)
     - [![NPM](https://img.shields.io/npm/v/@ngageoint/projections-js.svg)](https://www.npmjs.com/package/@ngageoint/projections-js)
 
-  - [PROJ](https://github.com/ngageoint/PROJ/wiki) - An [OSGeo/PROJ](https://github.com/OSGeo/PROJ) fork to support C/C++ CocoaPods for use on iOS and other Apple platforms.
+  - [PROJ](https://github.com/ngageoint/PROJ/wiki) - An OSGeo PROJ fork to support C/C++ CocoaPods for use on iOS and other Apple platforms.
     - [![GitHub](https://img.shields.io/github/release/ngageoint/PROJ.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/PROJ)
     - [![CocoaPods](https://img.shields.io/cocoapods/v/PROJ.svg?label=CocoaPods)](https://cocoapods.org/pods/PROJ)
+    - [![OSGeo/PROJ](https://img.shields.io/github/v/release/OSGeo/PROJ.svg?label=OSGeo/PROJ&sort=semver)](https://github.com/OSGeo/PROJ)
     
   - [Project](http://github.com/ngageoint/projections-java/tree/master/script/project) - Command utility to perform coordinate transformations from a source projection to a target projection.
     - [![project.zip](https://img.shields.io/github/release/ngageoint/projections-java.svg?label=project.zip)](https://github.com/ngageoint/projections-java/releases/latest/download/project.zip)
