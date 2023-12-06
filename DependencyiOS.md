@@ -21,7 +21,9 @@ graph TD;
         SF[Simple Features]
     end
     SF_Projection-->Projections
+    Projections-->PROJ
     Projections-->CRS
+    PROJ
     CRS[Coordinate Reference Systems]
     subgraph Grid
         GD_MGRS[MGRS]-->GD
@@ -45,6 +47,7 @@ graph TD;
     click SF_GeoJSON "https://github.com/ngageoint/simple-features-geojson-ios" "Simple Features GeoJSON iOS" _blank
     click SF "https://github.com/ngageoint/simple-features-ios" "Simple Features iOS" _blank
     click Projections "https://github.com/ngageoint/projections-ios" "Projections iOS" _blank
+    click PROJ "https://github.com/ngageoint/PROJ" "PROJ" _blank
     click CRS "https://github.com/ngageoint/coordinate-reference-systems-ios" "Coordinate Reference Systems iOS" _blank
     
     style MapCache fill:#cc45f2,color:#fff
