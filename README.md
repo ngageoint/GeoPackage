@@ -64,7 +64,7 @@ An [OGC Certified](https://portal.ogc.org/public_ogc/compliance/products_complia
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/geopackage-ios) [![Build & Test](https://github.com/ngageoint/geopackage-ios/workflows/Build%20&%20Test/badge.svg)](https://github.com/ngageoint/geopackage-ios/actions/workflows/build-test.yml)
   - [![Appledoc](https://img.shields.io/github/release/ngageoint/geopackage-ios.svg?label=Appledoc&colorB=39be00)](http://ngageoint.github.io/geopackage-ios/docs/api)
   - [![CocoaPods](https://img.shields.io/cocoapods/v/geopackage-ios.svg?label=CocoaPods)](https://cocoapods.org/pods/geopackage-ios)
-  - [![OGC](https://img.shields.io/badge/OGC-v7-blue)](https://www.ogc.org/resource/products/details/?pid=1733) [![OGC](https://www.ogc.org/pub/www/files/favicon.ico) Official Reference Implementation](https://github.com/opengeospatial/cite/wiki/Reference-Implementations)
+  - [![OGC](https://img.shields.io/badge/OGC-v7-blue)](https://www.ogc.org/resource/products/details/?pid=1819) [![OGC](https://www.ogc.org/pub/www/files/favicon.ico) Official Reference Implementation](https://github.com/opengeospatial/cite/wiki/Reference-Implementations)
   - [![Examples](https://img.shields.io/static/v1?label=&logo=iOS&color=informational&message=Examples)](https://github.com/ngageoint/geopackage-ios/tree/master/docs/examples)
 
 - [JavaScript](http://ngageoint.github.io/geopackage-js/) - A JavaScript library providing GeoPackage functionality and utilities to node and web applications.
