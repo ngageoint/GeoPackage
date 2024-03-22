@@ -51,7 +51,7 @@ An [OGC Certified](https://portal.ogc.org/public_ogc/compliance/products_complia
 [![Test](https://github.com/ngageoint/geopackage-android/workflows/Test/badge.svg)](https://github.com/ngageoint/geopackage-android/actions/workflows/test.yml)
   - [![Javadoc](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-android.svg?label=Javadoc&colorB=39be00)](http://ngageoint.github.io/geopackage-android/docs/api/)
   - [![The Central Repository](https://img.shields.io/maven-central/v/mil.nga.geopackage/geopackage-android.svg?label=The%20Central%20Repository)](https://search.maven.org/artifact/mil.nga.geopackage/geopackage-android)
-  - [![OGC](https://img.shields.io/badge/OGC-v6-blue)](https://www.ogc.org/resource/products/details/?pid=1732) [![OGC](https://www.ogc.org/pub/www/files/favicon.ico) Official Reference Implementation](https://github.com/opengeospatial/cite/wiki/Reference-Implementations)
+  - [![OGC](https://img.shields.io/badge/OGC-v6-blue)](https://www.ogc.org/resource/products/details/?pid=1732)
 
 - [Android Map](http://ngageoint.github.io/geopackage-android-map/) - An Android Map SDK providing Google Map library implementations in addition to the inherited base [GeoPackage Android](https://github.com/ngageoint/geopackage-android/) functionality.
   - [![GitHub](https://img.shields.io/github/release/ngageoint/geopackage-android-map.svg?label=GitHub&sort=semver)](https://github.com/ngageoint/geopackage-android-map) [![Build Artifacts](https://github.com/ngageoint/geopackage-android-map/workflows/Build%20Artifacts/badge.svg)](https://github.com/ngageoint/geopackage-android-map/actions/workflows/build-artifacts.yml)
