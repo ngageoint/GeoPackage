@@ -14,6 +14,8 @@ graph TD;
         GP_Android[GeoPackage Android]-->GP_Core
         GP_Core[Core]
     end
+    GP_Android-->SQLite_Android
+    SQLite_Android[SQLite Android]
     GP_Android-->TIFF
     GP-->TIFF
     GP_Core-->SF_WKB
@@ -51,6 +53,7 @@ graph TD;
     click GP_Utilities "https://github.com/ngageoint/geopackage-java#standalone-utilities" "Standalone Utilities" _blank
     click GP "https://github.com/ngageoint/geopackage-java" "GeoPackage Java" _blank
     click GP_Core "https://github.com/ngageoint/geopackage-core-java" "GeoPackage Core Java" _blank
+    click SQLite_Android "https://github.com/ngageoint/geopackage-android/tree/master/third-party/sqlite-android" "SQLite Android" _blank
     click TIFF "https://github.com/ngageoint/tiff-java" "TIFF Java" _blank
     click GD_GARSAndroid "https://github.com/ngageoint/gars-android" "GARS Android" _blank
     click GD_MGRSAndroid "https://github.com/ngageoint/mgrs-android" "MGRS Android" _blank
