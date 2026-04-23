@@ -1,3 +1,6 @@
+## Maintenance Mode
+The GeoPackage libraries are in maintenance mode. No further major features or updates are planned.
+
 Table of Contents
 =================
 
